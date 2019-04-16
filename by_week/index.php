@@ -5,10 +5,7 @@
  include($model_path . "./src/php/functions.php");
 
  $title_in_toolbar = 'Seminars by week';
- 
- 
- Seminars::set_html_head($model_path, $title_in_toolbar);
- 
+  $icon_in_toolbar = '../src/img/favicon.ico';
 
  
  $year = 2019;
@@ -18,6 +15,6 @@
  $month_end = 4;
  $day_end = 7;
 
- Seminars::generate_seminar_page_by_week($year, $semester, $month_begin, $day_begin, $month_end, $day_end);
+ Seminars::generate_seminar_page_by_week($model_path, $title_in_toolbar, $icon_in_toolbar, $year, $semester, $month_begin, $day_begin, $month_end, $day_end);
 
  ?>

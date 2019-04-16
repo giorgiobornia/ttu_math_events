@@ -6,9 +6,9 @@
  
  $institution = 'Texas Tech University';
  $department = 'Department of Mathematics and Statistics';
- $toolbar_image = '../../../src/img/favicon.ico';
+ $icon_in_toolbar = '../../../src/img/favicon.ico';
   
 
- Seminars::generate_seminar_page_by_topic($model_path, $institution, $department, $toolbar_image); 
+ Seminars::generate_seminar_page_by_topic($model_path, $institution, $department, $icon_in_toolbar); 
  
  ?>
