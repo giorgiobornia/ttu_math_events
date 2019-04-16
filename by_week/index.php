@@ -1,13 +1,13 @@
  <?php
  
-  include("../../seminars_model/src/php/functions.php");
+ $model_path = "../../seminars_model/"; //folder where the model class is
+
+ include($model_path . "./src/php/functions.php");
 
  $title_in_toolbar = 'Seminars by week';
  
- $sem_mydepth = "../";
  
- 
- Seminars::set_html_head($sem_mydepth, $title_in_toolbar);
+ Seminars::set_html_head($model_path, $title_in_toolbar);
  
 
  
