@@ -1,9 +1,9 @@
  <?php
  
- $sem_mydepth = "../../../";
+ $model_path = "../../../../seminars_model/"; //folder where the model class is
  
- include($sem_mydepth .  "../seminars_model/src/php/functions.php");
-
- Seminars::generate_seminar_page_by_topic($sem_mydepth); 
+ include($model_path . "src/php/functions.php");
+ 
+ Seminars::generate_seminar_page_by_topic($model_path); 
  
  ?>
