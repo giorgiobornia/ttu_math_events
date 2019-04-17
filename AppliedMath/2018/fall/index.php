@@ -7,7 +7,8 @@
  
 //application
  include("../../../src/php/ttu_math_seminars.php");
- 
+ $icon_in_toolbar = '../../../' . ttu_math_seminars::$icon_in_toolbar;
+
  $topic = 'AppliedMath';
  $year = '2018';
  $semester = 'fall';
@@ -19,7 +20,7 @@
                                           $topic, 
                                           $year, 
                                           $semester,
-                                          ttu_math_seminars::$icon_in_toolbar,
+                                          $icon_in_toolbar,
                                           ttu_math_seminars::$discipline_array); 
  
  ?>

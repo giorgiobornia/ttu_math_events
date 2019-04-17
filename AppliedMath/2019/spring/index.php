@@ -7,10 +7,11 @@
  
  //application ==========
  include("../../../src/php/ttu_math_seminars.php");
+  $icon_in_toolbar = '../../../' . ttu_math_seminars::$icon_in_toolbar;
  
- $topic = 'AppliedMath';
- $year = '2019';
- $semester = 'spring';
+ $topic = 'AppliedMath';  //this will be taken from the folders' names
+ $year = '2019';          //this will be taken from the folders' names
+ $semester = 'spring';    //this will be taken from the folders' names
   
 
  Seminars::generate_seminar_page_by_topic($model_path, 
@@ -19,7 +20,7 @@
                                           $topic, 
                                           $year, 
                                           $semester,
-                                          ttu_math_seminars::$icon_in_toolbar,
+                                          $icon_in_toolbar,
                                           ttu_math_seminars::$discipline_array); 
  
  ?>

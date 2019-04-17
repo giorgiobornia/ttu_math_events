@@ -6,12 +6,9 @@
  include($model_path . "./src/php/functions.php");
 
 //application
- $title_in_toolbar = 'Seminars by week';
-  $icon_in_toolbar = '../src/img/favicon.ico';
             include('../src/php/ttu_math_seminars.php');
+  $icon_in_toolbar = '../' . ttu_math_seminars::$icon_in_toolbar;
 
- $institution = 'Texas Tech University';
- $department = 'Department of Mathematics and Statistics';
  
  $year = 2019;
  $semester = "spring"; //lowercase for the folder names
@@ -21,9 +18,8 @@
  $day_end = 7;
 
  Seminars::generate_seminar_page_by_week($model_path, 
-                                         $institution,
-                                         $department,
-                                         $title_in_toolbar, 
+                                         ttu_math_seminars::$institution,
+                                         ttu_math_seminars::$department,
                                          $icon_in_toolbar, 
                                          $year,
                                          $semester, 
