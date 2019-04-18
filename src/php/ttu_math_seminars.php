@@ -18,7 +18,7 @@
  'MathEd'                 => 'Mathematics Education',
  'PrepProfession'         => 'Preparation for the Profession',
  'RealAlgebraicGeometry'  => 'Real-Algebraic Geometry', 
- 'Statistics'             => 'Statistics', 
+ 'Statistics'             => 'Statistics' 
  );
 
  }
