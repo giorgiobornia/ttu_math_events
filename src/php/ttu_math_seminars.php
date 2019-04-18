@@ -25,6 +25,7 @@
  
  
  ///@todo write a function that checks that the directories of the inputs are there
- 
+
+ // for file in AlgebraAndNumberTheory  Analysis AppliedMath Biomath  Geometry ImageAnalysis LogicTopology  MathClub MathEd PrepProfession  RealAlgebraicGeometry Statistics; do cd $file; touch about.txt; cd ../; done
+
  ?>
- 
