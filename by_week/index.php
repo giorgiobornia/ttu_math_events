@@ -1,9 +1,9 @@
  <?php
  
  //library
- $model_path = "../../seminars_model/"; //folder where the model class is
+ $library_path = "../../seminars_lib/"; //folder where the model class is
 
- include($model_path . "./src/php/functions.php");
+ include($library_path . "./src/php/functions.php");
 
 //application
             include('../src/php/ttu_math_seminars.php');
@@ -17,7 +17,7 @@
  $month_end = 4;
  $day_end = 7;
 
- Seminars::generate_seminar_page_by_week($model_path, 
+ Seminars::generate_all_seminars_page_by_time_range($library_path, 
                                          ttu_math_seminars::$institution,
                                          ttu_math_seminars::$department,
                                          $icon_in_toolbar, 
