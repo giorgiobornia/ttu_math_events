@@ -1,7 +1,7 @@
  <?php
  
  //library =============
- $model_path = "../../../../seminars_model/"; //folder where the model class is
+ $model_path = "../../../../seminars_lib/"; //folder where the model class is
  
  include($model_path . "./src/php/functions.php");
  
