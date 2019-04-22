@@ -1,0 +1,107 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Reconstructing a data stream for Climate Modeling from sparsely sampled signals - \break Fourier domain works, \break but is there a better way?}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Ian Scott-Fleming}\\ \textit{Texas Tech Climate Science Center}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, April 30, 2014}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 111.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+Statistical Climate Model Downscaling (downsizing large-scale climate modeling data to a regional or local scale) 
+correlates local meteorological conditions with large-scale Global Climate Model parameters,
+and uses  those correlations to produce projections of future local climate conditions.  
+Daily max and min temperature are two important historical parameters used in downscaling, 
+and we need to derive equivalent values from GCM outputs to produce future predictions.  
+Unfortunately we only get an undersampled temperature signal series, and extracting Tmin and Tmax directly underestimates the daily temperature range.
+Fourier domain filtering can be used to reconstruct an approximation of  the daily temperature profile 
+and resample to better estimate the daily Tmax and Tmin from the typical 3-hour GCM temperature outputs.
+Tests using downsampled Mesonet data shows that we can reduce the RMS error between 3-hour sampling and 5-minute sampling by 60-70\%.  
+However, analysis of the Mesonet data shows that the basic shape of the daily signal is not well approximated with only a few Fourier terms. 
+I.e., it is not bandwidth-limited to below the Nyquist limit imposed by 3-hour sampling, and the resulting reconstruction is not perfect.
+An alternate set of orthogonal functions other than sinusoids would do a better job of reconstructing the signal from a limited set of samples,
+Gramm-Schmidt orthogonalization provides one framework for creating an alternate set of orthogonal functions, 
+but is dependent upon the selection of the initial function.
+For simple linear feature vectors, PCA (principal component analysis) provides a method for determining an optimal 
+(in a least-squares sense) set of orthogonal (linear) axes for scatter-plot data.   
+Is there an equivalent method to determine an "optimal" set of orthogonal functions, 
+which would reduce the RMS error even more  than we get with Fourier resampling?
+
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+
+
+\medskip
+
+\vspace{0.2cm}
+\textbf{\Huge {\uppercase{\talktitle}} }
+\vspace{0.2cm}
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\large \textbf{ABSTRACT.}}
+{\talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

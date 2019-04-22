@@ -1,0 +1,161 @@
+\documentclass[oneside,letter]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.5 in,top=.5 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage{pgf}
+% \usepackage{pgfpages}
+% 
+% \pgfpagesdeclarelayout{boxed}
+% {
+%   \edef\pgfpageoptionborder{0pt}
+% }
+% {
+%   \pgfpagesphysicalpageoptions
+%   {%
+%     logical pages=1,%
+%   }
+%   \pgfpageslogicalpageoptions{1}
+%   {
+%     border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+%     border shrink=\pgfpageoptionborder,%
+%     resized width=.95\pgfphysicalwidth,%
+%     resized height=.95\pgfphysicalheight,%
+%     center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+%   }%
+% }
+% 
+% \pgfpagesuselayout{boxed}
+% \pgfpagesuselayout{boxed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xcolor,lipsum}
+% \usepackage[letter,margin=1in,heightrounded]{geometry}
+%
+\usepackage{background}
+%
+\usetikzlibrary{calc}
+\SetBgScale{1}
+\SetBgAngle{0}
+\SetBgColor{black}
+\SetBgContents{
+\begin{tikzpicture}[overlay,remember picture]
+%    \draw [xshift=4mm,dashed,line width=1pt,rounded corners=0pt]
+%         ($ (current page.north west) + (.5cm,-.5cm) $)
+%         rectangle
+%         ($ (current page.south east) + (-.5cm,.5cm) $);
+   \draw [line width=2pt,rounded corners=0pt,]
+        ($ (current page.north west) + (0.5cm,-0.5cm) $)
+        rectangle
+        ($ (current page.south east) + (-0.5cm,0.5cm) $);
+   \draw [line width=1pt,rounded corners=0pt]
+        ($ (current page.north west) + (0.7cm,-0.7cm) $)
+        rectangle
+        ($ (current page.south east) + (-0.7cm,0.7cm) $);
+\end{tikzpicture}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\talktitle}{\textbf{``On the best constant in Poincar\'e inequality''}}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Alexander Nazarov} \\ \textit{Saint Petersburg State University, Russia}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, November 19, 2014}}
+
+\newcommand{\timelocation}{\textbf{Room: CHEM 101.  Time: 3:30pm.}}
+
+\newcommand{\talkabstract}{
+Let $1\le p, q, r \le \infty$. We consider the following problem: to find the sharp
+constant in the generalized Poincar\'e inequality
+\begin{equation}\label{problem}
+\lambda_{pqr}=\min\ \frac{\Vert y^{\prime}\Vert_{L_p\left[-1,1\right] }}
+{\Vert y\Vert _{L_q\left[-1,1\right] }};\qquad \int\limits_{-1}^1 |y(t)|^{r-2}y(t)\, dt=0
+\end{equation}
+(for $r=\infty$ the last relation is understood in the limit sense).%\medskip
+
+Problem (\ref{problem}), so as its particular cases and some equivalent problems,
+arise, mostly for $r=2$, in various fields of mathematics.
+We mention the problem of optimality of some goodness-of-fit criteria
+in non-parametric statistics %(\cite[\S6.2]{Ni})
+ and the estimation of critical values
+in the Lagrange problem. 
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+ \vspace*{1.2cm}
+\begin{center}
+
+\vspace{0.2cm}
+{{\fontsize{45}{60} \textbf{COLLOQUIUM} }}
+\vspace{0.2cm}
+
+
+
+
+{\Huge \talkspeaker\\}
+
+\vspace{0.7cm}
+{\Huge \talktitle\\}
+\vspace{0.7cm}
+
+{\Large \textbf{Wednesday, November 19, 2014} at \textbf{3:30 p.m.} in \textbf{CH 101} \\
+Refreshments will be served in Math 238 at 3:00 p.m. }
+
+\vspace{0.8cm}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+
+% \fbox{\parbox{\linewidth}{
+\begin{center}
+{\LARGE \textbf{Abstract}}
+
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+% }
+% }
+
+\end{center}
+\end{document}

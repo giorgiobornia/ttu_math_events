@@ -1,0 +1,104 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Fluid Flow through Porous Media \\ in the Periphery of Darcy's Law}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Fahd Siddiqui} \\ \textit{Dept. of Petroleum Engineering - Texas Tech University}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, October 1, 2014}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 114.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+Conventional treatment of oil flow in porous media assumes that oil is in the typical range of flow velocity and pressure, 
+and it behaves as a Newtonian fluid. This assumption, however, may not be always accurate, especially for heavy oil.
+It is also not accurate in modeling injection behavior for fluids such as fracturing fluids, or polymer fluids for secondary recovery of oil.
+Sufficient literature has been published about Pre-Darcy flow in non-petroleum disciplines.
+Investigators dissent about the significance of deviation of Darcy's Law at very low fluid velocities.
+Most of their investigations are based on coarse unconsolidated porous media with aqueous fluid.
+However little has been published regarding the same for consolidated oil and gas reservoirs. 
+If a significant departure from Darcy's Law is observed, then this could have multiple implications on: 
+reservoir limit tests, under prediction of reserves, unrecognized prospecting opportunities etc.
+In our research we examine the solutions presented in the literature showing their limitations.
+We will examine the mathematical reasons for the problems and demonstrate rigorously that these (published) analysis techniques
+are impractical not only for real world problems but also for simulated data. 
+Our in depth analysis explains away the problems analysts have had with the existing methodology.
+We also present a new reliable methodology for determining reservoir properties.
+The new methodology was tested on six real field data and two simulated datasets. 
+The examples showed that the previously presented methodologies under-predict the permeability by at least 40\%.
+
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+\vspace{0.2cm}
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

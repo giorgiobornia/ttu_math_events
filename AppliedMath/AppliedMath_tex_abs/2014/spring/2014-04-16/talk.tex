@@ -1,0 +1,186 @@
+\documentclass[12pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{amssymb}
+%\usepackage{hyperref}
+
+%\newcommand{\esssup}{\mathop{\mathrm{ess\,sup}}}
+%\newcommand{\essinf}{\mathop{\mathrm{ess\,inf}}}
+%\newcommand{\essosc}{\mathop{\mathrm{ess\,osc}}}
+%\renewcommand{\div}{\mathop{\mathrm{div}}}
+\newcommand{\dy}{\,\mathrm{d}y}
+\newcommand{\dx}{\,\mathrm{d}x}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem1}{Theorem}
+\newcommand{\eps}{\varepsilon}
+
+%\renewcommand{\baselinestretch}{1.5}
+\textwidth=158mm
+\textheight=232mm
+\voffset=-24mm
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+{\large\bf On density of smooth functions in weighted Sobolev
+spaces with variable exponent.}
+\end{center}
+\centerline{\textsc{Mikhail D. Surnachev}}
+\centerline{\it\small
+Computational Aeroacoustics Laboratory,}
+\centerline{\it\small
+ Keldysh Institute of Applied Mathematics RAS}
+\centerline{\small Moscow 125047, Russia}
+\centerline{ \texttt{peitsche@yandex.ru}}
+\bigskip
+
+In this work we are concerned with the question of density of
+smooth functions in weighted Sobolev-Orlicz spaces. In a bounded
+Lipshitz domain $\Omega\subset\mathbb{R}^n$ for a weight
+(nonnegative measurable function) $\rho\in L^1(\Omega)$ we define
+the weighted Sobolev-Orlicz space
+$$
+W:=\left\{u\in W_0^{1,1}(\Omega)\,:\, \int_\Omega |\nabla
+u|^{p(x)}\rho\,\mathrm{d}x<\infty \right\},
+$$
+with a measurable exponent $p=p(x)>1$, equipped with the norm
+$$
+\|u\|_W= \inf \left\{\lambda>0: \int_\Omega \left(\frac{|\nabla
+u|}{\lambda}\right)^p\rho\,\mathrm{d}x\leq 1\right\}.
+$$
+We assume that the weight additionally satifsfies $\rho^{-1/p}\in
+L^{p'}(\Omega;\,\dx)$, which guarantees completeness of $W$. Next,
+we can define another space $H$ as the closure of $C_0^{\infty}$
+in $W$.
+
+%The classical question in the theory of Sobolev spaces is whether
+%$H=W$. For $p=const$ the following facts are widely known. If
+%$\Omega=\mathbb{R}^n$ and $\rho\equiv 1$ the question is simple
+%and solved by mollifications. For the standard $W^{1,2}(\Omega)$
+%the question was solved in the famous paper of Meyers and Serrin
+%entitled $H=W$. They did not require any smoothness of the
+%boundary of $\Omega$. If one makes some additional assumptions on
+%the smoothness of $\partial\Omega$, it is possible to prove that
+%functions smooth up to the boundary are also dense in the Sobolev
+%space.
+
+%In the presence of a weight, even in the case of constant $p$, the
+%question naturally becomes more complicated. If one tries to
+%follows the classical route, the uniform boundedness of mollifying
+%operators is required. This question is closely related to the
+%boundedness of the Hardy-Littlewood maximal function in the
+%corresponding weighted Lebesgue space. For instance, this is
+%guaranteed by $\rho$ belonging to the Muckenhoupt class $A_p$. It
+%should be noted that the Muckenhoupt condition is generally not
+%easy to verify.
+
+%Another approach to approximating a Sobolev function with smooth
+%functions  is the so called \textit{Lipschitz truncation}
+%technique, based on cutting the original function at some level of
+%the maximal function of its gradient and using the McShane
+%extension theorem. This technique was successfully applied by a
+%number of authors for the study of very weak solutions of elliptic
+%PDEs, in mathematical hydrodynamics and so on. In this work we use
+%this technique to establish the following sufficient condition for
+%density of smooth functions in weighted Sobolev spaces.
+
+Recently V.V. Zhikov proved the following interesting theorem.
+\begin{theorem1}[V.V. Zhikov]
+Let $\rho=\omega\omega_0$, $p\equiv 2$ and $w_0\in A_2$. Assume
+that
+$$
+\liminf_{t\to\infty} \frac{\left(\int_\Omega \omega^t
+\omega_0\dx\right)^{1/t}\cdot \left(\int_\Omega \omega^{-t}
+\omega_0\dx\right)^{1/t}}{t^2}<\infty.
+$$
+Then $H=W$.
+\end{theorem1}
+First, we obtain a generalization of this result for all constant
+$p>1$.
+\begin{theorem}\label{teor1}
+Let $\rho=\omega\omega_0$, $p=const>1$ and $w_0\in A_p$. Assume
+that
+$$
+\liminf_{t\to\infty} \frac{\left(\int_\Omega \omega^t
+\omega_0\dx\right)^{1/t}\cdot \left(\int_\Omega \omega^{-t}
+\omega_0\dx\right)^{1/t}}{t^p}<\infty.
+$$
+Then $H=W$.
+\end{theorem}
+Next, we extend this result to the case of Sobolev spaces with
+variable exponent. We assume that the exponent
+$p=p(x):\Omega\rightarrow (1,\infty)$ satisfies
+\begin{gather}
+1<\alpha<p(x)<\beta<\infty,\label{pc-1}\\
+|p(x)-p(y)|\leq \frac{k_0}{\ln \frac{1}{|x-y|}},\quad |x-y|<1.\label{pc-2}
+\end{gather}
+This is the widely known logarithmic condition introduced
+originally by V.V. Zhikov and X.L. Fan in the first half of 1990s.
+To state the analogue of Theorem~\ref{teor1} we need to introduce
+a generalization of the Muckenhoupt classes for variable
+exponents.
+
+\noindent\textbf{Definition.} We say that a nonnegative locally
+integrable function (weight) $\omega\in
+A_{p(\cdot)}^{loc}(\Omega)$, if
+\begin{equation}\label{MuckCondVar}
+\sup_{Q} \sup_{x\in Q} \left(\int_Q \omega
+\dy\right)^{1/p(x)}\frac{\|\omega^{-1/p}\|_{L^{p'}(Q)}}{|Q|}<\infty,
+\end{equation}
+where the supremum is taken over all cubes $Q\subset\Omega$ with
+faces parallel to the coordinate hyperplanes.
+
+A very important feature of this classes is that they inherit the
+self-improvement property of the classical Muckenhoupt classes.
+\begin{theorem}\label{self-improv}
+Let the exponent $p(\cdot)$ satisfy the logarithmic condition
+\eqref{pc-1}-\eqref{pc-2} and $\omega\in
+A_{p(\cdot)}^{loc}(\Omega)$. Then $\omega\in
+A_{p(\cdot)-\eps}^{loc}(\Omega)$ for some $\eps>0$.
+\end{theorem}
+The next theorem is the main result of this work.
+\begin{theorem}\label{teor3}
+Let $\rho=\omega\omega_0$, where $\omega_0\in
+A_{p(\cdot)}^{loc}(\Omega)$. Let the exponent $p=p(x)$ satisfy the
+logarithmic condition \eqref{pc-1}-\eqref{pc-2}. Let
+$$
+\liminf_{t\to\infty} \left(\int_{\Omega}\omega^{-t}\omega_0\dx
+\right)^\frac{t-1}{t(t+1)} \left(\int_{\Omega}\left(t^{-p(x)}
+\omega\right)^{t}\omega_0\dx\right)^{1/t}<\infty,
+$$
+Then $H=W$.
+\end{theorem}
+
+%\noindent\textbf{Remark.} The full theory of Muckenhoupt classes
+%with variable exponent was built in \cite{DH13}.
+
+\noindent\textbf{Acknowledgements.} This work was supported by
+RFBR, research project 14-01-31341.
+
+\small
+
+\begin{thebibliography}{5}
+
+\bibitem{Zh2011PMA} \textsc{V.V. Zhikov}, \textit{On variational problems and nonlinear elliptic equations with nonstandard growth conditions},
+ Journal of Mathematical Sciences \textbf{173}:5 (2011), 463--570.Translated from Problems in Mathematical Analysis \textbf{54}, February 2011, pp. 23-–112.
+
+\bibitem{Zh98MSb} \textsc{V.V. Zhikov}, \textit{Weighted Sobolev spaces}, Sbornik: Mathematics \textbf{189}:8 (1998), 1139–-1170.
+
+\bibitem{Zh04POMI} \textsc{V.V. Zhikov}, \textit{Density of smooth functions in Sobolev-Orlicz spaces}, Journal of Mathematical Sciences \textbf{132}:3 (2006), 285--294.
+Translated from Zapiski Nauchnykh Seminarov POMI, Vol. \textbf{310}, 2004, pp. 67–-81.
+
+\bibitem{DH13}  \textsc{L. Diening and P. H\"ast\"o}, \textit{Muckenhoupt weights in variable exponent spaces}, University of Helsinki Preprint (2011).
+\verb+http://www.helsinki.fi/~hasto/pp/p75_submit.pdf+
+%\bibitem{Samko99} \textsc{S.G. Samko}, Density $C_0^\infty (\mathbb{R}^n)$ in the generalized Sobolev spaces $W^{m,p(x)}(\mathbb{R}^n)$, Dokl. Akad. Nauk \textbf{369}:4
+%(1999), 451--454.
+
+%\bibitem{DH13}  \textsc{L. Diening and Peter H\"ast\"o},  \textit{Muckenhoupt weights in variable exponent spaces}, \url{http://www.helsinki.fi/~hasto/pp/p75_submit.pdf}
+
+\end{thebibliography}
+
+\end{document}

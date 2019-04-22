@@ -1,0 +1,105 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{
+Robust Partial Likelihood for Detecting Imprinting and Maternal Effects
+}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Fangyuan  Zhang} \\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, November 18, 2015}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 112.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+Genome‐wide association studies can only explain a small proportion of phenotypic variation.
+Epigenetic effects have been pointed out to be one plausible source of the missing heritability.
+Numerous statistical methods have been developed to explore two important epigenetic factors:
+genomic imprinting and maternal effects. Most of the methods, however, can only model one of
+these two confounded epigenetic effects or make strong yet unrealistic assumptions about the
+population to avoid over‐parameterization. In this talk, I will present a partial Likelihood method for
+detecting Imprinting and Maternal Effects jointly without making assumptions about the nuisance
+parameters. This method can be applied to both case-control family data and discordant sib-pair
+design. By matching affected and unaffected probands and stratifying according to their familial
+genotypes, a partial likelihood component free of nuisance parameters can be extracted from the full
+likelihood and alleviates the need to make assumptions about the nuisance parameters. Theoretical
+analysis shows that the maximum partial likelihood estimators based on the partial likelihood method
+are consistent and asymptotically normally distributed with close‐form formula for computing
+information. Based on the information contents per individual of different study designs, our work
+offers a practical strategy and real‐time information calculation for investigators to select the
+optimum study before data collection.
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+\vspace{0.2cm}
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\Large \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

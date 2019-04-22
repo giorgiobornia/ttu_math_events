@@ -1,0 +1,104 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Numerical solution of stationary incompressible FSI problems with multigrid solvers and domain decomposition smoothers}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Giorgio Bornia} \\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, September 2, 2015}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 112.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+We investigate the numerical performance of a monolithic Newton-multigrid solver
+with domain decomposition smoothers for the solution of a class of stationary
+incompressible FSI problems. The physics of the problem is described using a monolithic approach,
+where mass continuity and stress balance are automatically satisfied across the fluid-solid interface.
+The deformation of the fluid domain is taken into account within the nonlinear
+Newton iterations according to an Arbitrary Lagrangian Eulerian (ALE) scheme. Due to the
+complexity and variety of the operators, the implementation of the Jacobian matrix in the nonlinear iterations 
+is not a trivial task. To this purpose, we make use of automatic differentiation
+tools for an exact computation of the Jacobian matrix. The numerical solution of steady-state
+problems is particularly challenging, due to the ill-conditioning of the induced stiffness matrix.
+Moreover, the enforcement of the incompressibility condition calls for the use of incompressible solvers
+either of mixed or segregated type. At each nonlinear outer iteration the resulting
+linearized system is solved with a geometric multigrid solver. We consider a GMRES smoother
+preconditioned by an Additive Schwarz Method (ASM). The domain decomposition of the preconditioner 
+is driven by the natural splitting between fluid and solid domain. The numerical
+results of some benchmark tests for steady-state cases show agreement with the literature and
+an increased robustness with our choice of smoothers with respect to standard ones.
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+\vspace{0.2cm}
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

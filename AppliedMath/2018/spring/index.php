@@ -4,20 +4,14 @@
 <html>
 <head>
 
- <?php $sem_mydepth = "../../../"; ?>
- <?php   include($sem_mydepth . "./../seminars_model/src/php/functions.php"); ?>
-
  
 </head>
 
 <body>
 
 
- <?php Seminars::navigation_bar(); ?>
- <?php Seminars::main_banner("Applied Mathematics"); ?>
-
  
- <div class="container text-center">
+ <div class="container">
 
  <br>
  

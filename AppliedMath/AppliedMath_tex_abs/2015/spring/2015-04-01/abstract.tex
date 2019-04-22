@@ -1,0 +1,102 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Analysis of the Error in an Iterative Algorithm for the Solution of
+the Regulator Problems for Linear Distributed Parameter Control Systems}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Thanuka Pathiranage} \\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, March 11, 2015}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 111.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+The regulator equations are a coupled pair of operator equations that arise in the geometric
+approach to regulation in systems and control. The primary regulator problems of interest
+in this work involve asymptotic tracking and disturbance rejection for linear parabolic
+distributed parameter systems. Underlying our approach to solving problems of this type
+is the geometric regulation method in which control laws are obtained by solving a pair
+of regulator equations. In general it is not easy to solve the regulator equations or even
+obtain accurate numerical solutions. Furthermore, our main results apply to tracking and
+disturbance rejection for very general smooth bounded reference and disturbance signals.
+In this paper we present the $\beta$-iteration method for obtaining approximate solutions of the
+dynamic regulator equations for a class of infinite dimensional linear control systems. A
+major advantage of this theory compared to previous work is that an explicit error analysis
+is available for each step in the iteration. In particular, the geometric convergence of the
+$\beta$-iteration error can be controlled by changing $\beta$. We demonstrate our estimates on a variety
+of control problems in multi-physics applications.
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+\vspace{0.2cm}
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

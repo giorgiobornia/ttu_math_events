@@ -1,0 +1,91 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{A Comparison of Solvers and Solution Methods for Reservoir Simulators}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Suleyman Tek} \\ \textit{University of the Incarnate Word, San Antonio}}
+
+\newcommand{\talkdate}{\textbf{Thursday, November 5, 2015}}
+
+\newcommand{\timelocation}{\textbf{Room: 111.  Time: 3:30pm.}}
+
+\newcommand{\talkabstract}{
+Reservoir simulation is a very important tool in reservoir management. A lot of advancements have been done to improve the time and memory required to achieve optimum results. However, the commonly-used solvers and formulation methods are still a mystery to many users. There is a clear need to explore the next-generation reservoir simulation engines to understand the applicability of underlying mathematical methods and their limitations to improve reservoir management practices.
+Krylov subspace algorithms are widely used for linear system solvers. The conventional reservoir simulators use different degrees of implicit methods such as fully-implicit, adaptive-implicit and implicit-pressure explicit-pressure solutions. 
+The next-generation simulators utilize the relaxed volume balance approach which identifies the difference between the fluid volume and the pore volume in each grid block in the model as the primary convergence criteria. This approach is better than a mass balance formulation primarily because the volume balance is a local error, and it does not accumulate over time. 
+A systematic comparison of solvers as well as formulation methods is given such as Finite Difference and Finite Element. The result of runs of a case study are provided for both ‘conventional’ and ‘next-generation’ simulators with a comparison of processing times.
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+\vspace{0.2cm}
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}

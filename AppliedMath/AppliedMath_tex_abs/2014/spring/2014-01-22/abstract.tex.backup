@@ -1,0 +1,100 @@
+\documentclass[oneside]{article}
+
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat} 
+\usepackage[left=.75 in,top=.75 in,right=.75 in,bottom=.75 in,nohead]{geometry}
+
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\url{http://www.math.ttu.edu/~gbornia/AppliedMath/}}
+\rfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\linespread{1.5}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Error Analysis for Harmonic Tracking Algorithm (HTA) Using Geometric Control}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Name Surname}\\ \textit{University of Somewhere}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, January 22, 2014}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 111.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+Geometric Control Theory was initiated in the beginning of the $1970$'s and has now became a well established approach
+in addressing problems of tracking and disturbance rejections of time independent and dependent signals. 
+The main goal of our research is to analyze the error for harmonic signal tracking for a SISO (single-input single-output) plant
+with bounded input and output operators and we assume that the plant is stable.
+Here we show that in a particular straightforward approach the regulator equations are not solvable
+by the most direct method.
+However by introducing a regularization of the problem ( by inserting a properly selected $\beta \in (0,1) $) the resulting system can be solved.
+However the resulting solution is only close to the desired solution.
+Therefore we introduce a harmonic tracking algorithm (HTA) to obtain a sequence of controls
+that converge to the desired controls.
+To reach our main goal, we describe a particular method of writing the error of HTA, $ e_{n}(t)$, 
+as a combination of matrices and show that when the number of iterations increases the error will decrease geometrically.
+Also two numerical examples are presented to illustrate the geometric convergence of $ e_{n}(t)$.
+
+}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE Texas Tech University - Department of Mathematics and Statistics }
+
+\vspace{0.2cm}
+{\LARGE Seminar in Applied Mathematics }
+
+
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+
+\vspace*{10pt}
+
+% \includegraphics[width=2.5in]{macine-biscotti.jpg}
+\end{center}
+
+%\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\large \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+
+
+
+\end{center}
+}}
+
+\end{center}
+\end{document}
