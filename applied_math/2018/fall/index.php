@@ -9,7 +9,7 @@
  include("../../../src/php/ttu_math_seminars.php");
  $icon_in_toolbar = '../../../' . ttu_math_seminars::$icon_in_toolbar;
 
- $topic = 'AppliedMath';
+ $topic = 'applied_math';
  $year = '2018';
  $semester = 'fall';
 

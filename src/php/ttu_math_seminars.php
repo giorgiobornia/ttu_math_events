@@ -9,7 +9,7 @@
  public static $discipline_array = array(
  'algebra_and_number_theory' => 'Algebra and Number Theory', 
  "analysis"                  => "Analysis", 
- "AppliedMath"               => "Applied Mathematics",
+ "applied_math"              => "Applied Mathematics",
  "biomath"                   => "Biomathematics",
  'geometry'                  => 'Geometry',
  "image_analysis"            => "Image Analysis",
