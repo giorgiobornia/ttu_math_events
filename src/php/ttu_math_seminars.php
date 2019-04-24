@@ -7,18 +7,18 @@
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 
  public static $discipline_array = array(
- 'AlgebraAndNumberTheory' => 'Algebra and Number Theory', 
- "Analysis"               => "Analysis", 
- "AppliedMath"            => "Applied Mathematics",
- "Biomath"                => "Biomathematics",
- 'Geometry'               => 'Geometry',
- "ImageAnalysis"          => "Image Analysis",
- 'LogicTopology'          => 'Logic-Topology',
- 'MathClub'               => 'Math Club',
- 'MathEd'                 => 'Mathematics Education',
- 'PrepProfession'         => 'Preparation for the Profession',
- 'RealAlgebraicGeometry'  => 'Real-Algebraic Geometry', 
- 'Statistics'             => 'Statistics' 
+ 'algebra_and_number_theory' => 'Algebra and Number Theory', 
+ "analysis"                  => "Analysis", 
+ "AppliedMath"               => "Applied Mathematics",
+ "biomath"                   => "Biomathematics",
+ 'geometry'                  => 'Geometry',
+ "image_analysis"            => "Image Analysis",
+ 'logic_topology'            => 'Logic-Topology',
+ 'math_club'                 => 'Math Club',
+ 'math_ed'                   => 'Mathematics Education',
+ 'prep_for_profession'       => 'Preparation for the Profession',
+ 'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
+ 'statistics'                => 'Statistics' 
  );
 
  }
