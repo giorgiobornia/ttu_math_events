@@ -1,1 +1,9 @@
-TBA 
+Structural sensitivity is when the dynamics of a system is strongly dependent on the functional form used in model development. Recently, Cordoleani and colleagues have investigated a chemostat problem in which very similar metabolic response functions, all consistent with experimental data, could produce qualitatively different results (limit cycle or limit point). They introduced a derivative in model space that allowed quantification of local sensitivity to model structure. 
+
+ 
+
+We introduce a complementary method for quantification of structural sensitivity in a more global sense. Following Wiener and Feynman, we introduce a measure on the space of possible models. Integration in this measure -- a path integral -- allows assignment of probabilities to the qualitative outcomes. The path integrals can be weighted by a likelihood function based on experimental measurements. We analyze the chemostat problem of Cordoleani et al using this method, and discuss application of the method to model sensitivity problems in galactic dynamics. 
+
+ 
+
+This talk will be accessible to graduate and advanced undergraduate students, who will see how topics from analysis and several methods from numerical analysis (function approximation, finite elements for solution of boundary value problems, methods for solution of initial value problems, and numerical integration in high dimensional spaces) can be combined to solve complex problems. 

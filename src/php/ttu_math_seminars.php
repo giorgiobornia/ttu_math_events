@@ -20,6 +20,9 @@
  'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
  'statistics'                => 'Statistics' 
  );
+ 
+  public static  $current_year = 2019;
+  public static  $current_semester = 'spring';
 
  }
  
