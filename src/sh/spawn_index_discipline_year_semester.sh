@@ -1,17 +1,16 @@
 #!/bin/bash
 
- CONTAINER=$1;
- 
- year=2019
- semester='spring'
- 
+ container=$1;
+ year=$2;
+ semester=$3;
  
  
-if test "$CONTAINER" = ""; then
+ 
+if test "$container" = ""; then
 echo "The second argument must be the directory (either relative or absolute) where all seminars are"; exit;
 fi
 
- cd $CONTAINER
+ cd $container
 
 
  for discipline in   algebra_and_number_theory  analysis  applied_math  biomath  geometry  image_analysis  logic_topology  math_club  math_ed   prep_for_profession  real_algebraic_geometry   statistics; 
