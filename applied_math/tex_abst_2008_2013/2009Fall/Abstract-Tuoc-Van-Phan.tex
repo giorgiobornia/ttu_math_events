@@ -1,0 +1,168 @@
+\documentclass[11pt]{article}
+%\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amsthm, amssymb}
+
+\usepackage{graphicx}
+\usepackage{pstricks} 
+
+\usepackage[notref,notcite]{showkeys}
+% See
+% http://mail.symuli.com/judy/latex2e/packages/tools/showkeys/showkeys.html
+
+% How do one allow line break of equations?
+\usepackage{color}
+
+%%%\textheight 8.5in \topmargin -0.35in
+\textheight 9.5in \topmargin -0.85in
+\textwidth 6in \oddsidemargin 0.25in \evensidemargin \oddsidemargin
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{convention}[definition]{Convention}
+\numberwithin{equation}{section}
+%\newenvironment{proof}[1][Proof]{\begin{trivlist}\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+
+\def\al{\alpha}
+\def\be{\beta}
+\def\ga{\gamma}
+\def\de{\delta}
+\def\ep{\epsilon}
+\def\ve{\varepsilon}
+\def\e {\varepsilon}
+\def\ze{\zeta}
+\def\th{\theta}
+
+
+%\renewcommand{\labelenumii}{(\alph{enumii})}
+\renewcommand{\theenumi}{(\roman{enumi})}
+\renewcommand{\labelenumi}{\theenumi}
+
+\newcommand{\vt}{\overrightarrow}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\x}{\langle x \rangle}
+\newcommand{\I}{\mathrm{I}_2}
+\newcommand{\VeL}{\mathcal{H}}
+%\newcommand{\c}{\mathbf{c}}
+\newcommand{\bP}{\mathbf{P}}
+\newcommand{\bL}{\mathbf{L}}
+\newcommand{\bV}{\mathbf{V}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\Q}{\mathcal{Q}}
+%\newcommand{\j}{\mathbf{j}}
+\newcommand{\bO}{\mathbf{O}}
+\newcommand{\bS}{\mathbf{S}}
+\newcommand{\E}{\mathbf{E}}
+\newcommand{\G}{\mathbf{G}}
+\newcommand{\Veet}{\overrightarrow{\eta_1}}
+\newcommand{\Complex}{\mathbb{C}}
+\renewcommand{\Re}{\mathop{\mathrm{Re}}}
+\renewcommand{\Im}{\mathop{\mathrm{Im}}}
+\newcommand{\sign}{\mathop{\rm sign}}
+\newcommand{\supp}{\mathop{\mathrm{supp}}}
+\newcommand{\esssup}{\mathop{\rm ess{\,}sup}}
+\newcommand{\essinf}{\mathop{\rm ess{\,}inf}}
+\newcommand{\myspan}{\mathop{\rm span}}
+
+\newcommand{\longto}{\longrightarrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newcommand{\wei}[1]{\langle #1 \rangle}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bka}[1]{\left \langle #1 \right \rangle}
+\newcommand{\bke}[1]{\left( #1 \right)}
+\newcommand{\bkt}[1]{\left[ #1 \right]}
+\newcommand{\bket}[1]{\left\{ #1 \right\}}
+\newcommand{\mb}[1]{\mathbf{#1}}
+\newcommand{\mr}[1]{\mathrm{#1}}
+
+
+\newcommand{\myproof}{{\it Proof}.\quad }
+\newcommand{\myendproof}{{\; $\blacksquare$}}
+
+%\newcommand{\vector}[1]{\overrightarrow{#1}}
+\newcommand{\Pc}{\, \mathbf{P}\! _\mathrm{c} \, \! }
+\newcommand{\Pk}{\, \mathbf{P}\! _\mathrm{k} \, \! }
+\newcommand{\Pe}{\, \mathbf{P}\! _\mathrm{1} \, \! }
+%\newcommand{\P2}{\, \mathbf{P}\! _\mathrm{2} \, \! }
+\newcommand{\Pg}{\, \mathbf{P}\! _\mathrm{0} \, \! }
+\newcommand{\PcA}{\, \mathbf{P}\! _\mathrm{c} \! ^A \,}
+%\newcommand{\PcH}{\, \mathbf{P}\! _\mathrm{c} \! ^{H_0} \,}
+%\newcommand{\PcH}{\Pc}
+\newcommand{\PcL}{\, \mathbf{P}\! _\mathrm{c} \! ^\L \,}
+\newcommand{\PcV}{\, \mathbf{P}\! _\mathrm{c} \! ^\VeL \,}
+\newcommand{\PeL}{\, \mathbf{P}\! _\mathrm{1} \! ^\L \,}
+\newcommand{\PcH}{\, \mathbf{P}\! _\mathrm{c} \! ^H \,}
+\newcommand{\Hc}{\, \mathbf{H} _\mathrm{c} \, \! }
+\newcommand{\eigen}{\mathbf{E}}
+\renewcommand{\L}{\mathcal{L}}
+\renewcommand{\H}{\mathcal{H}}
+\newcommand{\Pb}{\mathbf{P}}
+\newcommand{\bK}{\mathbf{K}}
+\newcommand{\bH}{\mathbf{H}}
+\newcommand{\bU}{\mathbf{U}}
+%\newcommand{\e}{\varepsilon}
+\newcommand{\epz}{\varepsilon_0}
+\newcommand{\loc}{_{\mathrm{loc}}}
+%\newcommand{\al}{\alpha}
+\newcommand{\ka}{\kappa}
+%\newcommand{\om}{\omega}
+\newcommand{\la}{\lambda}
+
+\newcommand{\diff}{{\pmb{\delta}}}
+%\newcommand{\tl}[1]{\bket{#1}}%%
+\newcommand{\wt}{\widetilde}
+\newcommand{\conj}{\mathop{\,\mathbf{conj}\,}}  %{\mathtt{C}}
+\newcommand{\pd}{\partial}
+\newcommand{\donothing}[1]{}
+\newcommand{\wbar}[1]{\overline{\rule{0pt}{2.4mm} {#1}}}
+
+
+\newcommand{\corr}{\longleftrightarrow}
+\newcommand{\vect}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\newcommand{\svect}[1]
+{\bkt{\begin{smallmatrix} #1\end{smallmatrix}}}
+\newcommand{\myfrac}[2]{\stackrel {\scriptstyle #1}{\scriptstyle #2}}
+\newcommand{\les}{\lesssim}
+\newcommand{\lbar}[1]{\underline{#1}}
+\newcommand{\ev}{\omega}
+\newcommand{\evector}{\mathbf{\Phi}}
+\newcommand{\RE}{\mathop{\,\mathbf{RE}\,}}
+\newcommand{\inomega}{\, \in \, \Omega}
+\newcommand{\ssum}{{\textstyle \sum}}
+\newcommand{\dt}{\delta t}
+\newcommand{\Dt}{\Delta t}
+\newcommand{\NOT}[1]{\ \Big / \hspace*{-5mm} {#1}\ }
+\newcommand{\dis}{\displaystyle}
+
+%\newcommand{\marginnote}[1]
+%   {\mbox{}\marginpar{\raggedleft\hspace{0pt}#1}}
+%
+% to get a desired height, use \rule {0pt}{18pt}
+%\newcommand{\mylabel}[1]{\label{#1} \marginpar{#1}}
+% Improper \prevdepth!
+%
+% \overset{\eqref{cal-1}}{\le}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   main document
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{Stable Directions for Degenerate Excited States of Nonlinear Schr\"odinger
+Equations}
+\author{Tuoc Van Phan}
+\maketitle
+\begin{abstract}
+We consider the nonlinear Schr\"{o}dinger equations $i\partial_t \psi = H_0 \psi + \lambda |\psi|^2\psi$ in $\mathbb{R}^3 \times [0,\infty)$ where $H_0 = -\Delta + V$ and $\lambda = \pm 1$. Assume that the potential $V$ is radial and decays sufficiently fast at infinity. Assume also that the linear Hamiltonian $H_0$ has only two discrete eigenvalues $e_0 < e_1 <0$ where $e_0$ is simple and $e_1$ has multiplicities 3. We show that there exist three branches of nonlinear excited states and for certain finite codimesion subset in the space of initial data, we construct solutions $\psi$ converging to these excited states in both non-resonant and resonant cases.
+
+This is the joint work with Stephen Gustafson.
+\end{abstract}
+\end{document}

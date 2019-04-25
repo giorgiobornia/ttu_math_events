@@ -1,0 +1,98 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Generalized Forchheimer Equations for Porous Media: Part V}
+
+\newcommand{\talkspeaker}{ {\sc Luan T. Hoang}\\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, March 20, 2013}
+
+\newcommand{\timelocation}{Room: MATH 011.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+The non-linear Forchheimer equations are considered as laws of hydrodynamics in porous media in case of high Reynolds numbers, when the fluid flows deviate from the ubiquitous Darcy's law. 
+In this talk, the dynamics of generalized Forchheimer equations for slightly compressible fluids
+are studied by means of the resulting initial boundary value problem for the pressure.
+We prove that the solutions depend continuously on the boundary data both in finite time and at time infinity.
+In contrast to related long-time dynamics results which are in the $L^2$-context and require a restriction on the degree of the Forchheimer polynomial, the results obtained here are for general  $L^\alpha$-spaces and without this degree restriction.
+New bounds for the solutions are established in $L^\alpha$-norm for all $\alpha\ge 1$, and then are used to improve estimates for their spatial and time derivatives.
+New Poincar\'e-Sobolev inequalities and non-linear Gronwall-type estimates for non-linear differential inequalities are utilized to achieve better asymptotic bounds.
+The methods developed are general and can be applied to other degenerate parabolic equations of similar structure.\\
+This is joint work with Akif Ibragimov, Thinh Kieu and Zeev Sobol.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

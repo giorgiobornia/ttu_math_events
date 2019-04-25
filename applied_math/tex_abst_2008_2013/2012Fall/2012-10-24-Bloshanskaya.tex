@@ -1,0 +1,94 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{ON UPSCALING OF FINE SCALE GEOLOGICAL MODELS FOR NON-LINEAR FLOW SIMULATIONS
+}
+
+\newcommand{\talkspeaker}{ {\sc Lidia Bloshanskaya }\\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, October 24, 2012}
+
+\newcommand{\timelocation}{Room: MATH 014.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+The two term Forchheimer law is considered for incompressible single-phase steady-state flow filtration in anisotropic heterogeneous porous media. The resulting system can be rewritten in term of non-linear elliptic equation for the pressure only characterized by a heterogeneous permeability tensor depending on the pressure gradient norm. The use of this model in fine scale geocellular simulator is straightforward, and it would require very little effort to replace the existing linear models. On the other hand, geocellular models typically require $10^7-10^8$ computational cells, while existing simulators can handle normally in between $10^5-10^6$ cells.
+A variety of approaches for gridding and upscaling of detailed geocellular models have been introduced for Darcy's case spanning from local, extended local, global and quasi global techniques. All these models aim to replace the permeability tensors on a fine vertical scale with an equivalent permeability tensor on a coarse scale.
+In this work we explore the possibility of extending some of the upscaling models to the non-linear Forchheimer law. A flow-based coarsening approach is used, where the equivalent permeability tensor is first evaluated following the streamline of the existing linear cases, and successively modified in order to take into account the non-linear effects.
+Coarse scale simulation results are presented. These illustrate the capabilities of non-linear upscaling procedures and demonstrate the levels of accuracy attainable using the various approaches.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

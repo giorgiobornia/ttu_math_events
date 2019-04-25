@@ -1,0 +1,94 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.35}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Hydrodynamics of Drops in Microfluidic Devices}
+
+\newcommand{\talkspeaker}{ {\sc Siva A. Vanapalli}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, November 9, 2011}
+
+\newcommand{\timelocation}{Room: MATH 010.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+Microfluidic devices are capable of generating thousands of exceptionally uniform nanoliter-scale droplets. In recent years, there has been growing interest to encapsulate biomolecules and cells in these drops for high throughput biological analysis. Microfluidic drops are also being used to design new materials. Many of these applications rely on control over two-phase flow phenomena such as drop generation, break-up and coalescence, fluid mixing in drops and regulating drop traffic in fluidic networks. In this talk, I will discuss our laboratory’s efforts to fundamentally understand drop generation, confined drop transport in microchannels and their spatiotemporal dynamics in fluidic networks. Finally I will show how such understanding helps in engineering functional devices by discussing our efforts to develop high throughput screening platforms for biology and medicine.
+
+With respect to drop generation, we have experimentally investigated the different modes of break-up of dispersed phases in a flow-focusing microfluidic device. Our results indicate that dimensionless numbers can be identified that capture the operating regimes of the various modes of dispersed phase dynamics. The identification of the dimensionless numbers provides some physical insights into the mechanisms driving the break-up behaviors. After drops are produced, in microfluidic applications they are often transported through narrow channels. It is well known that when confined drops move through microchannels, they offer an excess pressure drop. The origin of this hydrodynamic resistance is expected to stem from a complex interplay between internal and external flow fields, however the mechanisms are unclear. I will discuss our measurements on the hydrodynamic resistance of individual drops and contrast the results to the classical Bretherton result of drop motion in a cylindrical conduit. 
+
+The hydrodynamic resistance of drops also plays a crucial role in modifying the instantaneous fluid flow rates in microfluidic networks. This spatiotemporal modulation of fluid flow by drops in a microfluidic network leads to interesting collective hydrodynamics. I will illustrate such collective hydrodynamics by discussing the traffic of drops in a loop and ladder network. In both cases, I will discuss our effort to combine experiments and numerical simulations to predict the collective dynamics. Finally, I will discuss how the collective hydrodynamics of drops can be harnessed to engineer a microfluidic device that can store drops at predefined locations, with variation in reagent concentration from drop-to-drop. The potential of this device for high throughput screening in biology and medicine will be discussed.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.98\linewidth}
+{
+%\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\Large \talkabstract}
+%\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

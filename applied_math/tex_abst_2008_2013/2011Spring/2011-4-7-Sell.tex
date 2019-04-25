@@ -1,0 +1,119 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Ensemble Dynamics and Bred Vectors}
+\newcommand{\talkspeaker}{ {\sc George R Sell}, \textit{University of Minnesota}}
+
+\newcommand{\talkdate}{Thursday, April 7, 2011}
+
+\newcommand{\timelocation}{Room: CHEM 113.  Time: 3:30pm.}
+
+\newcommand{\talkabstract}{
+%\Large
+The concept of a ``bred vector'' dates back to 1993, and Google now
+has over 500,000 hits in its data base. Two of these hits are found
+under the title of this lecture. On the other hand this concept
+has not (as of a week ago) made it into the AMS MathSciNet.
+One of the most interesing features about this concept is that it plays a
+central and important role in the related areas of dynamical systems
+and numerical studies. Nevertheless, the bred vector is a mathematical
+orphan.
+
+%\Large
+For example, the matter of the sensitivity of model outputs to changes
+in the initial conditions for weather forcasting is a topic of
+widespread interest. While bred vectors have been accepted as useful
+tools in the study of sensitivity, there is a lacking of a sound
+theoretical basis for the applications of this concept. In this lecture we 
+present some new developments in the theory of bred vectors.
+
+%\Large
+By using a new concept of ``ensemble dynamics" we obtain better insights into 
+the part to be played by bred vectors in the theory of dynamical
+systems. Among other things, we will show how to use ensemble dynamics
+to obtain a new point of view of the fractal nature of the Lorenz
+attractor.
+
+%\Large
+Topics that arise in this lecture include: invariant splittings, such as
+exponential dichotomies, and the multiplicative ergodic theorem. We will
+also use the Lorenz attractor to motivate one of the basic problems
+arising in discrete dynamics: Can one find a proof of the apparent
+robustness of the Lorenz attractor?
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Department of Mathematics and Statistics. Colloquium.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+{\LARGE \textbf{ABSTRACT.}}
+{\Large \talkabstract}
+}
+\end{minipage}
+\end{center}
+%\vspace*{.35cm}
+%\vspace*{.35cm}
+}}
+
+\end{center}
+\end{document}

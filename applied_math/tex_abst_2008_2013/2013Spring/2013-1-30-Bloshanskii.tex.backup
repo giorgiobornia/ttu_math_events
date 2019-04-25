@@ -1,0 +1,94 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Equiconvergence of Expansions in Multiple Trigonometric Fourier Series and
+Fourier Integral in The Case of ``Lacunary Sequence of Partial Sums"}
+
+\newcommand{\talkspeaker}{ {\sc Igor~Bloshanskii}\\
+{\it Lomonosov Moscow State University}\\
+{\it Moscow State Regional University}
+}
+
+\newcommand{\talkdate}{Wednesday, Jan 30, 2013}
+
+\newcommand{\timelocation}{Room: MATH 011.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+The question under investigation is equiconvergence on $\mathbb T^N=[-\pi, \pi)^N$ of expansions in multiple trigonometric Fourier series and in Fourier integral of functions $f\in L_p({\mathbb T}^N)$ and $g\in L_p({\mathbb R}^N)$, $p>1$, $N\ge 2$,  $g(x)=f(x)$ on $\mathbb T^N$.  We consider the case when the rectangular "partial sums"\, of these expansions, i.e. $S_n(x;f)$ and $J_\alpha(x;g)$ correspondingly, have "indexes"\, $n=(n_1,\dots,n_N)\in {\mathbb Z}^N$  and $\alpha=(\alpha_1,\dots,\alpha_N)\in {\mathbb R}^N$ with components $n_j$ and $\alpha_j$ satisfying relation: $|\alpha_j-n_j|\leq C$, $j=1,\dots,N$,  constant $C$ does not depend on $n$ and $\alpha$. In particular, the case when some of components $n_j$ are elements of lacunary sequences is considered. An "almost"\, Cauchy property for sequences of rectangular partial sums of multiple Fourier expansions of functions in $L_p$, $p>1$ was found.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

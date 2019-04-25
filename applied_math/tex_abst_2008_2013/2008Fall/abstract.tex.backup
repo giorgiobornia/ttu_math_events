@@ -1,0 +1,37 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\linespread{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+Texas Tech University. Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+{\LARGE \uppercase{\textbf{Transforming finite elements}}}
+
+Rob Kirby, Texas Tech University
+
+September 3, 2008
+
+Room: MA 108, Time: 4:00pm
+
+\end{center}
+
+
+%\begin{abstract}
+ABSTRACT.
+Typically, finite element codes construct basis functions on a mesh
+by mapping basis functions from a fixed reference element to each element
+of the domain.  This works very well for classic Lagrange elements and almost
+no others.  In this talk, I will show what goes wrong with "the rest" of the elements,
+tie this to classic finite element notions such as interpolation equivalence, and
+show how such approximation-theoretic ideas provide structural information on
+how to transform "most" elements.
+\end{document}

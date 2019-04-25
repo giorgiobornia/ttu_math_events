@@ -1,0 +1,75 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\textwidth=450pt
+\textheight=650pt
+\voffset=-1cm
+\hoffset=-2.5cm
+
+\linespread{1.75}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Building a better solver: software engineering aspects of 
+high-performance scientific computing. II.}
+\newcommand{\talkspeaker}{ {\sc Kevin Long}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, April 13, 2011}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+{\huge
+Numerical solution of large systems of linear and nonlinear algebraic 
+equations is at the heart of most problems in scientific computing. As we 
+attempt to produce simulations of ever greater size and complexity, solver 
+algorithms often must be tailored to exploit the structure of a particular 
+problem. In such algorithms, each solve may have numerous
+intermediate data structures and operations -- including other solves on subproblems -- that 
+need to be coordinated. Furthermore, as simulations are being run on 
+increasingly complex computer architectures we need to tune our programs to 
+those architectures all the while maintaining the flexibility needed for use 
+in tailored solvers.}
+
+\medskip
+{\huge
+In this series of talks I'll outline some of the challenges for programming 
+solver algorithms. I'll use as a case study the deceptively simple concept of 
+programming operations on vectors, and show how we can design  software that 
+is easy to understand and use without sacrificing performance and 
+flexibility. Along the way you'll meet some nifty programming tricks such as 
+factory patterns, expression templates, and lazy evaluation. I'll introduce a 
+new software toolkit, Playa (``Painless Linear Algebra''), that embodies these 
+ideas. 
+}
+}
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+Texas Tech University.  Applied Mathematics Seminar.
+\end{center}
+
+\begin{center}
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+\fbox{\parbox{\linewidth}{
+\vspace*{.35cm}
+{\LARGE \textbf{ABSTRACT.}}
+\talkabstract
+\vspace*{.35cm}
+}}
+
+\end{document}

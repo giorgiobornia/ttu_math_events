@@ -1,0 +1,90 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{ Eye/Head Movement Dynamics Satisfying the Donders’ Law}
+
+\newcommand{\talkspeaker}{ {\sc Indika Wijayasinghe}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, February 29, 2012}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+The problem of head movement has been studied in conjunction with the eye movement problem for well over hundred years and the names of Helmholtz, Donders and Listing are associated with it. The basic problem is that the eye and the head movement can be looked at as a rotational dynamics on the space $SO(3)$ with constraints that has to do with the axis of rotation. In general, Donders’ Law specifies that the axis of rotation has a small torsional component that can be expressed as a function of the horizontal and vertical components. In this research, head movement dynamics is constructed by writing down a suitable Riemannian Metric on the constrained space of rotation matrices, together with a suitable form of “coordinate free” potential energy and a damping term.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

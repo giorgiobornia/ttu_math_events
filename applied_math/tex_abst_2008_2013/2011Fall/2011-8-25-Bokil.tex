@@ -1,0 +1,105 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Analysis of High Order FDTD Methods for Maxwell's Equations in 
+Dispersive Media}
+
+\newcommand{\talkspeaker}{ {\sc Vrushali Bokil}, \textit{Oregon State University}}
+
+\newcommand{\talkdate}{Thursday, August 25, 2011}
+
+\newcommand{\timelocation}{Room: MATH 010.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+We study the stability properties of, and the phase error present in, 
+several higher-order (in space) staggered finite difference schemes for 
+Maxwell’s equations coupled with a Debye or Lorentz polarization model.We 
+present a novel expansion of the symbol of finite difference 
+approximations, of arbitrary (even) order, of the first-order spatial 
+derivative operator. This alternative representation allows the derivation 
+of a concise formula for the numerical dispersion relation for all (even-) 
+order schemes applied to each model, including the limiting 
+(infinite-order) case. We further derive a closed-form analytical 
+stability condition for these schemes as a function of the order of the 
+method. Using representative numerical values for the physical parameters, 
+we validate the stability criterion while quantifying numerical 
+dissipation. Lastly, we demonstrate the effect that the spatial 
+discretization order, and the corresponding stability constraint, has on 
+the dispersion error.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Joint Applied Mathematics / BioMathematics  Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

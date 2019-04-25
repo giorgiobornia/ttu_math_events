@@ -1,0 +1,90 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Mathematical Model of a Contact Lens and Tear Layer at Static Equilibrium.  }
+
+\newcommand{\talkspeaker}{ {\sc Bhagya Athukorallage}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, November 28, 2012}
+
+\newcommand{\timelocation}{Room: MATH 014.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+   We propose a mathematical model of a tear meniscus around a contact lens that is at static equilibrium using a calculus of variations approach and  study the static stability of a spherical cap lens and a tear layer. The contact angle of the tear meniscus with the cornea and contact lens may have a range of values due to capillary effect hysteresis. As the lens is in static equilibrium all the forces and moments sum to zero. The forces acting on the lens are its weight, force due to hydrostatic and atmospheric pressures and surface tension on the periphery of the lens due to the tear meniscus. The fixed parameters in the model are weight of the lens, coefficient of surface tension, magnitude of gravitational acceleration, density of the tear liquid and physical parameters of the lens such as the diameter and base curve radius. The adjustable parameters in the model are contact angles of the tear meniscus with the cornea and contact lens respectively and the position of the lens on the cornea. Numerical experiments suggest that there exists a range of values for the adjustable parameters that lead to physically reasonable solutions, for lens position; extent of overlap of the lower lid on the lens; pressure due to the lid on the lens; and the thickness of tear layer between the lens and the cornea.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

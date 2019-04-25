@@ -1,0 +1,24 @@
+
+Localization Phenomena in Matrix Functions: Theory and Applications
+
+Michele Benzi
+Department of Mathematics and Computer Science
+Emory University
+Atlanta, GA  
+
+Many physical phenomena are characterized by strong localization, that is, 
+rapid decay outside of a small spatial or temporal region. Frequently, 
+such localization can be expressed as decay in the entries of a function 
+f(A) of an appropriate sparse or banded matrix A that encodes a description 
+of the system under study. Important examples include the decay in the 
+entries of the density matrix for non-metallic systems in quantum chemistry 
+(a function of the Hamiltonian), the localization of the eigenvectors in the 
+Anderson model, and the decay behavior of the inverse of a banded symmetric 
+positive definite matrix. Localization phenomena are of fundamental importance 
+both at the level of the physical theory and at the computational level, 
+because they open up the possibility of approximating relevant matrix 
+functions in O(N) time, where N is a measure of the size of the system. 
+In this talk I will give an overview of theoretical results, algorithms, 
+and applications in various parts of computational physics and numerical 
+analysis.
+

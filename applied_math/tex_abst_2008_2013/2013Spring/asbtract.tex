@@ -1,0 +1,90 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Boundary Optimal Control Problems for the Incompressible MHD Equations}
+
+\newcommand{\talkspeaker}{ {\sc Giorgio Bornia}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, Jan , 2013}
+
+\newcommand{\timelocation}{Room: MATH 011.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+Optimal control problems for the incompressible Magnetohydrodynamics (MHD) equations are of great interest due to a wide range of possible applications involving electrically conductive fluids, such as aluminum casting in metallurgy and crystal growth in semiconductor industry. In such applications it may be a great improvement to achieve the control on the fluid state variables through the action of the magnetic Lorentz force. In this talk we consider a class of MHD boundary optimal control problems in which the flow is controlled through the boundary conditions of the magnetic field. We propose a new approach for the formulation of these problems based on lifting functions of inhomogeneous boundary conditions. This approach yields both theoretical and numerical advantages which will be discussed. The optimal control problems under consideration are formulated in terms of the minimization of a cost functional with the nonlinear constraints of the Navier-Stokes and MHD equations. The Lagrange multiplier principle is used to derive an optimality system, whose numerical solution is a challenging task.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

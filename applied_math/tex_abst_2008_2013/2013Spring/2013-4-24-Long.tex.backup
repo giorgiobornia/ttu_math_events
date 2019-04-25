@@ -1,0 +1,110 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage{graphicx,multicol}
+\usepackage{color}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Splitting Methods In Multigrid Finite 
+Element Incompressible Fluid-Structure Interaction Problems (continued)}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Kevin Long}\\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, April 24, 2013}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 011\\  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+
+Kevin Long and Kaleb McKale
+
+In spectral methods for uncertainty quantification, the output of a system is approximated by a multivariate polynomial of the random inputs. Direct computation of the best $L^2$ multivariate polynomial approximation of a nonlinear function of a multivariate polynomial requires numerical computation of high-dimensional integrals, and can therefore be prohibitively expensive. In 2004, Debusschere {\it et. al.} proposed a method for computing the elementary inverse transcendentals that requires numerical evaluation of one-dimensional integrals, though the integrands become quite complicated.
+
+We present here a new approach based on the modified arithmetic-geometric mean iteration of Borchardt, Gauss, and Carlson (BGC). Our method requires no quadrature, but at each iteration it requires numerical solution of a multivariate quadratic equation. Our numerical experiments indicate that our method is several times more efficient than Debusschere's line integration method for computing the arcsine and the logarithm, and roughly comparable to it for the arctangent.
+
+The classical convergence theory for BGC iteration is set in $\mathbb{R}$ and $\mathbb{C}$. For study of our
+method we develop convergence theorems for BGC iteration on non-negative functions in $C^0(\Omega)$ and $L^2(\Omega)$. Finally, we mention some open theoretical problems that arise when considering BGC iteration with {\it truncated} polynomials, in which case the non-negativity condition can sometimes be violated.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\vspace*{-3cm}
+\begin{center}
+{\LARGE
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+\begin{multicols}{2}
+%\begin{center}
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+%\end{center}
+
+\columnbreak
+
+\includegraphics[trim = 25mm 50mm 0mm 20mm, clip, width=2.5in]{Bna.jpg}
+\end{multicols}
+
+\end{center}
+
+%\clearpage
+
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

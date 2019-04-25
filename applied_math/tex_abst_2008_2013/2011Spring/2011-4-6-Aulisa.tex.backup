@@ -1,0 +1,97 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\hoffset=-.5in
+
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{2\hoffset}
+%\addtolength{\textwidth}{-2in}
+
+%\textwidth=450pt
+\textheight=650pt
+\voffset=-1cm
+
+
+\linespread{1.75}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Upscaling of fine scale geological models for non-linear flow simulations}
+\newcommand{\talkspeaker}{ {\sc Eugenio Aulisa}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, April 6, 2011}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+{
+The two term Forchheimer law is considered for incompressible
+single-phase steady-state ﬂow ﬁltration in anisotropic heterogeneous porous
+media. The resulting system can be rewritten in term of non-linear elliptic
+equation for the pressure only characterized by a heterogeneous permeability
+tensor depending on the pressure gradient norm. The use of this model in
+ﬁne scale geocellular simulator is straightforward, and it would require very
+little eﬀort to replace the existing linear models. On the other hand, goecellular 
+models typically require $10^7$ -- $10^8$ computational cells, while existing
+simulators can handle normally in between $10^5$--$10^6$ cells. A variety of 
+approaches for gridding and upscaling of detailed geocellular models have been
+introduced for Darcys case spanning from local, extended local, global and
+quasi global techniques. All these models aim to replace the permeability
+tensors on a ﬁne vertical scale with an equivalent permeability tensor on a
+coarse scale. In this work we explore the possibility of extending some of the
+upscaling models to the non-linear Forchheimer law. A ﬂow-based coarsening
+approach is used, where the equivalent permeability tensor is ﬁrst evaluated
+following the streamline of the existing linear cases, and successively modiﬁed
+in order to take into account the non-linear eﬀects. Coarse scale simulation
+results are presented. These illustrate the capabilities of non-linear upscaling
+procedures and demonstrate the levels of accuracy attainable using the various
+approaches.
+}
+}
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\end{center}
+
+\begin{center}
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.95\linewidth}
+{
+{\LARGE \textbf{ABSTRACT.}}
+{\Large
+\talkabstract
+}
+}
+\end{minipage}
+\end{center}
+%\vspace*{.35cm}
+%\vspace*{.35cm}
+}}
+
+\end{center}
+\end{document}

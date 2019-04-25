@@ -1,0 +1,52 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Modeling two-phase flows with a FEM solver of the Navier-Stokes equations}
+\newcommand{\talkspeaker}{Eugenio Aulisa, Texas Tech University}
+\newcommand{\talkdate}{Wednesday, February 10, 2010}
+
+
+\newcommand{\talkabstract}{
+Numerical modeling and simulations for the solution of the single-ﬂuid formulation of the incompressible Navier-Stokes equations for two-phase ﬂows
+is presented. The model couples an interface front-tracking algorithm to a multigrid solver of the Navier-Stokes equations based on the ﬁnite
+element method. The interface line is described by an ordered set of markers which are advected along the ﬂow streamlines and from the
+knowledge of their position the local normal and mean curvature are calculated. The local mean curvature has been extended to the whole
+computational domain and the singular surface tension force has been transformed within the framework of the variational formulation into a
+regular volume force. Isoparametric Taylor-Hood elements have been used to discretize the Navier-Stokes equations. The resulting system
+has been solved with a fully multigrid method coupled with a Vanka-like smoother.
+
+The model has been tested with a dynamical system characterized by a droplet surrounded by another ﬂuid. Equilibrium solutions described by the Laplace’s law are reproduced with great accuracy with
+a very low level of spurious currents, which disappear completely if the exact value of the curvature is used. Damped oscillations are investigated in terms of the oscillation period, the damping coeﬃcient
+and the critical Reynolds number for the transition from periodic to aperiodic regimes.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+Texas Tech University.  Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+\textbf{\LARGE {\uppercase{\talktitle}} }
+
+\talkspeaker
+
+\talkdate
+
+Room: MA 013, Time: 4:00pm
+
+\end{center}
+
+ABSTRACT.
+\talkabstract
+
+\end{document}

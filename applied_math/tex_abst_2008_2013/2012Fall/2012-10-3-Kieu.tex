@@ -1,0 +1,91 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{One-dimensional two-phase generalized Forchheimer flows for incompressible  fluids}
+
+\newcommand{\talkspeaker}{ {\sc Thinh Tri Kieu}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, October 3, 2012}
+
+\newcommand{\timelocation}{Room: MATH 014.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+We derive a non-linear system of parabolic equations to describe the hydrodynamics of the one-dimensional two-phase Forchheimer flows of incompressible, immiscible fluids in porous media, in the presence of capillary forces.  Under relevant constraints on relative permeabilities and capillary pressure, non-constant steady state solutions are found and classified into six-teen types according to their monotonicity and asymptotic behavior.
+For a steady state whose saturation can never attain either value  $0$ or $1$, we prove that it is stable with respect to a certain weight function. Such a weight function is comprised of  the steady state,  relative permeabilities and capillary pressure. The proof is based on specific properties of the steady state, weighted maximum principle and Bernstein's estimate. 
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

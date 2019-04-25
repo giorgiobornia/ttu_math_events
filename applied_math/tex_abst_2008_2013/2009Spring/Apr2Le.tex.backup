@@ -1,0 +1,43 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+Texas Tech University.  Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+{\LARGE \uppercase{\textbf{
+Forchheimer equations in\\ porous media
+}}}
+
+Luan Thach Hoang, Texas Tech University
+
+Wednesday, March 25, 2009
+
+Room: MA 111, Time: 4:00pm
+
+\end{center}
+
+ABSTRACT.
+Darcy's law describes the linear relation between
+the velocity and gradient of pressure of the fluid. We consider a general non-linear relationship between them. This covers many
+models suggested by Forchheimer and investigated by
+engineers. For slightly compressible fluids, using this
+relation, we derive for the pressure a degenerate non-linear parabolic
+equation with the implicit coefficient function. Either non-autonomous
+Dirichlet or the time-dependent total flux boundary condition is imposed
+on a portion of the boundary. We establish the monotonicity which
+guarantees the uniqueness of classical solutions.  Other a prior
+estimates, well-posedness, stability and long time dynamics will also be
+studied.
+
+This is a joint work with Eugenio Aulisa, Lidia Bloshanskaya and Akif Ibragimov.
+\end{document}

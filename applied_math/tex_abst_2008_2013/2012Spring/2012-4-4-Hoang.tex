@@ -1,0 +1,93 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{An Interface Boundary Value Problem For Incompressible Fluids In Two-layer Domains (I)
+}
+
+\newcommand{\talkspeaker}{ {\sc Luan Thach Hoang}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, April 4, 2012}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+We study two-layer incompressible fluids in a thin domain whose top, bottom and interface boundaries are not flat. The fluid is subject to the Navier friction boundary condition on the top and bottom, and the periodicity condition on the sides. The interface boundary condition from the coupled atmosphere and ocean model is imposed. 
+We prove that  regular solutions exist for all time when the initial data and body force belong to large sets in relevant function spaces, as the thickness of the domain becomes small.
+To deal with the involved boundary conditions on surfaces of non-trivial geometry, appropriate boundary behaviors of the fluid are derived in order to obtain good linear and non-linear estimates for Navier--Stokes equations. Our approach gives a unified treatment for both the Navier and interface boundary conditions. Moreover, in case of positive friction coefficients, no zero average condition is imposed on the solutions.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

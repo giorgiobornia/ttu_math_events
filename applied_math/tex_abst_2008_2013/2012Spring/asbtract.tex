@@ -1,0 +1,103 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Orthogonal polynomials in evolutionary theory}
+
+\newcommand{\talkspeaker}{ {\sc Sean H. Rice}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, February 15, 2012}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+I will discuss the application of orthogonal polynomials to problems in evolutionary
+biology. We often need to represent some value, such as fitness or offspring phenotype, as
+a function of the phenotype of individuals in a population. Standard polynomial regression
+will not do in this case, because the regression coefficients are functions of the degree of
+the polynomial that we choose to fit. Since this degree is arbitrary, the coefficients of
+a standard nonlinear regression do not have any clear biological meaning. The solution
+to this problem is to construct a space of orthogonal polynomials that are defined by the
+distribution of variation in the population that we are studying. I will show how we construct
+such polynomials for both the cases of univariate and multivariate evolution. Multivariate
+orthogonal polynomials pose a problem not encountered in the univariate case - the need to
+choose an ordering on the variables - that has limited their applicability. I will show how we
+get around this problem in the case of evolutionary theory, and how orthogonal polynomials
+allow us to solve problems, such as evolution with nonlinear inheritance, that could not be
+addressed using traditional quantitative genetics.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

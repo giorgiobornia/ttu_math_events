@@ -1,0 +1,57 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+Texas Tech University.  Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+{\LARGE \uppercase{\textbf{
+Finite element matrices and Bernstein polynomials
+}}}
+
+Robert Kirby, Texas Tech University
+
+Wednesday, February 25, 2009
+
+Room: MA 111, Time: 4:00pm
+
+\end{center}
+
+ABSTRACT.
+High-degree finite element methods are typically only made efficient  
+in terms of computational cost and memory usage by finding special  
+structure that allows operators to be applied with fast algorithms.   
+In rectangular element domains, one can frequently build basis  
+functions by tensor products of one-dimensional polynomials.  This can  
+lead to efficient implementations.
+
+On simplicial element domains, however, far fewer fast algorithms are  
+known.  Special bases may be carefully constructed, but these often  
+lack certain desireable properties (such as rotational symmetry).   
+Working toward the goal of fast, general-purpose simplicial bases with  
+good symmetry, I will work the Bernstein polynomials.
+
+For polynomial degree $n$, I will show that finite element mass and  
+stiffness matrices in 1d may be applied in $O(n \log(n))$ operations with  
+$O(n)$ local store if Bernstein bases are used.  Moreover, I will  
+suggest how on the simplex in dimension $d\ge 2$, it is possible to apply  
+these operators in $O( n^{1+1/d} \log(n) )$, which up to the log factor  
+is the same complexity as rectangular domains with tensor products.    
+The trick is Hankel matrices, which up to row ordering admit a  
+circulant embedding and hence fast application via the FFT.
+
+This work is preliminary and still theoretical.  I believe there are  
+very good opportunities for student projects here, both in terms of  
+implementation and extending the results to other kinds of finite  
+element bases and operators.
+
+\end{document}

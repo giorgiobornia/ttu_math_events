@@ -1,0 +1,93 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{On stabilization of solutions to nonlinear parabolic equations of the p-Laplace type}
+
+\newcommand{\talkspeaker}{ {\sc Mikhail Surnachev}\\ \textit{Institute of Applied Mathematics, Russian Academy of Science}}
+
+\newcommand{\talkdate}{Wednesday, October 24, 2012}
+
+\newcommand{\timelocation}{Room: MATH 014.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+
+In this talk I am going to present our joint results with Prof. Vasily Zhikov (Vladimir State University) on stabilization of solutions to nonlinear parabolic equations of the p-Laplace type.
+The first result is stabilization in the $L^2(\mathbb{R}^n)$ norm of solutions with $L^2(\mathbb{R}^n)$ initial data.
+The second result, which is the central part of this talk, is a criterion of the uniform stabilization of bounded solutions. This criterion generalizes a widely known criterion for linear parabolic equations proved independently by V. Zhikov and S. Kamin in 1976. The statement of the criterion is very simple: "A bounded solution converges uniformly (w.r.t. the space variables) to zero as time goes to infinity if and only if the initial data has zero uniform mean."
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

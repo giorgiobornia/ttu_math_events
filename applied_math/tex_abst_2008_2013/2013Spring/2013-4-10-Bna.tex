@@ -1,0 +1,115 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Splitting Methods In Multigrid Finite 
+Element Incompressible Fluid-Structure Interaction Problems}
+
+\newcommand{\talkspeaker}{ \textbf{\sc Simone Bn\`a}\\ \textit{University of Bologna}}
+
+\newcommand{\talkdate}{\textbf{Wednesday, April 10, 2013}}
+
+\newcommand{\timelocation}{\textbf{Room: MATH 011.  Time: 4:00pm.}}
+
+\newcommand{\talkabstract}{
+In the last decades a great attention has been paid to the study 
+of Fluid-Structure Interaction (FSI) problems 
+because of a large number of applications ranging from 
+biology to civil engineering and aeroelasticity. 
+In particular, the numerical solution of the equations of Fluid-Structure Interaction 
+is of great interest  because of the increasing demand from
+the medical community for scientifically rigorous and quantitative investigations
+of cardiovascular diseases.  
+%
+In this talk we will present the results of Fluid-Structure Interaction computations 
+of an incompressible elastic solid object and a laminar incompressible viscous flow
+using the Finite Element Method (FEM). 
+The mathematical problem consists of the Navier-Stokes equations
+in the Arbitrary-Lagrangian-Eulerian (ALE) form coupled with a non-linear
+incompressible structure model (Neo-Hookean).
+Since we are interested in solving FSI problem where the added mass effect is significative,
+the coupling between the structure and the fluid is enforced inside a monolithic framework  
+which computes simultaneously for the fluid and the structure 
+unknowns within a unique solver.
+%
+This kind of problem can be tackled efficiently by
+domain decomposition techniques. Our strategy is to solve several small local subproblems 
+over subdomain patches using Vanka-smoothing or Pressure-Schur-Complement-smoothing
+procedures within a multigrid algorithm.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\vspace*{-2cm}
+\begin{center}
+{\LARGE
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\LARGE
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

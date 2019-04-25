@@ -1,0 +1,58 @@
+% Very minor change sent from Eric to Luan, Wed Feb 23 10:24:04 PST 2005
+
+\documentclass[twoside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+%\usepackage[pagebackref=true]{hyperref}
+%\hypersetup{pagebackref=true}
+
+%\usepackage[color,notref,notcite]{showkeys}
+%\definecolor{refkey}{gray}{.90}%
+%\usepackage[notref,notcite]{showkeys}
+
+%\usepackage{graphics}
+
+\linespread{1.5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setlength{\topmargin}{0in}
+%\setlength{\oddsidemargin}{0.1in}
+%\setlength{\evensidemargin}{0.1in}
+%\setlength{\textheight}{8.25in}
+%\setlength{\textwidth}{6.25in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+Texas Tech University. Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+{\LARGE \uppercase{\textbf{Navier-Stokes equations in thin domains with Navier friction boundary conditions}}}
+
+Luan Hoang, Texas Tech University
+
+September 17, 2008
+
+Room: MA 112, Time: 4:00pm
+
+\end{center}
+
+
+%\begin{abstract}
+ABSTRACT.
+We study some problems in geophysical fluids dynamics.
+Our focus is the Navier-Stokes equations in a 3D domain $\Omega_\varepsilon$, whose thickness is of order $0(\varepsilon)$
+as $\varepsilon\to 0$, having non-trivial topography.
+The velocity field is subject to the Navier friction boundary condition on the bottom and top boundaries of $\Omega_\varepsilon$.
+Unlike our previous work, here we consider the case when the friction coefficients are of exact order $\varepsilon^\delta$, for $\delta\in[0,1]$, and no conditions are imposed on the domains.
+It is shown that if the initial data, resp., the body force, belongs to a large set of $H^1(\Omega_\varepsilon)$, resp., $L^2(\Omega_\varepsilon)$, then the strong solution of the Navier-Stokes equations exists for all time.
+Our proofs rely on a uniform Korn inequality which is established  without any restrictions on the domains; the study of the dependence of the Stokes operator on $\varepsilon$;
+and the non-linear estimate which has to deal with the interactions between the boundary condition and the inertial term in the Navier-Stokes equations.
+\end{document}
+
+%----------------------notation-----------------------------
+

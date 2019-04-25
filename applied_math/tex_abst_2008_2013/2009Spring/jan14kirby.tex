@@ -1,0 +1,46 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\linespread{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+Texas Tech University. Applied Mathematics Seminar.
+
+\end{center}
+
+\begin{center}
+
+{\LARGE \uppercase{\textbf{
+From functional analysis to iterative methods
+}}}
+
+Robert Kirby, Texas tech University
+
+January 14, 2009
+
+Room: MA 111, Time: 4:00pm
+
+\end{center}
+
+ABSTRACT. We examine condition numbers, preconditioners, and iterative methods
+for finite element discretizations of coercive PDE in the context of
+the fundamental solvability result, the Lax-Milgram Lemma.  Working in
+this Hilbert space context is justified because finite element
+operators are restrictions of Hilbert space operators to
+finite-dimensional subspaces.  Moreover, useful insight is gained as
+to the relationship between Hilbert space and matrix condition
+numbers, and translating Hilbert space fixed point iterations into
+matrix computations provides new ways of motivating and explaining
+some classic iteration schemes.  In this framework, the ``simplest''
+preconditioner for an operator from a Hilbert space into its dual is
+the Riesz isomorphism.  Simple analysis gives spectral bounds and
+iteration counts bounded independent of the finite element subspaces
+chosen.  Moreover, the abstraction allows us not only to consider
+Riesz map preconditioning for convection-diffusion-reaction equations
+in $H^1$, but also operators on other Hilbert spaces, such as planar
+elasticity in $\left(H^1\right)^2$.
+\end{document}

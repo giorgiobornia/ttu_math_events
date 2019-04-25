@@ -1,0 +1,90 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Time asymptotic of non-Darcy flows  with total boundary flux}
+
+\newcommand{\talkspeaker}{ {\sc Lidia Bloshanskaya}\\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, October 12, 2011}
+
+\newcommand{\timelocation}{Room: MATH 010.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+The talk is dedicated to the study of long term asymptotic of diffusive capacity, the integral characteristic of the domain with respect to non-linear Forchheimer flow in porous media.  Conditions on the boundary are given in terms of the total flux and constraints on the trace of the pressure on the boundary. It is proved that if total flux stabilizes then the difference between pressure average inside domain and on the boundary stabilizes as well. This result can be applied to calculate productivity index of the well, an important characteristic of the well performance. To obtain the main theorem refined comparison of fully transient and pseudo steady state pressure (the time derivative of pressure is constant) was performed. These results can be effectively used in reservoir engineering and can also be applied in other problems modeled by non-linear diffusive equations. 
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

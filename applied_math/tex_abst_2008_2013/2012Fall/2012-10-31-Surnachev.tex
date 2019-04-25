@@ -1,0 +1,95 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{On stabilization of solutions to nonlinear parabolic equations of the p-Laplace type}
+
+\newcommand{\talkspeaker}{ {\sc Mikhail Surnachev}\\ \textit{Institute of Applied Mathematics, Russian Academy of Science}}
+
+\newcommand{\talkdate}{Wednesday, October 31, 2012}
+
+\newcommand{\timelocation}{Room: MATH 014.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+One of the traditional questions arising in numerical solution of PDEs is: how one should treat artificial boundaries of the computational domain? How can one make a piece of the boundary open for outgoing disturbances without reflecting them back to the interior? In the case of wave propagation processes the intuitive answer seems to be very simple: all ingoing waves on the boundary should be prohibited while outgoing waves should leave the domain freely. The actual implementation of this simple idea turns out to be quite complicated in both the theoretical and numerical sense. As a result, a great deal of attention has been paid to this problem over the last 40 years or so by quite a significant number of authors. 
+% 
+In this talk I will discuss various artificial boundary conditions used in computational fluid dynamics, particularly in computational aeroacoustics. 
+The emphasis will be put on local boundary conditions. While perhaps laking in (theoretical) accuracy compared to nonlocal boundary conditions, they are 1) more robust, 2) much easier to implement, 3) computationally cheap, 4) comprehensible.
+ %
+The talk is supposed to be a review useful both for people working on the ``pure mathematical" side and those on the ``numerical" side of the Force. 
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

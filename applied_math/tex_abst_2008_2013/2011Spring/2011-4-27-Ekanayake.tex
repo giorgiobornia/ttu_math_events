@@ -1,0 +1,99 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Motion Encoding in Turtle Retina}
+\newcommand{\talkspeaker}{ {\sc Mervyn P. B. Ekanayake
+}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, April 27, 2011}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+%\Large
+Cellular level models of neural circuits provide an understanding of the complex neurological phenomena,
+such as vision. Encoding visual inputs in the visual system of an animal depends on the cellular level properties
+as well as cell distribution and interconnections in multiple stages. The Retina provides the sensory inputs to the
+deeper parts of the visual system. Turtle retina is different from humans in cell types and the distribution.  The
+turtle retina has cells which are sensitive to motion direction in addition light intensity. The cells are distributed
+in such a way that highest cell density occurs along a line called the visual streak.  In this talk I wish to present
+our work on developing a model retinal patch of a turtle retina and an analysis of encodability/decodability on
+the model retinal patch. The individual cells are modeled as a two stage hybrid model. These model cells are
+distributed on the model retinal patch according to the actual cell distributions. The encodability and decodability analysis is conducted assuming the population response is a stochastic process. 
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+}
+\end{minipage}
+\end{center}
+%\vspace*{.35cm}
+%\vspace*{.35cm}
+}}
+
+\end{center}
+\end{document}

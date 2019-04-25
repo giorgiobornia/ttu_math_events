@@ -1,0 +1,94 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{Structural Stability of Generalized Forchheimer Flows of Any Degree}
+
+\newcommand{\talkspeaker}{ {\sc Thinh T. Kieu}\\ \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, March 27, 2013}
+
+\newcommand{\timelocation}{Room: MATH 011.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+We study the generalized Forchheimer equations for slightly compressible fluids in porous media with Dirichlet boundary data. 
+The Forchheimer polynomial has arbitrarily large degree.
+We prove that the solution depends continuously on the coefficients of the Forchheimer polynomial in $L^\alpha$-norm  and $W^{1,2-a}$-norm for  both finite time intervals and time infinity. Here, $\alpha\ge 1$ is arbitrary, and number $a\in(0,1)$ depends on the degree of the Forchheimer polynomial.
+The stability is established by using a perturbed monotonicity and the structure of the equation to treat the cross-terms $|\nabla p_1|^{2-a}|\bar{p}_2|^{\alpha-2}$ and $|\nabla p_2|^{2-a}| \bar{p}_1|^{\alpha-2}$ of individual solutions $p_1$ and $p_2$. New Poincar\'e-Sobolev inequalities and non-linear Gronwall-type estimates for non-linear differential inequalities are utilized to derive the asymptotic bounds  for mixed terms. 
+This is joint work with Luan Hoang, Akif Ibragimov and Zeev Sobol.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+\medskip
+
+\textbf{\Huge {\uppercase{\talktitle}} }
+
+{\Large
+\talkspeaker\\
+\talkdate\\
+\timelocation
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\LARGE \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}

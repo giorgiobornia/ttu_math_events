@@ -1,0 +1,103 @@
+\documentclass[oneside]{amsart}
+\usepackage{amssymb,amsfonts}
+\usepackage{amsthm}
+
+\usepackage[none]{hyphenat} 
+
+\setlength{\hoffset}{-.5in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+
+
+\setlength{\voffset}{-.5in}%{-1in}
+\addtolength{\voffset}{1cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-1in}%to fix pdf missing footer . old val {-.75in}
+
+
+%\textheight=700pt
+
+
+\linespread{1.65}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\talktitle}{The Effects of Soft Errors on Krylov Methods Including a Fault
+Tolerant Conjugate Gradient Algorithm (part 2)
+}
+
+\newcommand{\talkspeaker}{ \uppercase{Victoria E. Howle}, \textit{Texas Tech University}}
+
+\newcommand{\talkdate}{Wednesday, April 25, 2012}
+
+\newcommand{\timelocation}{Room: MATH 016.  Time: 4:00pm.}
+
+\newcommand{\talkabstract}{
+As architectures are developed with smaller components
+operating a lower voltages, soft errors (i.e., bit flips) become 
+potentially worrying, and in fact may not even be detected. 
+We investigate the sensitivity of several Krylov methods to soft errors. 
+We apply sensitivity analysis techniques to assess the relative
+importance of algorithmic locations where the bit flips occur.
+We compare their effects on several Krylov methods including a new fault
+tolerant variant of the flexible CG algorithm.
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\textbf{\Large
+Texas Tech University.  Applied Mathematics Seminar.
+}
+
+\bigskip
+
+\textbf{\Huge \uppercase{\talktitle} }
+
+\bigskip
+
+{\Large
+\textbf{
+\talkspeaker\\
+\talkdate\\
+\timelocation}
+}
+\end{center}
+
+\vspace*{10pt}
+
+
+%\addtolength{\linewidth}{-1cm}
+\begin{center}
+
+\fbox{\parbox{\linewidth}{
+\begin{center}
+\begin{minipage}[c]{.96\linewidth}
+{
+\vspace*{.25cm}
+{\huge \textbf{ABSTRACT.}}
+{\huge \talkabstract}
+\vspace*{.25cm}
+}
+\end{minipage}
+\end{center}
+}}
+
+\end{center}
+\end{document}
