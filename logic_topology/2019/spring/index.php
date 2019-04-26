@@ -1,23 +1,26 @@
  <?php
  
  //library
- $library_path = "../../../../seminars_lib/";
+ $relative_path_to_app = '../../../';
+
+ $relative_path_to_library = "../../../../seminars_lib/";
  
- include($library_path . "./src/php/functions.php");
+ include($relative_path_to_library . "./src/php/functions.php");
  
  //application-specific
- include("../../../src/php/ttu_math_seminars.php");
+ include($relative_path_to_app . './src/php/ttu_math_seminars.php');
  
- $icon_in_toolbar = '../../../' . ttu_math_seminars::$icon_in_toolbar;
+ $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
  
  $array = Seminars::get_discipline_year_semester(__FILE__);
  
 
- Seminars::generate_seminar_page_by_topic_year_semester($library_path,
-                                          ttu_math_seminars::$institution,
-                                          ttu_math_seminars::$department,
-                                          $array,
-                                          $icon_in_toolbar,
-                                          ttu_math_seminars::$discipline_array); 
+ Seminars::generate_seminar_page_by_topic_year_semester($relative_path_to_library,
+                                                        $relative_path_to_app,
+                                                        ttu_math_seminars::$institution,
+                                                        ttu_math_seminars::$department,
+                                                        $array,
+                                                        $icon_in_toolbar,
+                                                        ttu_math_seminars::$discipline_array); 
  
  ?>
