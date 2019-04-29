@@ -12,9 +12,9 @@ month, day, week_day, time, room, speaker,speaker_department,speaker_institution
 3,19,Tuesday,3:30 PM,ELECE 101,Dean B. Lindquist,Department of Mathematics and Statistics,Texas Tech University,http://www.depts.ttu.edu/artsandsciences/DeanOffice/aboutLindquist.php,DoubleT.jpg,A dynamical system for gas phase cycling in porous media,dean.txt
 3,21,Thursday,3:30 PM,ELECE 101,Pavel Bochev,Center for Computing Research,Sandia National Laboratories,https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?pbboche,DoubleT.jpg,Compatible Mesh-Free Methods,bochev.txt
 4,4,Thursday,3:30 PM,ELECE 101,Ken Ono,Department of Mathematics and Computer Science,Emory University,http://www.mathcs.emory.edu/~ono/,DoubleT.jpg,Jensen–Polya Program for the Riemann Hypothesis and Related Problems,ono.txt
-4,11,Thursday,,,Jane Heffernan,,York University,,DoubleT.jpg,Models of Waning Immunity and Childhood Diseases,heffernan.txt
-4,18,Thursday,3:30 PM,ELECE 101,Charles Frohman,,,,DoubleT.jpg,,frohman.txt
-4,25,Thursday,,,Lindi M. Wahl,,,,DoubleT.jpg,,wahl.txt
-4,25,Thursday,,,Jichun Li,,,,DoubleT.jpg,,li.txt
+4,11,Thursday,3:30 PM,ELECE 101,Jane Heffernan,Department of Mathematics and Statistics,York University,http://immune.math.yorku.ca/jmheffer/,DoubleT.jpg,Models of Waning Immunity and Childhood Diseases,heffernan.txt
+4,18,Thursday,3:30 PM,ELECE 101,Charles Frohman,Department of Mathematics,University of Iowa,http://homepage.divms.uiowa.edu/~frohman/,DoubleT.jpg,Skeins and Characters,frohman.txt
+4,25,Thursday,2:30 PM,ESB 120,Lindi M. Wahl,Department of Applied Mathematics,University of Western Ontario,www.apmaths.uwo.ca/~lwahl/,DoubleT.jpg,Stochastic Modelling of the Within-host Evolution of Influenza,wahl.txt
+4,25,Thursday,4:00 PM,ELECE 101,Jichun Li,Department of Mathematical Sciences, University of Nevada Las Vegas,http://jichun.faculty.unlv.edu/,DoubleT.jpg,Mathematical Analysis and Finite Element Simulation of Invisibility Cloaks,li.txt
 4,30,Tuesday,3:30 PM,ELECE 101,Ivan C. Christov,Department of Mechanical Engineering,Purdue University,https://engineering.purdue.edu/ME/People/ptProfile?resource_id=134738,DoubleT.jpg,From microchannels to blood vessels: A mathematical modeling perspective on flow in soft conduits,christov.txt
 5,2,Thursday,3:30 PM,ELECE 101,Adrian Zahariuc,Department of Mathematics,University of California – Davis,https://www.math.ucdavis.edu/~azahariuc/,DoubleT.jpg,Severi varieties of projective surfaces,zahariuc.txt
