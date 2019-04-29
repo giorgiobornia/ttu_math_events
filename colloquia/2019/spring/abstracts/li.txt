@@ -1,0 +1,12 @@
+In June 23, 2006's issue of Science magazine,
+Pendry et al and Leonhardt independently published their
+papers on electromagnetic cloaking with metamaterials. Since
+then, there is a growing interest in using metamaterials to
+design invisibility cloaks and other interesting devices. In
+this talk, I will present some time-domain cloaking models
+we studied in recent years. Well-posedness study and
+various time-domain finite element methods will be
+discussed. I will show numerical simulations of invisibility
+cloaks and other interesting simulations such as optical
+black holes. I will conclude the talk with some open
+issues.

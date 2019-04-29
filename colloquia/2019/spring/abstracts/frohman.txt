@@ -1,0 +1,6 @@
+The Jones polynomial of knots was one of the
+biggest mathematical discoveries of the 1980s. We will
+explain how this invariant of knots has led to a new
+understanding of the representation theory of Lie groups,
+and the geometry of varieties of characters via the tools of
+quantization. 

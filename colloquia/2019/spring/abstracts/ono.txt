@@ -1,0 +1,11 @@
+In 1927 Polya proved that the Riemann
+Hypothesis is equivalent to the hyperbolicity of Jensen
+polynomials for Riemann’s Xi-function. This hyperbolicity
+had only been proved for degrees d=1,2,3. We prove
+the hyperbolicity of all (but possibly finitely many) the
+Jensen polynomials of every degree d. Moreover, we
+establish the outright hyperbolicity for all degrees
+d<10^26. These results follow from an unconditional
+proof of the "derivative aspect" GUE distribution for
+zeros. This is joint work with Michael Griffin, Larry
+Rolen, and Don Zagier.

@@ -1,0 +1,22 @@
+Amin Rahman - Title: Mathematically tractable models in cancer biophysics and walking droplets
+Abstract:Attacking problems through models of varying complexity often
+provides a broad picture of the phenomenon of interest. If a model is burdened
+by the baggage of assumptions, it will not capture the pertinent dynamics. On
+the other hand, a model that does not obviate negligible contributions falls prey
+to computational constraints. Sometimes, if we are fortunate, we may discover
+reduction techniques that eliminate undesirable computational cost. If these
+simpler models replicate the qualitative behavior of the phenomena, it may allow
+for fast numerical experiments, which can often reveal insight missed by more
+complex models. In this talk, I present models arising from cancer biophysics
+and walking droplets, and discuss insights from fast numerical experiments.
+
+Cezar Lupu - Title: Riemann zeta and multiple zeta values
+Abstract: In this talk, we bring into perspective the infamous Riemann zeta
+function and its natural generalization, the multiple zeta function. We focus more
+on the evaluations of such objects at positive integers. The techniques used in
+these evaluations rely on the properties of some special functions.Although they
+look rather simple, it turns out that the Riemann zeta and multiple zeta values
+play a very important role at the interface of analysis, number theory, geometry
+and physics with applications ranging from periods of mixed Tate motives to
+evaluating Feynman integrals in quantum field theory.The talk should be
+accessible to non specialists and graduate students.

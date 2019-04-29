@@ -1,0 +1,12 @@
+Influenza A virus (IAV) has a high mutation rate and large inhost population size, and is thus capable of rapid evolutionary change. While
+large-scale antigenic changes have been well-studied at the epidemiological
+scale, we tackle the underlying small-scale question: how does the virus
+received at the start of an infection in a single individual differ from the
+virus transmitted from that individual to others? To address this, we couple a
+system of ordinary differential equations, describing the in-host dynamics of
+IAV, to a branching process describing the fate of de novo mutant lineages
+within the host. This coupled approach is necessary because IAV can reach
+extremely high copy numbers in a single infected host, but the transmission
+bottleneck may involve as few as one to ten viral particles. We can then
+answer the question: how different is the flu you pass on from the flu you
+received?

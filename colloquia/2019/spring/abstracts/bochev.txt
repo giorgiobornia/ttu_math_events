@@ -1,0 +1,22 @@
+Particle and mesh-free methods offer significant computational advantages in settings where quality mesh
+generation required for many compatible PDE discretizations may be expensive or even intractable. At
+the same time, the lack of underlying geometric grid structure makes it more difficult to construct meshfree methods mirroring the discrete vector calculus properties of mesh-based compatible and mimetic
+discretization methods. In this talk we survey ongoing efforts at Sandia National Laboratories to develop
+new classes of locally and globally compatible meshfree methods that attempt to recover some of the key
+properties of mimetic discretization methods.
+We will present two examples of recently developed ``mimetic’’-like meshfree methods. The first one is
+motivated by classical staggered discretization methods. We use the local connectivity graph of a
+discretization particle to define locally compatible discrete operators. In particular, the edge-to-vertex
+connectivity matrix of the local graph provides a topological gradient, whereas a generalized moving leastsquares (GMLS) reconstruction from the edge midpoints defines a divergence operator.
+The second method can be viewed as a meshfree analogue of a finite volume type scheme. In this
+method, the metric information that would be normally provided by the mesh, such as cell volumes and
+face areas, is reconstructed algebraically, without a mesh. This reconstruction process effectively creates
+virtual cells having virtual faces and ensures a local conservation property matching that of mesh-based
+finite volumes. In contrast to similar recent efforts our approach does not involve a solution of a global
+optimization problem to find the virtual cell volumes and faces areas. Instead, we determine the
+necessary metric information by solving a graph Laplacian problem that can be effectively preconditioned
+by algebraic multigrid.
+Several numerical examples will illustrate the mimetic properties of the new meshfree schemes. The talk
+will also review some of the ongoing work to build a modern software toolkit for mesh-free and particle
+discretizations that leverages Sandia’s Trillinos library and performance tools such as Kokkos.
+This is joint work with N. Trask, M. Perego, P. Bosler, P. Kuberry, and K. Peterson.

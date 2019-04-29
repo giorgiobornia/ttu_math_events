@@ -1,0 +1,13 @@
+Capacity of sets and condensers in Euclidean spaces has been an object of study by researchers working in several areas of Analysis and Geometry due to its applications and the important role it plays in physics.
+
+In the first part of this talk, we will present some basic facts about conformal and analytic capacity and its connection and applications
+
+to holomorphic functions. A distortion theorem will be examined and the asymptotic behavior of capacity under covering maps.
+
+In the second part we will introduce the modulus metric and examine a conjecture of J. Ferrand, G. Martin and M. Vuorinen from 1991 that every isometry in the modulus metric is a conformal mapping. We will discuss the tools we used and the method we followed to solve the conjecture in the recent papers [1] and [2].
+
+References:
+
+[1] Dimitrios Betsakos and Stamatis Pouliasis, ''Isometries for the modulus metric are quasiconformal mappings'', Trans. Amer. Math. Soc. Published electronically: November 21, 2018.
+
+[2] Stamatis Pouliasis and Alexander Yu. Solynin, ''Infinitesimally small spheres and conformally invariant metrics'', submitted, 2018. https://arxiv.org/abs/1812.04651

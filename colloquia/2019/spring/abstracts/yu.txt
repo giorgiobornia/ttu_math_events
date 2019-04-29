@@ -1,0 +1,10 @@
+In this talk, we present a method to analyze certain slow-fast
+motions in dynamical systems. For singular perturbed dynamical
+systems, the well-known Geometric Singular Perturbation Method
+(GSPM) is usually applied to find the special limit cycles -- slowfast periodic solutions. However, many practical problems might
+be not able or very difficult to be put in the form of singular
+perturbed equations, but they still exhibit slow-fast motions. For
+such cases, based on dynamical system theory, we developed a
+method to identify and analyze certain slow-fast motions. We will
+use several biological examples to illustrate our method, and give
+a comparison between the GSPM and our method.

@@ -1,0 +1,16 @@
+Min Wang - Title: An Introduction to Bayesian Hypothesis Testing in High
+Dimensions
+Abstract: In this talk, we briefly discuss how to implement Bayes
+factor-based procedures for the hypothesis testing problems and
+study their asymptotic properties when the model dimension grows
+with the sample size. We first consider the Bayes factor for
+ANOVA designs as an intermediate step toward developing the
+Bayes factors for general linear hypothesis testing that has been
+well studied in the frequentist literature. Finally, we generalize the
+Bayes factor method for testing equality of means of two normal
+populations in the "large-p, small-n" setting.
+Chunmei Wang - Title: Weak Galerkin (WG) Finite Element Methods for PDEs
+Abstract: The speaker will present the basic principles of weak
+Galerkin (WG) finite element methods for second order elliptic
+problems. An abstract framework for WG will be presented and
+discussed for its potential in the scientific applications.

@@ -1,0 +1,29 @@
+We develop and analyze a 2x2 dynamical system describing flow through a single pore to study the
+dynamics of the appearance and dissolution of gas bubbles during two-component (CO2, H2O), two-phase
+(gas, liquid) flow. Our analysis indicates that three regimes occur at conditions pertinent to petroleum
+reservoirs. These regimes correspond to a critical point changing type from an unstable node to an unstable
+spiral and then to a stable spiral as flow rates increase. Only in the stable spiral case do gas bubbles achieve
+a steady-state finite size. Otherwise, all gas bubbles that form undergo, possibly oscillatory, growth and then
+dissolve completely. Under steady flow conditions, this formation and dissolution repeats cyclically.
+Background Introduction: Compositional flow involving a dissolved gas is of importance in many areas,
+including oil reservoir production, pipeline transport, CO2 sequestration, and the disposal of radioactive
+waste. Such flow involves the inherent possibility of creation of a gas phase and its subsequent transport.
+Excluding specific tertiary recovery practices such as CO2 foam flooding, keeping potential gas components
+dissolved in fluid phases is important for efficient extraction in reservoirs; the presence of gas bubbles and the
+resultant fluid-gas menisci complicates flow and can compete with fluid movement. The ability to control
+formation pressure or flow rates to prevent bubble formation is important for extraction efficiency. A challenge
+to the numerical simulation of compositional flow in porous media is the change in the system of equations
+that accompanies the appearance or disappearance of the gas phase. This difficulty has been addressed by
+several approaches. In our computations of two-phase, two-component (H2O, CO2) flow in a 3D pore
+network, we noted the periodic appearance and dissolution of the gas phase in certain pores. Intensive
+evaluation of our algorithms led us to conclude that the phenomenon was not numerical in origin. In reviewing
+the literature on gas transport in porous media at reservoir scales, in micromodel studies, specific studies on
+gas bubble formation, and mathematical studies of gas phase disappearance in water-hydrogen systems, we
+have been unable to find any mention of this periodic phenomenon. We have therefore pursued a
+mathematical investigation. In this article, we extract a 2x2 dynamical system from the mathematical model
+upon which our computations were based in order to study the mechanics of this phase-cycling phenomenon.
+In this talk I will:
+- present the mathematical model and derive the dynamical system,
+- summarize the direction fields, critical points and solution trajectories,
+- report the results of numerical solutions to the dynamical system
+- provide summary critique of the work

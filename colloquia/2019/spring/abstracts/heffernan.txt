@@ -1,0 +1,14 @@
+ Many childhood diseases are vaccine preventable. However,
+there continue to be many cases of such vaccine preventable diseases
+every year, even in countries with high vaccination coverage. It has
+been indicated that waning immunity may be the culprit in such
+situations. Mathematical models of waning immunity based on the
+SIRS, SIRVS, or SIRWS frameworks have indeed shown that this
+could be case. We continue in this venue, by adding new components
+to models of waning immunity that allow for further study of this topic,
+including immune status dependent susceptibility and transmissibility.
+In this talk I will review our models (and their connection to the
+underlying biology) and I will provide two case studies of waning
+immunity and vaccination using models with and without age structure.
+The basic reproduction and control reproduction numbers will be
+derived. Strategies for pathogen elimination will be discussed.
