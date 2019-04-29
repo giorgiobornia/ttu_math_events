@@ -1,0 +1,9 @@
+Severi varieties are roughly parameter
+spaces for algebraic plane curves of fixed degree and
+geometric genus. More generally, we can use the same
+term to describe parameter spaces for curves of a given
+homology class and geometric genus on any projective
+surface. I will focus on the (open, with some notable
+exceptions) problem of determining their irreducible
+components. The talk will presume little to no
+background in algebraic geometry.

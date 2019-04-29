@@ -1,0 +1,25 @@
+ The interaction between viscous fluid flows and elastic objects is common across
+many microscale phenomena. I will focus, specifically, on some recent results from and new
+research directions for my research group, the Transport: Modeling, Numerics & Theory
+laboratory at Purdue. The interaction between an internal flow and a soft boundary presents
+an example of a fluid--structure interaction (FSI). This particular type of FSI is relevant to
+problems from lab-on-a-chip microdevices for rapid diagnostics to blood pressure
+measurement cuffs. Experimentally, a microchannel or a blood vessel is found to deform into
+a non-uniform cross-section due to FSIs. Specifically, deformation leads to a non-linear
+relationship between the volumetric flow rate and the pressure drop (unlike Poiseuille’s law)
+at steady state. We have developed a perturbative approach to deriving these relations.
+Specifically, the Stokes equations for vanishing Reynolds number are coupled to the
+governing equations of an elastic rectangular plate or axisymmetric cylindrical shell. For
+example, the vessel’s deformation can be captured using Kirchhoff--Love plate theory or
+Donnell--Sanders shell theory under the assumption of a thin, slender geometry. For the
+case of shells, an elegant matched asymptotics problem (with a boundary layer and a corner
+layer) provides a closed-form expression for a deformed microtube's radius. Several
+mathematical predictions arise from this approach: the flow rate--pressure drop relation, the
+cross-sectional deformation profile of the soft conduit, and the scaling of the maximum
+displacement with the flow rate. To verify the mathematical predictions, we perform fully 3D,
+two-way coupled direct numerical simulations using the commercial software suite ANSYS.
+The numerical results are first benchmarked against experimental data in the literature.
+Then, the numerical results are compared against the mathematical predictions, showing
+excellent agreement. Some extensions to bio/physiological situations (e.g., hyperelastic
+conduits and non-Newtonian fluids) and to unsteady flows (e.g., stop-flow lithography in
+compliant microchannels) will be discussed.

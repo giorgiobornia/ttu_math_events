@@ -1,16 +1,16 @@
  <?php
  
  //library
-$relative_path_to_app = '../';
+$relative_path_to_apps = '../';
 
 $relative_path_to_library = "../../seminars_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 
 //application
- include($relative_path_to_app . './src/php/ttu_math_seminars.php');
+ include($relative_path_to_apps . './src/php/ttu_math_seminars.php');
  
-  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
+  $icon_in_toolbar = $relative_path_to_apps . ttu_math_seminars::$icon_in_toolbar;
 
  
  $year = 2019;
@@ -21,7 +21,7 @@ $relative_path_to_library = "../../seminars_lib/";
  $day_end = 7;
 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
-                                                         $relative_path_to_app,
+                                                         $relative_path_to_apps,
                                                          ttu_math_seminars::$institution,
                                                          ttu_math_seminars::$department,
                                                          $icon_in_toolbar,
@@ -32,5 +32,11 @@ $relative_path_to_library = "../../seminars_lib/";
                                                          $month_end,
                                                          $day_end,
                                                          ttu_math_seminars::$discipline_array);
+
+                                                       
+$file = './applied_math/2019/spring/abstracts/jan30.txt';
+
+
+Seminars::include_file( ttu_math_seminars::$math_server_url_base, $relative_path_to_apps, $file, ttu_math_seminars::$are_input_files_local);
 
  ?>

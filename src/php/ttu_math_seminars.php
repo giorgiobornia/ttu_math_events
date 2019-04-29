@@ -6,6 +6,9 @@
  public static  $department = 'Department of Mathematics and Statistics';
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 
+ public static  $math_server_url_base = 'http://www.math.ttu.edu/Department/Seminars/';
+ public static  $are_input_files_local = false;
+
  public static $discipline_array = array(
  'algebra_and_number_theory' => 'Algebra and Number Theory', 
  'analysis'                  => 'Analysis', 

@@ -1,0 +1,20 @@
+week_day,time,room,,,,,,,,,
+Monday,4-5 PM,MATH 112,,,,,,,,,
+month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+1,22,Tuesday,3:30 PM,ELECE 101,Vyron Vellis,Department of Mathematics,University of Connecticut,https://sites.google.com/site/vyronvellis/,DoubleT.jpg,Metric Spaces with Good Parameterizations,vellis.txt
+1,24,Thursday,3:30 PM,ELECE 101,Hung Tran,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/tra97432/,DoubleT.jpg,Geometric Partial Differential Equations,tran.txt
+2,11,,,,Stamatis Pouliasis,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,,pouliasis.txt
+2,12,,,,Baris Coskunuzer,,,,DoubleT.jpg,Minimal Surfaces in 3-manifolds,coskunuzer.txt
+2,15,,,,Stephen McKeown,,,,DoubleT.jpg,,mc_keown.txt
+2,19,,,,Pei Yu,,,,DoubleT.jpg,,yu.txt
+2,21,,,,Early Career Speakers – SIAM,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,,early_siam_1.txt
+2,26,,,,Early Career Speakers – SIAM,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,,early_siam_2.txt
+3,19,,,,Dean B. Lindquist,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,,dean.txt
+3,21,,,,Pavel Bochev,,,,DoubleT.jpg,,bochev.txt
+4,4,,,,Ken Ono,,,,DoubleT.jpg,,ono.txt
+4,11,,,,Jane Heffernan,,,,DoubleT.jpg,,heffernan.txt
+4,18,,,,Charles Frohman,,,,DoubleT.jpg,,frohman.txt
+4,25,,,,Lindi M. Wahl,,,,DoubleT.jpg,,wahl.txt
+4,25,,,,Jichun Li,,,,DoubleT.jpg,,li.txt
+4,30,Tuesday,3:30 PM,ELECE 101,Ivan C. Christov,Department of Mechanical Engineering,Purdue University,,DoubleT.jpg,From microchannels to blood vessels: A mathematical modeling perspective on flow in soft conduits,christov.txt
+5,2,Thursday,3:30 PM,ELECE 101,Adrian Zahariuc,Department of Mathematics,University of California – Davis,,DoubleT.jpg,Severi varieties of projective surfaces,zahariuc.txt
