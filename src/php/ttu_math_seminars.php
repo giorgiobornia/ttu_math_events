@@ -7,7 +7,7 @@
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 
  public static  $math_server_url_base = 'http://www.math.ttu.edu/Department/Seminars/';
- public static  $are_input_files_local = false;
+ public static  $are_input_files_local = true;
 
  public static $discipline_array = array(
  'algebra_and_number_theory' => 'Algebra and Number Theory', 

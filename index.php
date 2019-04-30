@@ -23,10 +23,28 @@ $relative_path_to_library = "../seminars_lib/";
   
     echo '<br/>';
     
+    echo 'Weekly colloquia and seminars';
+    
+    echo '<br/>';
+    
+    echo '<a href="./colloquia/by_week/">Colloquia of this week</a>';
+
+    echo '<br/>';
+    
     echo '<a href="./by_week/">Seminars of this week</a>';
     
     echo '<br/>';
       
+    echo '<br/>';
+    
+    echo 'Colloquia';
+    
+    echo '<br/>';
+    
+    echo '<a href="./colloquia/">Colloquia of the current semester</a>';
+    
+    echo '<br/>';
+    
   Seminars::generate_seminar_page_list(ttu_math_seminars::$discipline_array);
   
   echo '</body>';
