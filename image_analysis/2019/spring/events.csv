@@ -1,4 +1,4 @@
 week_day,time,room,,,,,,,,,
-Monday,4-5 PM,MATH 112,,,,,,,,,
+Wednesday,3-4pm,MATH 115,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-4,3,Wednesday,4:00 PM,MATH 110,Joshua Padgett,Department of Mathematics and Statistics,Texas Tech University,http://myweb.ttu.edu/jopadget/,DoubleT.jpg,From analysis,empty.txt
+5,1,Wednesday,3:00 PM,MATH 115,Leif Ellingson,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,Neighborhood Hypothesis Tests for Means of High Dimensional Data,empty.txt

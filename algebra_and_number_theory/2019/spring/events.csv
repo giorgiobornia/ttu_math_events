@@ -1,4 +1,11 @@
 week_day,time,room,,,,,,,,,
-Monday,4-5 PM,MATH 112,,,,,,,,,
+Wednesday,3-4pm,MATH 110,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-4,3,Wednesday,4:00 PM,MATH 110,Joshua Padgett,Department of Mathematics and Statistics,Texas Tech University,http://myweb.ttu.edu/jopadget/,DoubleT.jpg,From analysis,empty.txt
+2,6,Wednesday,3:00 PM,MATH 110,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,http://myweb.ttu.edu/jopadget/,DoubleT.jpg,Kummer Theory,empty.txt
+2,20,Wednesday,3:00 PM,MATH 110,Dermot McCarthy,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Introduction to the p-adic numbers,empty.txt
+3,6,Wednesday,3:00 PM,MATH 110,Vlad Matei,Department of Mathematics,UC Irvine,,DoubleT.jpg,Arthimetic Statistics over Function Fields,empty.txt
+4,5,Friday,3:00 PM,MATH 110,Ken Ono,Department of Mathematics and Computer Science,Emory University,,DoubleT.jpg,Moonshine,empty.txt
+4,10,Wednesday,3:00 PM,MATH 110,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Riemann zeta and multiple zeta functions and their special values. An introduction. (Part 2),empty.txt
+4,17,Wednesday,3:00 PM,MATH 110,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Riemann zeta and multiple zeta functions and their special values. An introduction. (Part 1),empty.txt
+4,24,Wednesday,3:00 PM,MATH 110,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,A tale of Zagier's formula for multiple zeta values involving Hoffman elements,empty.txt
+5,1,Wednesday,3:00 PM,MATH 110,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Beukers' proof of irrationality of c(3) and Brown's program of irrationality proofs for zeta values,empty.txt

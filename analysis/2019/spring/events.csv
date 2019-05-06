@@ -1,4 +1,11 @@
 week_day,time,room,,,,,,,,,
-Monday,4-5 PM, Building 111,,,,,,,,,
+Monday,4-5 PM,MATH 112,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-4,3,Monday,4:00 PM,Another Building 110, Speaker Name (Can Have A Link To Its Personal Website),Department of No Big Deal,University of God Knows Where,https://www.google.com,DoubleT.jpg,Title - it can have math symbols like $L^2(\Omega)$,empty.txt
+2,4,Monday,4:00 PM,MATH 112,Joshua Padgett,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Anderson localization in nonlocal models. Part I,empty.txt
+2,18,Monday,4:00 PM,MATH 112,Joshua Padgett,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Anderson localization in nonlocal models. Part II,empty.txt
+2,25,Monday,4:00 PM,MATH 112,Phuong Nguyen,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Global well-posedness for for the stocahstic non-Newtonian fluid equations and convergence to the Navier-Stokes equations,empty.txt
+3,4,Monday,4:00 PM,MATH 112,Phuong Nguyen,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Global well-posedness for for the stochastic non-Newtonian fluid equations and convergence to the Navier-Stokes equations,empty.txt
+4,8,Monday,4:00 PM,MATH 112,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Asymptotic expansions for decaying solutions of ODEs. Part I,empty.txt
+4,15,Monday,4:00 PM,MATH 112,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Asymptotic expansions for decaying solutions of ODEs. Part II,empty.txt
+4,29,Monday,4:00 PM,MATH 112,Anthony Gruber,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Curvature functionals and p-Willmore energy,empty.txt
+5,6,Monday,4:00 PM,MATH 112,Akif Ibragimov,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Using De Giorgi's iteration to estimate the size of the support for solutions of degenerate parabolic equations,empty.txt
