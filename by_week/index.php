@@ -16,12 +16,14 @@ $relative_path_to_library = "../../seminars_lib/";
  $year = 2019;
  $semester = "spring"; //lowercase for the folder names
  $month_begin = 4;
- $day_begin = 2;
- $month_end = 4;
- $day_end = 7;
+ $day_begin = 29;
+ $month_end = 5;
+ $day_end = 5;
 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
+                                                        ttu_math_seminars::$math_server_url_base,
                                                          $relative_path_to_apps,
+                                                        ttu_math_seminars::$are_input_files_local,
                                                          ttu_math_seminars::$institution,
                                                          ttu_math_seminars::$department,
                                                          $icon_in_toolbar,
