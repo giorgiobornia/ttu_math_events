@@ -39,10 +39,5 @@ $relative_path_to_library = "../../../seminars_lib/";
                                                          $day_end,
                                                          $disciplines);
 
-                                                       
-// $file = './applied_math/2019/spring/abstracts/jan30.txt';
-// 
-// 
-// Seminars::include_file( ttu_math_seminars::$math_server_url_base, $relative_path_to_apps, $file, ttu_math_seminars::$are_input_files_local);
 
  ?>
