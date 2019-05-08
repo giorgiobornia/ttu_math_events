@@ -17,7 +17,7 @@ $relative_path_to_library = "../../seminars_lib/";
  $semester = "spring"; //lowercase for the folder names
  $month_begin = 4;
  $day_begin = 29;
- $month_end = 5;
+ $month_end = 5;  ///@todo I can compute this automatically
  $day_end = 5;
 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,

@@ -23,6 +23,6 @@
                                                         ttu_math_seminars::$department,
                                                         $array,
                                                         $icon_in_toolbar,
-                                                        ttu_math_seminars::$discipline_array); 
+                                                        ttu_math_seminars::$discipline_array);
  
  ?>
