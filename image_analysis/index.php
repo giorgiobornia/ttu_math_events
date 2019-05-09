@@ -1,7 +1,7 @@
  <?php
  
  //library
- $library_path = "../../seminars_lib/";
+ $library_path = "../../colloquia_and_seminars_lib/";
 
  include($library_path . "./src/php/functions.php");
  

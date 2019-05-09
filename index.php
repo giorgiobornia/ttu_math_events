@@ -3,7 +3,7 @@
  //library
 $relative_path_to_app = './';
 
-$relative_path_to_library = "../seminars_lib/";
+$relative_path_to_library = "../colloquia_and_seminars_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 
@@ -12,7 +12,7 @@ $relative_path_to_library = "../seminars_lib/";
  
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
  
- $title = 'Seminars';
+ $title = 'Colloquia and Seminars';
 
   Seminars::set_html_head($relative_path_to_library, $title, $icon_in_toolbar);
 
@@ -23,25 +23,22 @@ $relative_path_to_library = "../seminars_lib/";
   
     echo '<br/>';
     
-    echo 'Weekly colloquia and seminars';
+    echo '<h3> <strong> Weekly colloquia and seminars </strong> </h3>';
     
     echo '<br/>';
     
-    echo '<a href="./colloquia/by_week/">Colloquia of this week</a>';
-
-    echo '<br/>';
     
-    echo '<a href="./by_week/">Seminars of this week</a>';
+    echo '<a href="./by_week/">Colloquia and seminars of this week</a>';
     
     echo '<br/>';
       
     echo '<br/>';
     
-    echo 'Colloquia';
+    echo '<h3> <strong> Colloquia </strong> </h3>';
     
     echo '<br/>';
     
-    echo '<a href="./colloquia/">Colloquia of the current semester</a>';
+    echo '<a href="./colloquia/"> Colloquia of the current semester</a>';
     
     echo '<br/>';
     
