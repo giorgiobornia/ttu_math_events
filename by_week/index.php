@@ -35,24 +35,4 @@ $relative_path_to_library = "../../colloquia_and_seminars_lib/";
                                                          $day_end,
                                                          ttu_math_seminars::$discipline_array);
 
-                                                         
- $disciplines = array(
- colloquia => Colloquia
- );
- 
- Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
-                                                        ttu_math_seminars::$math_server_url_base,
-                                                         $relative_path_to_apps,
-                                                        ttu_math_seminars::$are_input_files_local,
-                                                         ttu_math_seminars::$institution,
-                                                         ttu_math_seminars::$department,
-                                                         $icon_in_toolbar,
-                                                         $year,
-                                                         $semester,
-                                                         $month_begin,
-                                                         $day_begin,
-                                                         $month_end,
-                                                         $day_end,
-                                                         $disciplines);                                                         
-                                                         
  ?>

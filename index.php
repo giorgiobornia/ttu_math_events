@@ -28,7 +28,7 @@ $relative_path_to_library = "../colloquia_and_seminars_lib/";
     echo '<br/>';
     
     
-    echo '<a href="./by_week/">Colloquia and seminars of this week</a>';
+    echo '<a href="./by_week/">April 29 - May 5</a>';
     
     echo '<br/>';
       
@@ -38,11 +38,14 @@ $relative_path_to_library = "../colloquia_and_seminars_lib/";
     
     echo '<br/>';
     
-    echo '<a href="./colloquia/"> Colloquia of the current semester</a>';
+    echo '<a href="./colloquia/">Spring 2019</a>';
     
     echo '<br/>';
     
-  Seminars::generate_seminar_page_list(ttu_math_seminars::$discipline_array);
+    
+    $array_out = array_splice(ttu_math_seminars::$discipline_array, 0, 12);
+    
+  Seminars::generate_seminar_page_list($array_out);
   
   echo '</body>';
 

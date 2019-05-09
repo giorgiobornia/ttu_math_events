@@ -21,7 +21,8 @@
  'math_ed'                   => 'Mathematics Education',
  'prep_for_profession'       => 'Preparation for the Profession',
  'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
- 'statistics'                => 'Statistics' 
+ 'statistics'                => 'Statistics',
+ 'colloquia'                 => 'Colloquia'
  );
  
   public static  $current_year = 2019;
