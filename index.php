@@ -21,12 +21,14 @@ $relative_path_to_library = "../colloquia_and_seminars_lib/";
   
   Seminars::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
   
-    echo '<br/>';
+   echo '<br/>';
+   echo '&nbsp Colloquia and seminars will resume Fall 2019. Have a great summer!';
+   echo '<br/>';
     
     echo '<h3> &nbsp <strong> Weekly colloquia and seminars </strong> </h3>';
     
     echo '<br/>';
-    
+    echo '<h4> &nbsp Spring 2019 </h4>';
     
     echo '&nbsp <a href="./by_week/2019/spring/4_29.php">Week of Monday, April 29</a>';    echo '<br/>';
     echo '&nbsp <a href="./by_week/2019/spring/4_22.php">Week of Monday, April 22</a>';    echo '<br/>';
