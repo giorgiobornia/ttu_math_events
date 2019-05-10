@@ -3,8 +3,14 @@
   class ttu_math_seminars {
  
  public static  $institution = 'Texas Tech University';
- public static  $department = 'Department of Mathematics and Statistics';
+ 
+ private static  $department_name = 'Department of Mathematics and Statistics';
+ private static  $department_url = 'https://www.depts.ttu.edu/math/';
+ 
+ public static  $department = array('Department of Mathematics and Statistics', 'https://www.depts.ttu.edu/math/'); //'Department of Mathematics and Statistics'; //ttu_math_seminars::$department_name;//array('hello', 'hi');
+ 
  public static  $icon_in_toolbar = './src/img/favicon.ico';
+
 
  public static  $math_server_url_base = 'http://www.math.ttu.edu/colloquia_and_seminars/';
  public static  $are_input_files_local = true;
