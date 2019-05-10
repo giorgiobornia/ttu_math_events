@@ -28,12 +28,21 @@ $relative_path_to_library = "../colloquia_and_seminars_lib/";
     echo '<br/>';
     
     
-    echo '&nbsp <a href="./by_week/2019/spring/4_29_5_5.php">April 29 - May 5</a>';
-    echo '<br/>';
-    echo '&nbsp <a href="./by_week/2019/spring/4_22_4_28.php">April 22 - April 28</a>';
-    echo '<br/>';
-    echo '&nbsp <a href="./by_week/2019/spring/4_15_4_21.php">April 15 - April 21</a>';
-    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_29.php">Week of Monday, April 29</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_22.php">Week of Monday, April 22</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_15.php">Week of Monday, April 15</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_8.php">Week of Monday, April 8</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_1.php">Week of Monday, April 1</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/3_25.php">Week of Monday, March 25</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/3_18.php">Week of Monday, March 18</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/3_11.php">Week of Monday, March 11</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/3_4.php">Week of Monday, March 4</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/2_25.php">Week of Monday, February 25</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/2_18.php">Week of Monday, February 18</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/2_11.php">Week of Monday, February 11</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/2_4.php">Week of Monday, February 4</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/1_28.php">Week of Monday, January 28</a>';    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/1_21.php">Week of Monday, January 21</a>';    echo '<br/>';
       
     echo '<br/>';
     
