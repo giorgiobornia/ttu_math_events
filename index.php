@@ -23,27 +23,30 @@ $relative_path_to_library = "../colloquia_and_seminars_lib/";
   
     echo '<br/>';
     
-    echo '<h3> <strong> Weekly colloquia and seminars </strong> </h3>';
+    echo '<h3> &nbsp <strong> Weekly colloquia and seminars </strong> </h3>';
     
     echo '<br/>';
     
     
-    echo '<a href="./by_week/">April 29 - May 5</a>';
-    
+    echo '&nbsp <a href="./by_week/2019/spring/4_29_5_5.php">April 29 - May 5</a>';
+    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_22_4_28.php">April 22 - April 28</a>';
+    echo '<br/>';
+    echo '&nbsp <a href="./by_week/2019/spring/4_15_4_21.php">April 15 - April 21</a>';
     echo '<br/>';
       
     echo '<br/>';
     
-    echo '<h3> <strong> Colloquia </strong> </h3>';
+    echo '<h3> &nbsp <strong> Colloquia </strong> </h3>';
     
     echo '<br/>';
     
-    echo '<a href="./colloquia/">Spring 2019</a>';
+    echo '&nbsp <a href="./colloquia/">Spring 2019</a>';
     
     echo '<br/>';
     
-    
-    $array_out = array_splice(ttu_math_seminars::$discipline_array, 0, 12);
+    $array_in = ttu_math_seminars::$discipline_array;
+    $array_out = array_splice($array_in, 0, 12);  ///@todo does this act on the input array? I want to pass a copy, not a reference
     
   Seminars::generate_seminar_page_list($array_out);
   
