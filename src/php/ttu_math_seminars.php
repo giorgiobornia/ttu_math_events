@@ -4,10 +4,7 @@
  
  public static  $institution = 'Texas Tech University';
  
- private static  $department_name = 'Department of Mathematics and Statistics';
- private static  $department_url = 'https://www.depts.ttu.edu/math/';
- 
- public static  $department = array('Department of Mathematics and Statistics', 'https://www.depts.ttu.edu/math/'); //'Department of Mathematics and Statistics'; //ttu_math_seminars::$department_name;//array('hello', 'hi');
+ public static  $department = array('Department of Mathematics and Statistics', 'https://www.depts.ttu.edu/math/'); ///@todo it seems like you cannot initialize static variables using other static variables
  
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 

@@ -1,9 +1,9 @@
  <?php
  
  //library
-$relative_path_to_apps = '../../../';
+$relative_path_to_apps = '../../../../';
 
-$relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
+$relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 
@@ -16,9 +16,9 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
  $year = 2019;
  $semester = "spring"; //lowercase for the folder names
  $month_begin = 3;
- $day_begin   = 4;
- $month_end   = 3;
- $day_end     = 10;
+ $day_begin = 18;
+ $month_end = 3;
+ $day_end = 24;
 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
                                                          ttu_math_seminars::$math_server_url_base,

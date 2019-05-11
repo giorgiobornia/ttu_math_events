@@ -1,9 +1,9 @@
  <?php
  
  //library
-$relative_path_to_apps = '../../../';
+$relative_path_to_apps = '../../../../';
 
-$relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
+$relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 
