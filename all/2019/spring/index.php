@@ -18,6 +18,9 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
 
   echo '<body>';
   
+  $discipline = 'all';
+  
+  Seminars::navigation_bar(ttu_math_seminars::$math_server_url_base, $relative_path_to_app, ttu_math_seminars::$are_input_files_local, $discipline);
   
   Seminars::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
   
