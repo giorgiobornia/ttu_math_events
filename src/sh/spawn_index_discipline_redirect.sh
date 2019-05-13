@@ -15,7 +15,7 @@ fi
  cd $file; 
 #  touch about.txt; 
 #   pwd;
-    cp ../src/sh/index_discipline.php index.php
+    cp ../src/sh/index_discipline_redirect.php index.php
 #   ls -l ../src/sh/index_discipline.php
  cd ../; 
  done
