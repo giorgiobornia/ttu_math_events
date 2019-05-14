@@ -14,11 +14,11 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
  
  $title = 'Colloquia and Seminars';
 
+  $discipline = 'all';
+  
   Seminars::set_html_head($relative_path_to_library, $title, $icon_in_toolbar);
 
   echo '<body>';
-  
-  $discipline = 'all';
   
   Seminars::navigation_bar(ttu_math_seminars::$math_server_url_base, $relative_path_to_app, ttu_math_seminars::$are_input_files_local, $discipline, ttu_math_seminars::$discipline_array, ttu_math_seminars::$department);
 

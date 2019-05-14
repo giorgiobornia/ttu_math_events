@@ -12,9 +12,12 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
  
   $icon_in_toolbar = $relative_path_to_apps . ttu_math_seminars::$icon_in_toolbar;
 
+  $array = Seminars::get_discipline_year_semester(__FILE__);
+
+//   print_r($array);
  
  $year = 2019;
- $semester = "spring"; //lowercase for the folder names
+ $semester = 'spring'; //lowercase for the folder names
  $month_begin = 4;
  $day_begin = 29;
  $month_end = 5;  ///@todo I can compute this automatically
