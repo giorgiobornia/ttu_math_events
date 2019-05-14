@@ -1,5 +1,3 @@
-weekday,time,room,,,,,,,,,
-Wednesday,4-5 PM,MATH 112,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
 9,5,Wednesday,4:00 PM,MATH 112,Chunmei Wang,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~chunmwan/,wang_square.jpg,Primal-Dual Weak Galerkin Finite Element Methods for PDEs,wang.txt
 9,13,Thursday,3:30 PM,CHEM 113,Giorgio Bornia,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~gbornia/,giorgio_bornia.jpg,Numerical Aspects of Coupled Problems in Fluid Dynamics,bornia.txt

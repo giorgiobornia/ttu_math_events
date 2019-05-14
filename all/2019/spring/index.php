@@ -37,7 +37,7 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     array(1, 21)
     );
     
-    $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
+        $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
     $array_in = ttu_math_seminars::$discipline_array;
     $only_seminars = array_splice($array_in, 0, $only_seminars_num);  ///@todo does this act on the input array? I want to pass a copy, not a reference
     
@@ -60,8 +60,6 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
                                                    $semester,
                                                    $week_month_day_begin,
                                                    $only_seminars,
-                                                   $colloquia);
- 
- 
+                                                   $colloquia); 
  ?>
  

@@ -28,7 +28,11 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
    echo '&nbsp Colloquia and seminars will resume Fall 2019. Have a great summer!';
    echo '<br/>';
     
-    echo '<h2> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h2>';
+    echo '<h3> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h3>';
+    
+    
+
+    
     
   echo '</body>';
 

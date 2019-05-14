@@ -1,5 +1,3 @@
-week_day,time,room,,,,,,,,,
-Wednesday,4-5 PM,MATH 110,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
 1,22,Tuesday,3:30 PM,ELECE 101,Vyron Vellis,Department of Mathematics,University of Connecticut,https://sites.google.com/site/vyronvellis/,DoubleT.jpg,Metric Spaces with Good Parameterizations,jan22.txt
 1,24,Thursday,3:30 PM,ELECE 101,Hung Tran,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/tra97432/,DoubleT.jpg,Geometric Partial Differential Equations,jan24.txt

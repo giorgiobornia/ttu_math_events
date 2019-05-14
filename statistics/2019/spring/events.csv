@@ -1,5 +1,3 @@
-week_day,time,room,,,,,,,,,
-Monday,4-5pm,MATH 115,,,,,,,,,
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
 2,4,Monday,4:00 PM,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric, Simple, and Powerful - Part I",empty.txt
 2,18,Monday,4:00 PM,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric, Simple, and Powerful - Part II",empty.txt
