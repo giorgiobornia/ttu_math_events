@@ -1,0 +1,2 @@
+I shall make an overview of problems concerning the embedding of various types of real and complex manifolds, 
+structured or not, in model spaces.

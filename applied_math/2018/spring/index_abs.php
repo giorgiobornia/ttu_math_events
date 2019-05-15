@@ -441,44 +441,6 @@ Our research concerns the numerical solution of the Eddy Currents Equation coupl
 
 
 
-<!--  <table class="sem_item">
-<tr>
-<td> <img class="sem_image img-circle"  src="images/DoubleT.jpg" alt="image">  </td>
- <td> 
- <strong> 
-   Wednesday, May 2
- </strong>
- <br>
-
- <em>
-   TBD
- </em> <br>
-    TBD
- <br>
-  <a id="toggle_abst_may2"> abstract </a> 
-  </td>
-</tr>
- </table> 
-
- 
- <span class="abst" id="abst_may2"> 
-TBD
- </span>
-
- 
- <script>
- $(document).ready(  //jQuery function
-  function(){
-    $("a#toggle_abst_may2").click(
-       function(){
-          $("span#abst_may2").toggle();
-        }
-      );  //end click
-    }
-  );  //end ready
-</script> -->
-
-
 <!-- =========================== -->
 <!-- =========================== -->
 <!-- =========================== -->
