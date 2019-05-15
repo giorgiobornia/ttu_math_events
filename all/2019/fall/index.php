@@ -30,9 +30,23 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     
     echo '<h3> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h3>';
     
-    
-
-    
+//        echo '<div>';
+// 
+//     echo '<script>';
+//     echo '  (function() {
+//     var cx = \'014955510460471337591:k1n3evty6rc\';
+//     var gcse = document.createElement(\'script\');
+//     gcse.type = \'text/javascript\';
+//     gcse.async = true;
+//     gcse.src = \'https://cse.google.com/cse.js?cx=\' + cx;
+//     var s = document.getElementsByTagName(\'script\')[0];
+//     s.parentNode.insertBefore(gcse, s);
+//   })();';
+//   
+//     echo '</script>
+// <gcse:search></gcse:search>';
+//     
+//        echo '</div>';
     
   echo '</body>';
 
