@@ -30,6 +30,8 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     
     echo '<h3> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h3>';
     
+    
+    
 //        echo '<div>';
 // 
 //     echo '<script>';
@@ -43,10 +45,13 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
 //     s.parentNode.insertBefore(gcse, s);
 //   })();';
 //   
-//     echo '</script>
-// <gcse:search></gcse:search>';
+//     echo '</script>';
+//     echo '<gcse:search></gcse:search>';
 //     
-//        echo '</div>';
+//     
+//      echo '</div>';
+     //I believe that the problem is that the content is taken from external files while he searches through only the linked pages
+     
     
   echo '</body>';
 

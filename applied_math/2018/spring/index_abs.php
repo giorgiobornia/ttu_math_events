@@ -4,144 +4,15 @@
 <html>
 <head>
 
- <?php $sem_mydepth = "../../"; ?>
- <?php   include($sem_mydepth . "../../seminars_model/src/php/functions.php"); ?>
-
- <?php include($sem_mydepth . "sem_head_links.php");  ?>
  
 </head>
 
 <body>
 
 
-
  
- 
- <div class="container text-center">
+ <div class="container">
 
- <br>
- 
- <!-- =========================== -->
-<!-- =========================== -->
-<!-- =========================== -->
-
-<!-- POTENTIAL SPEAKERS =========================== -->
-<!-- Zari -->
-
-
-  <table class="sem_item">
-<tr>
-<td> <img class="sem_image img-circle"  src="images/DoubleT.jpg" alt="image">  </td>
- <td> 
- <strong> 
-   Tuesday, January 23, 3:30pm, room CHEM 107
- </strong>
- <br>
-
- <em>
-   Backward SDE Methods for Nonlinear Filtering Problems
- </em> <br>
-   Feng Bao
- <br>
-  <a id="toggle_abst_january23"> abstract </a> 
-  </td>
-</tr>
- </table> 
-
- 
- <span class="abst" id="abst_january23"> 
-We consider a dynamical system modeled by a stochastic differential equation with observational data available for the functional of the system state. The goal of the nonlinear filtering problem is to find the best estimate of the state of the dynamical system based on the observation. Some well-known approaches include extended Kalman filter, particle filter and Zakai filter. In this presentation, we shall present a new nonlinear filtering method, named the backward SDE filter. The backward SDE filter has the accuracy advantage of continuous filters such as the Zakai filter. In the meantime, it has the same sampling flexibility of discrete filters such as the particle filter. Both theoretical results and numerical experiments will be presented.
- </span>
-
- 
- <script>
- $(document).ready(  //jQuery function
-  function(){
-    $("a#toggle_abst_january23").click(
-       function(){
-          $("span#abst_january23").toggle();
-        }
-      );  //end click
-    }
-  );  //end ready
-</script> 
-
-
-
-  <table class="sem_item">
-<tr>
-<td> <img class="sem_image img-circle"  src="images/volchenkov_square.jpg" alt="image">  </td>
- <td> 
- <strong> 
-   Wednesday, January 31
- </strong>
- <br>
-
- <em>
-     Survival under Uncertainty
- </em> <br>
-     Dimitri Volchenkov 
- <br>
-  <a id="toggle_abst_january31"> abstract </a> 
-  </td>
-</tr>
- </table> 
-
- 
- <span class="abst" id="abst_january31"> 
-  Stochastic modeling is used to estimate survival chances under uncertainty when factors arising due to volatile environments and those arising from subjective imperfections may evolve on different time scales. The most favorable survival statistics then obeys the Zipf power law, however survival is always fleeting in precarious environments, in line with the observations of Leigh Van Valen on that all groups of species go extinct (in million years) at a rate that is constant for a given group. Similar probability models may be used in order to understand the temporal patterns of interaction in daily human communications, as well as in searching and hunting behavior. We also demonstrate that the risk averse behavior (concavity of the utility function) naturally leads to the Pareto-like distributions of income (inequality) over the society. We report on the world-wide economic growth- inequality relation (U-curve) observed by us in the historical trends (1870-2014) for the first time. The observed trend in state secession suggests that half of presently extant states might break up by the end of the century. Perhaps, we are on the edge of global uncertainty.
- </span>
-
- 
- <script>
- $(document).ready(  //jQuery function
-  function(){
-    $("a#toggle_abst_january31").click(
-       function(){
-          $("span#abst_january31").toggle();
-        }
-      );  //end click
-    }
-  );  //end ready
-</script> 
-
-
-  <table class="sem_item">
-<tr>
-<td> <img class="sem_image img-circle"  src="images/tran_hung_square.jpg" alt="image">  </td>
- <td> 
- <strong> 
-   Wednesday, February 7
- </strong>
- <br>
-
- <em>
-   Numerical Index Computation for Free Boundary Minimal Hypersurfaces
- </em> <br>
-   Hung Tran
- <br>
-  <a id="toggle_abst_february7"> abstract </a> 
-  </td>
-</tr>
- </table> 
-
- 
- <span class="abst" id="abst_february7"> 
-Free boundary minimal hypersurfaces locally minimize the area when the boundary is free to move on a given domain. The Morse index gives the number of distinctive deformations that would decrease the area to the second order. It is of most important to understand hypersurfaces with small indices and the Fraser-Schoen conjecture and its cousins are fundamental in this direction. As a consequence, we will discuss how numerical arguments can be used to address those conjectures. 
- </span>
-
- 
- <script>
- $(document).ready(  //jQuery function
-  function(){
-    $("a#toggle_abst_february7").click(
-       function(){
-          $("span#abst_february7").toggle();
-        }
-      );  //end click
-    }
-  );  //end ready
-</script> 
 
 
 
