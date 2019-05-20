@@ -17,9 +17,15 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
  $semester = "spring"; //lowercase for the folder names
  $month_begin = 1;
  $day_begin   = 28;
- $month_end   = 2;
- $day_end     = 3;
 
+ $offset_wanted = 6;
+ 
+ $month_and_day_out = Seminars::compute_subsequent_day_with_offset($year, $month_begin, $day_begin, $offset_wanted);
+
+ $month_end   = $month_and_day_out[0];
+ $day_end     = $month_and_day_out[1];
+ 
+ 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
                                                          ttu_math_seminars::$math_server_url_base,
                                                          $relative_path_to_apps,
