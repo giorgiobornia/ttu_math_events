@@ -29,7 +29,8 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     
     
  $week_month_day_auto = Seminars::generate_initial_week_days($year, $first_monday_month, $first_monday_day, $last_monday_month, $last_monday_day);
-    
+
+//to generate all semester files 
 //    Seminars::generate_initial_week_files($year, $first_monday_month, $first_monday_day, $last_monday_month, $last_monday_day,'../../../src/sh/week_file.php','./week/');
 
     $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
