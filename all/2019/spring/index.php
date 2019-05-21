@@ -30,10 +30,8 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     
  $week_month_day_auto = Seminars::generate_initial_week_days($year, $first_monday_month, $first_monday_day, $last_monday_month, $last_monday_day);
     
-//      print_r($week_month_day_auto);
-//      echo '<br/>';
-//      print_r($week_month_day_begin);
-    
+//    Seminars::generate_initial_week_files($year, $first_monday_month, $first_monday_day, $last_monday_month, $last_monday_day,'../../../src/sh/week_file.php','./week/');
+
     $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
     $array_in = ttu_math_seminars::$discipline_array;
     $only_seminars = array_splice($array_in, 0, $only_seminars_num);  ///@todo does this act on the input array? I want to pass a copy, not a reference
