@@ -13,31 +13,28 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
  
  $title = 'Colloquia and Seminars';
- $discipline = 'all';
  
- $year = '2019';
- $semester = 'spring';
 
- ///@todo create a function that generates all Mondays
- $week_month_day_begin = array(
-    array(4, 29),
-    array(4, 22),
-    array(4, 15),
-    array(4, 8),
-    array(4, 1),
-    array(3, 25),
-    array(3, 18),
-    array(3, 11),
-    array(3, 4),
-    array(2, 25),
-    array(2, 18),
-    array(2, 11),
-    array(2, 4),
-    array(1, 28),
-    array(1, 21)
-    );
+  $first_monday_month = 1;
+  $first_monday_day = 21;
+  $last_monday_month = 4;
+  $last_monday_day = 29;
+  
+  
+ $array_coords = Seminars::get_discipline_year_semester(__FILE__);
     
-        $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
+ $semester = $array_coords[0];
+ $year = $array_coords[1];
+ $discipline = $array_coords[2];
+    
+    
+ $week_month_day_auto = Seminars::generate_initial_week_days($year, $first_monday_month, $first_monday_day, $last_monday_month, $last_monday_day);
+    
+//      print_r($week_month_day_auto);
+//      echo '<br/>';
+//      print_r($week_month_day_begin);
+    
+    $only_seminars_num = count(ttu_math_seminars::$discipline_array) - 1;
     $array_in = ttu_math_seminars::$discipline_array;
     $only_seminars = array_splice($array_in, 0, $only_seminars_num);  ///@todo does this act on the input array? I want to pass a copy, not a reference
     
@@ -58,7 +55,7 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
                                                    ttu_math_seminars::$institution,
                                                    $year,
                                                    $semester,
-                                                   $week_month_day_begin,
+                                                   $week_month_day_auto,
                                                    $only_seminars,
                                                    $colloquia); 
  ?>
