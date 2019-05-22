@@ -1,5 +1,5 @@
 month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
 3,7,Thursday,4:00 pm,MATH 238,Lars Christensen,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,The Mathematics of Solving Sudoku,christensen.txt
 3,28,Thursday,4:30 pm,MATH 110,Alexis Gomez,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,Network-Enabled Comparative Tools for Microbiomes in Transition,gomez.txt
-4,4,Thursday,4:30 pm,MATH 110,Giorgio Bornia,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,The mathematics of a nuclear reactor,bornia.txt
+4,4,Thursday,4:30 pm,MATH 110,Giorgio Bornia,Department of Mathematics & Statistics,Texas Tech University,,bornia.jpg,The mathematics of a nuclear reactor,bornia.txt
 4,18,Thursday,4:30 pm,MATH 110,Cezar Lupu and Alexander Morgan-Fleming,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,An invitation to the Putnam Seminar,putnam.txt
