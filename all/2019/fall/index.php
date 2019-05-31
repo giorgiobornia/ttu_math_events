@@ -1,13 +1,14 @@
  <?php
  
  //library
-$relative_path_to_app = '../../../';
 
 $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 
 //application
+$relative_path_to_app = '../../../';
+
  include($relative_path_to_app . './src/php/ttu_math_seminars.php');
  
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;

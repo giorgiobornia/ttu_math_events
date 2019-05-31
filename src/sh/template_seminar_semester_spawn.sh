@@ -13,7 +13,8 @@ fi
  cd $container;
 
 
- for discipline in  algebra_and_number_theory   applied_math   analysis  biomath  geometry  image_analysis  logic_topology  math_club  math_ed  prep_for_profession  real_algebraic_geometry  statistics  colloquia;
+ for discipline in  algebra_and_number_theory   applied_math   analysis  biomath  geometry  image_analysis  logic_topology  math_club  math_ed  prep_for_profession  real_algebraic_geometry  statistics;
+#  for discipline in  colloquia;
    do
      mkdir -p $discipline/$year/$semester;
      cd $discipline/$year/$semester;

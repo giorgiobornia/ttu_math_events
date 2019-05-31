@@ -1,0 +1,16 @@
+month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+1,23,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part III),empty.txt
+1,300,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part IV),empty.txt
+2,6,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part V),empty.txt
+2,13,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part VI),empty.txt
+2,20,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part VII),empty.txt
+2,27,Wednesday,4:00 PM,MATH 112,Cezar Lupu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The dilogarithm function in geometry and number theory (Part VIII),empty.txt
+3,6,Wednesday,4:00 PM,MATH 112,Vlad Matei,Department of Mathematics,UC Irvine,,DoubleT.jpg,Point counting and cohomology,empty.txt
+3,11,Monday,3:00 PM,MATH 112,Peter Ulrickson,Department of Mathematics,Catholic University of America,,DoubleT.jpg,Supersymmetric Euclidan field Theories and K-theory,empty.txt
+3,27,Wednesday,4:00 PM,MATH 112,Alastair Hamilton,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Ribbon graph decomposition of the moduli space fo Riemann surfaces. Part II,empty.txt
+4,3,Wednesday,4:00 PM,MATH 112,Alastair Hamilton,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Algebraic model for homology of the moduli space of Riemann surfaces. Part II,empty.txt
+4,10,Wednesday,4:00 PM,MATH 112,Alastair Hamilton,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Algebraic model for homology of the moduli space of Riemann surfaces,empty.txt
+4,17,Wednesday,4:00 PM,MATH 112,Charles Frohman,Department of Mathematics,University of Iowa,,DoubleT.jpg,Invariants of Geometric structures of three-manifolds derived from the Kauffman bracket,empty.txt
+4,24,Wednesday,4:00 PM,MATH 112,Alastair Hamilton,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,An isomorphism between the graph complex and the Chevalley–Eilenberg complex of a differential graded Lie algebra,empty.txt
+5,1,Wednesday,4:00 PM,MATH 112,Adrian Zahariuc,Department of Mathematics,UC Davis,,DoubleT.jpg,A Riemann-Hurwitz-Plucker formula,empty.txt
+5,8,Wednesday,4:00 PM,MATH 112,Alastair Hamilton,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Moduli spaces of Riemann surfaces. IV,empty.txt
