@@ -1,6 +1,0 @@
- 
-Polynomials in three variables x, y, and z form an algebraic structure known as a ring. 
-Just as subspaces are distinguished subsets of a vector space, a ring has its distinguished subsets known as ideals. 
-All linear combinations - with polynomial coefficients – of $ p_1 = x y^2 z - x^4 $, $ p_2 = xy-xz $, and $ p_3 = xy-xz $ form an ideal. 
-Does the polynomial $ x^{15} + y^{15} – xz^{14} $ belong to this ideal?
-This is not straightforward to decide, but there is a way, and I will illustrate it with some examples from a popular past time.
