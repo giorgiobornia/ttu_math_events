@@ -63,7 +63,13 @@ $relative_path_to_app = '../../../';
 
   echo '<body>';
   
-  Seminars::navigation_bar(ttu_math_seminars::$math_server_url_base, $relative_path_to_app, ttu_math_seminars::$are_input_files_local, $discipline, ttu_math_seminars::$discipline_array, ttu_math_seminars::$department);
+  Seminars::navigation_bar(ttu_math_seminars::$math_server_url_base,
+                           $relative_path_to_app,
+                           ttu_math_seminars::$are_input_files_local, 
+                           $discipline, 
+                           ttu_math_seminars::$discipline_array,
+                           ttu_math_seminars::$colloquium_array,
+                           ttu_math_seminars::$department);
 
   Seminars::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
   

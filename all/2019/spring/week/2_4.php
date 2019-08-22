@@ -50,6 +50,8 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
                                                          $day_begin,
                                                          $month_end,
                                                          $day_end,
-                                                         ttu_math_seminars::$discipline_array);
+                                                         ttu_math_seminars::$discipline_array,
+                                                         ttu_math_seminars::$colloquium_array
+                                                         );
 
  ?>

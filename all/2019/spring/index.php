@@ -50,6 +50,7 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
                                                    ttu_math_seminars::$are_input_files_local,
                                                    $discipline,
                                                    ttu_math_seminars::$discipline_array,
+                                                   ttu_math_seminars::$colloquium_array,
                                                    ttu_math_seminars::$department,
                                                    ttu_math_seminars::$institution,
                                                    $year,

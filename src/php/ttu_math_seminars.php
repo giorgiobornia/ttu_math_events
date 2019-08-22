@@ -31,9 +31,13 @@
  'math_ed'                   => 'Mathematics Education',
  'prep_for_profession'       => 'Preparation for the Profession',
  'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
- 'statistics'                => 'Statistics',
- 'colloquia'                 => 'Colloquia' //we should separate this, so far we know that it is the last one
+ 'statistics'                => 'Statistics'
+);
+ 
+  public static $colloquium_array = array(
+  'colloquia'                 => 'Colloquia' //we should separate this, so far we know that it is the last one //somewhere there is a 12 that we have to get rid of...
  );
+ 
  
   public static  $current_year = 2019;
   public static  $current_semester = 'spring';
