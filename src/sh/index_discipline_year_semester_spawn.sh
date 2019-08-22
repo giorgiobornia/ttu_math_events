@@ -19,7 +19,7 @@ fi
  cd $discipline/$year/$semester; 
 #  touch about.txt; 
    pwd;
-   cp ../../../src/sh/index_discipline_year_semester.php index.php;
+   cp ../../../../src/sh/index_discipline_year_semester.php index.php;
 #    ls -l ../../../src/sh/index_discipline_year_semester.php;
  cd ../../../; 
  done
