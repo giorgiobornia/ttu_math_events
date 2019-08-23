@@ -41,7 +41,10 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
     
     $colloquia = $newArray[$only_seminars_num]; //the last component is 'colloquia'
     
-   
+
+   $is_seminar_colloquium_all = 2;
+
+    
  Seminars::generate_page_with_all_weeks_list($relative_path_to_library, 
                                                    $title,
                                                    $icon_in_toolbar,
@@ -51,6 +54,9 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
                                                    $discipline,
                                                    ttu_math_seminars::$discipline_array,
                                                    ttu_math_seminars::$colloquium_array,
+                                                   ttu_math_seminars::$seminar_container,
+                                                   ttu_math_seminars::$colloquium_container,
+                                                   $is_seminar_colloquium_all,
                                                    ttu_math_seminars::$department,
                                                    ttu_math_seminars::$institution,
                                                    $year,

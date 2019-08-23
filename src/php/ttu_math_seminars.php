@@ -80,8 +80,12 @@
   
   //====================================
   
-   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $my_container, $seminar_container, $colloquium_container) {
+   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium, $seminar_container, $colloquium_container) {
    
+   
+//    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
+
+
 
    $array = Seminars::get_discipline_year_semester($filename);
  
@@ -92,9 +96,10 @@
 //  $array[0] => ttu_math_seminars::$discipline_array[$array[0]]
 //  );
  
- $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base /*. $my_container*/  /* . '/'*/; //no final slash here!!!
+ $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base; //no final slash here!!!
  
- $event_container_local_path_prefix = $relative_path_to_app                     /*. $my_container*/  /* . '/'*/; //no final slash here!!!
+ $event_container_local_path_prefix = $relative_path_to_app; //no final slash here!!!
+
  
  Seminars::generate_seminar_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
  
@@ -109,7 +114,8 @@
                                                         ttu_math_seminars::$discipline_array,
                                                         ttu_math_seminars::$colloquium_array,
                                                         ttu_math_seminars::$seminar_container,
-                                                        ttu_math_seminars::$colloquium_container
+                                                        ttu_math_seminars::$colloquium_container,
+                                                        $is_seminar_colloquium
                                                         ); 
   
   }

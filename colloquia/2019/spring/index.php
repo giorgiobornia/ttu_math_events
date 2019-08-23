@@ -12,7 +12,9 @@
  
  $filename = __FILE__;
   
- ttu_math_seminars::seminar_webpage($filename, $relative_path_to_app, $relative_path_to_lib, ttu_math_seminars::$colloquium_container, ttu_math_seminars::$seminar_container, ttu_math_seminars::$colloquium_container);
+ $is_seminar_colloquium_all = 1; 
+  
+ ttu_math_seminars::seminar_webpage($filename, $relative_path_to_app, $relative_path_to_lib, $is_seminar_colloquium_all, ttu_math_seminars::$seminar_container, ttu_math_seminars::$colloquium_container);
  
  
  ?>

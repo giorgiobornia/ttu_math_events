@@ -37,6 +37,11 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
  $day_end     = $month_and_day_out[1];
  
  
+ 
+ $is_seminar_colloquium_all = 2;
+ 
+ 
+ 
  Seminars::generate_page_with_all_seminars_by_time_range($relative_path_to_library,
                                                          ttu_math_seminars::$math_server_url_base,
                                                          $relative_path_to_apps,
@@ -51,7 +56,10 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
                                                          $month_end,
                                                          $day_end,
                                                          ttu_math_seminars::$discipline_array,
-                                                         ttu_math_seminars::$colloquium_array
+                                                         ttu_math_seminars::$colloquium_array,
+                                                         ttu_math_seminars::$seminar_container,
+                                                         ttu_math_seminars::$colloquium_container,
+                                                         $is_seminar_colloquium_all
                                                          );
 
  ?>
