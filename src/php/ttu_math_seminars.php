@@ -39,6 +39,40 @@
  );
  
  
+ public static $seminar_container = 'seminars';
+ public static $colloquium_container = '';
+
+ public static $groups_of_events_menu_categories = array('Seminars','Colloquia');
+ public static $groups_of_events_containers = array('seminars','');
+ public static $groups_of_events            = array(
+ 
+ array(
+ 'algebra_and_number_theory' => 'Algebra and Number Theory', 
+ 'analysis'                  => 'Analysis', 
+ 'applied_math'              => 'Applied Mathematics',
+ 'biomath'                   => 'Biomathematics',
+ 'geometry'                  => 'Geometry',
+ 'image_analysis'            => 'Image Analysis',
+ 'logic_topology'            => 'Logic and Topology',
+ 'math_club'                 => 'Math Club',
+ 'math_ed'                   => 'Mathematics Education',
+ 'prep_for_profession'       => 'Preparation for the Profession',
+ 'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
+ 'statistics'                => 'Statistics'
+)
+
+ ,
+ 
+ array(
+  'colloquia'                 => 'Colloquia' //we should separate this, so far we know that it is the last one //somewhere there is a 12 that we have to get rid of...
+ )
+ 
+ );
+
+ 
+//  ttu_math_seminars::$discipline_array, ttu_math_seminars::$colloquium_array);
+ 
+ 
   public static  $current_year = 2019;
   public static  $current_semester = 'spring';
   
@@ -46,7 +80,7 @@
   
   //====================================
   
-   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library) {
+   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $my_container, $seminar_container, $colloquium_container) {
    
 
    $array = Seminars::get_discipline_year_semester($filename);
@@ -58,9 +92,9 @@
 //  $array[0] => ttu_math_seminars::$discipline_array[$array[0]]
 //  );
  
- $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base . 'seminars/';
+ $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base /*. $my_container*/  /* . '/'*/; //no final slash here!!!
  
- $event_container_local_path_prefix = $relative_path_to_app . 'seminars/';
+ $event_container_local_path_prefix = $relative_path_to_app                     /*. $my_container*/  /* . '/'*/; //no final slash here!!!
  
  Seminars::generate_seminar_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
  
@@ -73,7 +107,9 @@
                                                         $array,
                                                         $icon_in_toolbar,
                                                         ttu_math_seminars::$discipline_array,
-                                                        ttu_math_seminars::$colloquium_array
+                                                        ttu_math_seminars::$colloquium_array,
+                                                        ttu_math_seminars::$seminar_container,
+                                                        ttu_math_seminars::$colloquium_container
                                                         ); 
   
   }
