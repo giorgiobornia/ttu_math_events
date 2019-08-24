@@ -1,2 +1,2 @@
-month, day, week_day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-8,27,Tuesday,3:30 pm,MATH 112,Dmitri Pavlov,Texas Tech University,Department of Mathematics and Statistics,https://dmitripavlov.org,DoubleT.jpg,What is a geometric cohomology theory?,empty.txt
+month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+8,27,3:30 pm,MATH 112,Dmitri Pavlov,Texas Tech University,Department of Mathematics and Statistics,https://dmitripavlov.org,DoubleT.jpg,What is a geometric cohomology theory?,empty.txt
