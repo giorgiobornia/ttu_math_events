@@ -18,7 +18,7 @@ fi
    do
      mkdir -p $discipline/$year/$semester;
      cd $discipline/$year/$semester;
-     cp -r ../../../src/sh/template_seminar_semester/.   .  # copies a folder without copying the containing folder as well
+     cp -r ../../../src/sh/template_seminar_year_semester/.   .  # copies a folder without copying the containing folder as well
      cd ../../../; 
   done
 

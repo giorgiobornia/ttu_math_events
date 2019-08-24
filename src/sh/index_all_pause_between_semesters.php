@@ -15,11 +15,6 @@ $relative_path_to_app = '../../../';
  
  $title = 'Colloquia and Seminars';
  
-
-  $first_monday_month = 8;
-  $first_monday_day = 26;
-  $last_monday_month = 12;
-  $last_monday_day = 2;
   
   
  $array_coords = Seminars::get_discipline_year_semester(__FILE__);
@@ -52,33 +47,12 @@ $relative_path_to_app = '../../../';
 
   
    echo '<br/>';
-   echo '&nbsp Colloquia and seminars will resume Fall 2019. Have a great summer!';
+   echo '&nbsp Colloquia and seminars will resume next semester. Have a great break!';
    echo '<br/>';
     
-    echo '<h3> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h3>';
+//     echo '<h3> &nbsp <a href="../spring/">  <strong> Spring 2019  </strong> </a> </h3>';
     
     
-    
-//        echo '<div>';
-// 
-//     echo '<script>';
-//     echo '  (function() {
-//     var cx = \'014955510460471337591:k1n3evty6rc\';
-//     var gcse = document.createElement(\'script\');
-//     gcse.type = \'text/javascript\';
-//     gcse.async = true;
-//     gcse.src = \'https://cse.google.com/cse.js?cx=\' + cx;
-//     var s = document.getElementsByTagName(\'script\')[0];
-//     s.parentNode.insertBefore(gcse, s);
-//   })();';
-//   
-//     echo '</script>';
-//     echo '<gcse:search></gcse:search>';
-//     
-//     
-//      echo '</div>';
-     //I believe that the problem is that the content is taken from external files while he searches through only the linked pages
-     
     
   echo '</body>';
 
