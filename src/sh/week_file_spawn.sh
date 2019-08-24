@@ -18,11 +18,16 @@ fi
      cd $container/$year/$semester/$week_container;
 
 
- #draft    
- 
- 
- months=( 4  4  4 4 4  3  3  3 3  2  2  2 2  1  1);
-   days=(29 22 15 8 1 25 18 11 4 25 18 11 4 28 21);
+
+# # 2019, Spring 
+#  months=( 4  4  4 4 4  3  3  3 3  2  2  2 2  1  1);
+#    days=(29 22 15 8 1 25 18 11 4 25 18 11 4 28 21);
+
+# 2019, Fall 
+ months=( 8 9 9 9 9 9      10 10 10 10   11 11 11 11  12);
+   days=(26 2 9 16 23 30   7 14 21 28    4 11 18 25    2);
+
+
  
  mysize_m=${#months[@]};
  mysize_d=${#days[@]};
