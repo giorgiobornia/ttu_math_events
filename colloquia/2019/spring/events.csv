@@ -1,4 +1,4 @@
-month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 1,22,3:30 PM,ELECE 101,Vyron Vellis,Department of Mathematics,University of Connecticut,https://sites.google.com/site/vyronvellis/,vellis.jpg,Metric Spaces with Good Parameterizations,vellis.txt
 1,24,3:30 PM,ELECE 101,Hung Tran,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/tra97432/,tran.jpg,Geometric Partial Differential Equations,tran.txt
 2,11,3:00 PM,ESB 120,Stamatis Pouliasis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/stamatispouliasis/,pouliasis.jpg,Capacities and applications in complex analysis and conformal geometry,pouliasis.txt

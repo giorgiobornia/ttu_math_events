@@ -1,4 +1,4 @@
-month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,13,3:30 PM,CHEM 113,Giorgio Bornia,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~gbornia/,bornia.jpg,Numerical Aspects of Coupled Problems in Fluid Dynamics,bornia.txt
 9,27,3:30 PM,CHEM 113,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,,hoang.jpg,Analysis of the Navier-Stokes Systems and Generalized Forchheimer Flows,luan.txt
 10,4,3:30 PM,CHEM 113,Xiaoqian Sun,School of Mathematical and Statistical Sciences,Clemson University,,sun.jpg,On High-Dimensional Covariance Matrix Estimation and Hypothesis Testing (SIAM Colloquium),sun.txt
