@@ -1,6 +1,6 @@
 month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-2,4,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric
-2,18,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric
-3,4,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"Detecting a Change in Scale- Using Sequential Normal Scores EWMA, Change Point Estimation
-4,8,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"Multivariate Sequential Normal Scores - To Detect a Change in Location, To Detect Changes in Location or Scale or Both"
+2,4,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric, Simple, and Powerful",empty.txt
+2,18,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"An Approach to Statistical Process Control that is New, Nonparametric, Simple, and Powerful",empty.txt
+3,4,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"Detecting a Change in Scale- Using Sequential Normal Scores EWMA, Change Point Estimation",empty.txt
+4,8,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,"Multivariate Sequential Normal Scores - To Detect a Change in Location, To Detect Changes in Location or Scale or Both",empty.txt
 4,29,4:00 pm,MATH 115,Jay Conover,Department of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,Sequential Normal Scores in Profile Monitoring,empty.txt
