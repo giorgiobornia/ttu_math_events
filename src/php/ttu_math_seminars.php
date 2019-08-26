@@ -35,43 +35,13 @@
 );
  
   public static $colloquium_array = array(
-  'colloquia'                 => 'Colloquia' //we should separate this, so far we know that it is the last one //somewhere there is a 12 that we have to get rid of...
+  'colloquia'                 => 'Colloquia'
  );
  
  
  public static $seminar_container = 'seminars';
  public static $colloquium_container = '';
 
- public static $groups_of_events_menu_categories = array('Seminars','Colloquia');
- public static $groups_of_events_containers = array('seminars','');
- public static $groups_of_events            = array(
- 
- array(
- 'algebra_and_number_theory' => 'Algebra and Number Theory', 
- 'analysis'                  => 'Analysis', 
- 'applied_math'              => 'Applied Mathematics',
- 'biomath'                   => 'Biomathematics',
- 'geometry'                  => 'Geometry',
- 'image_analysis'            => 'Image Analysis',
- 'logic_topology'            => 'Logic and Topology',
- 'math_club'                 => 'Math Club',
- 'math_ed'                   => 'Mathematics Education',
- 'prep_for_profession'       => 'Preparation for the Profession',
- 'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
- 'statistics'                => 'Statistics'
-)
-
- ,
- 
- array(
-  'colloquia'                 => 'Colloquia' //we should separate this, so far we know that it is the last one //somewhere there is a 12 that we have to get rid of...
- )
- 
- );
-
- 
-//  ttu_math_seminars::$discipline_array, ttu_math_seminars::$colloquium_array);
- 
  
   public static  $current_year = 2019;
   public static  $current_semester = 'fall';
@@ -92,9 +62,7 @@
     
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
   
-//  $folder_transl = array(
-//  $array[0] => ttu_math_seminars::$discipline_array[$array[0]]
-//  );
+
  
  $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base; //no final slash here!!!
  

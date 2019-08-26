@@ -24,8 +24,7 @@ fi
 
 # cp ../../../../src/sh/template_seminar_year_semester/events.csv .;
 
-cut -d, -f1-2,4-12  events.csv > events_new.csv;  #redirect on the same file doesn't work?!?
-
+cut -d, -f1-2,4-12  events.csv > events_new.csv;  #I tried to redirect on the same file but something didn't work apparently...
 rm events.csv;
 mv events_new.csv events.csv;
 

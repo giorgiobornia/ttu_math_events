@@ -1,4 +1,4 @@
-month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
+month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 1,29,3:30 PM,MATH 110,Chunmei Wang,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Primal-Dual Weak Galerkin Finite Element Methods for PDEs,empty.txt
 2,5,3:30 PM,MATH 110,Chunmei Wang,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Primal-Dual Weak Galerkin Finite Element Methods for PDEs,empty.txt
 2,12,3:30 PM,MATH 110,Chunmei Wang,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Primal-Dual Weak Galerkin Finite Element Methods for PDEs,empty.txt
