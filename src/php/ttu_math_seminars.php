@@ -26,7 +26,7 @@
  'biomath'                   => 'Biomathematics',
  'geometry'                  => 'Geometry',
  'image_analysis'            => 'Image Analysis',
- 'logic_topology'            => 'Logic and Topology',
+ 'logic_topology'            => 'Logic-Topology',
  'math_club'                 => 'Math Club',
  'math_ed'                   => 'Mathematics Education',
  'prep_for_profession'       => 'Preparation for the Profession',
