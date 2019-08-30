@@ -24,12 +24,13 @@
  'analysis'                  => 'Analysis', 
  'applied_math'              => 'Applied Mathematics',
  'biomath'                   => 'Biomathematics',
- 'geometry'                  => 'Geometry',
+ 'geometry'                  => 'Topology and Geometry',
  'image_analysis'            => 'Image Analysis',
  'logic_topology'            => 'Logic-Topology',
  'math_club'                 => 'Math Club',
  'math_ed'                   => 'Mathematics Education',
  'prep_for_profession'       => 'Preparation for the Profession',
+ 'quantum_homotopy'          => 'Quantum Homotopy',
  'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
  'statistics'                => 'Statistics'
 );

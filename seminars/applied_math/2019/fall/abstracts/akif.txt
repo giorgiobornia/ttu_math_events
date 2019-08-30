@@ -1,0 +1,4 @@
+In this talk we will present a technique to derive degenerate equation for compressible fluids which does not use Darcy's postulate. The method is based on Einstein's integral conservation law for a scalar parameter characterizing number of molecules in unit volume. The method is then used to derive degenerate parabolic equation in non-divergent form for ideal gases in porous media.
+
+In the next step we utilize Landis's ideas to prove that if the Cauchy problem solution has compact support at reference time, then at any  time after the designated reference time,  it will have compact support.
+Proposed method is inspired by much more general result obtained by Tedeeev and Vespri. 

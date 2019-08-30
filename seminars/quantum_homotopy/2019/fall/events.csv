@@ -1,0 +1,15 @@
+month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
+8,26,3 pm,MATH 113,Dmitri Pavlov,Department of Mathematics and Statistics,Texas Tech University,https://dmitripavlov.org/,DoubleT.jpg,What is quantum homotopy?,empty.txt
+9,9,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 1.  Mechanics on manifolds and classical field theory,empty.txt
+9,16,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 2.  Quantum mechanics I,empty.txt
+9,23,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 3.  Quantum mechanics II,empty.txt
+9,30,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 4.  Gauge theory I,empty.txt
+10,7,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 5.  Gauge theory II,empty.txt
+10,14,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 6.  Functorial field theory,empty.txt
+10,21,3 pm,MATH 113,Stephen Peña,Department of Mathematics and Statistics,Texas Tech University,http://stephenpena.org/,DoubleT.jpg,Introduction to quantum field theory 7.  Algebraic quantum field theory,empty.txt
+10,28,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Introduction to Lie Theory and Natural Operations,empty.txt
+11,4,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,On the Uniqueness of Lie Theory,empty.txt
+11,11,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Introduction to Leibniz Algebras,empty.txt
+11,18,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,"Generalizations of Lie Theory: Smooth Mal'cev Theories, Formal Group Laws, Fat Points",empty.txt
+11,25,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Internal Logic of Fat Points,empty.txt
+12,2,3 pm,MATH 113,James Francese,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Internal Logic of Fat Points II: Models for a Leibniz Theory,empty.txt

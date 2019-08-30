@@ -1,2 +1,10 @@
 month, day, time, room, speaker,speaker_department,speaker_institution,speaker_url, speaker_image, title, abstract_file
-8,27,3:30 pm,MATH 112,Dmitri Pavlov,Texas Tech University,Department of Mathematics and Statistics,https://dmitripavlov.org,DoubleT.jpg,What is a geometric cohomology theory?,empty.txt
+8,27,3:30 pm,MATH 112,Dmitri Pavlov,Department of Mathematics and Statistics,Texas Tech University,https://dmitripavlov.org,DoubleT.jpg,What is a geometric cohomology theory?,"I will talk about my series of research projects on geometric models for cohomology theories.  I will start with the traditional definition by Eilenberg and Steenrod, in which a cohomology theory is a sequence of functors $h^n\colon{\rm Top}^{\rm op}\to{\rm Ab}$ together with coboundary maps $\partial^n\colon h^n(A)\to h^{n+1}(X/A)$ and explain how it can be generalized to better capture the geometric aspects of such theories."
+9,3,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,An introduction to differential cohomology,empty.txt
+9,10,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The Atiyah–Hirzebruch spectral sequences for differential cohomology theories I,empty.txt
+9,17,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,The Atiyah–Hirzebruch spectral sequences for differential cohomology theories II,empty.txt
+9,24,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Twisted differential cohomology and the twisted Atiyah–Hirzebruch spectral sequence I,empty.txt
+10,1,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Twisted differential cohomology and the twisted Atiyah–Hirzebruch spectral sequence II,empty.txt
+10,8,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Quantization conditions on Ramond–Ramond fields,empty.txt
+10,15,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Differential KO-theory I,empty.txt
+10,22,3:30 pm,MATH 112,Daniel Grady,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Differential KO-theory II,empty.txt
