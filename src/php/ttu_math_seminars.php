@@ -37,7 +37,7 @@
  
   public static $colloquium_array = array(
   'colloquia'                 => 'Colloquia',
-//   'conferences'               => 'Conferences'
+  'meetings_and_conferences'  => 'Meetings and Conferences'
  );
  
  
