@@ -1,2 +1,7 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,4,4:00 PM,MATH 015,Akif Ibraguimov,Department of Mathematics and Statistics,Texas Tech University,,ibraguimov.jpg,Einstein method in derivation of parabolic equation for flows of compressible fluids in porous media,akif.txt
+9,18,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Singular PDEs (stochastic PDEs with space-time white noise),Kazuo.txt
+9,25,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,TBA,
+10,2,4:00 PM,MATH 015,Tao Lu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,TBA,
+10,10,3:30PM,ELECE 101,Lili Ju,Department of Mathematics,University of South Carolina,,DoubleT.jpg,Localized Exponential Time Differencing Methods: Algorithms and Analysis,Ju.txt
+10,16,4:00 PM,MATH 015,David Huckleberry Gutman,"Department of Industrial, Manufacturing & Systems Engineering",Texas Tech University,,DoubleT.jpg,TBA,

@@ -1,3 +1,6 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,5,3:30 PM,ELEC 101,Dimitri Volchenkov,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Half-Life: Modeling Across Scales,volchenkov.txt
-9,12,3:30 PM,ELEC 101,Victoria Howle,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,TBA,empty.txt
+9,12,3:30 PM,ELEC 101,Victoria Howle,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Block Preconditioning for Implicit Runge-Kutta Methods for Time-Dependent PDE Problems,howle.txt
+10,15,3:30 PM,ESB 120,Mathias Heinkenschloss,Computational and Applied Mathematics,Rice University,https://www.caam.rice.edu/~heinken/,DoubleT.jpg,SIAM Colloquium talk,empty.txt
+10,22,3:30 PM,ESB 120,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,SIAM Graduate Student Research Day,empty.txt
+10,24,3:30 PM,ELEC 101,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,SIAM Graduate Student Research Day,empty.txt
