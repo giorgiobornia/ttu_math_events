@@ -1,0 +1,8 @@
+Online Colloquium: Michael I. Jordan - Machine Learning: Dynamical, Economic and Stochastic Perspectives
+
+Michael I. Jordan
+
+
+Pehong Chen Distinguished Professor, Department of Statistics, University of California, Berkeley
+
+While there has been significant progress in the theory and practice in machine learning in recent years, many fundamental challenges remain. Some are mathematical in nature, such as the challenges associated with optimization and sampling in high-dimensional spaces. Some are statistical in nature, including the challenges associated with multiple decision-making. Others are economic in nature, including the need to price services and provide incentives in learning-based two-way markets. I will present recent progress on each of these fronts.

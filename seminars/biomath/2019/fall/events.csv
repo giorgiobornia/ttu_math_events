@@ -1,2 +1,8 @@
-month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-9,3,3:30 PM,MATH 109,Dilini Fonseka,Department of Mathematics and Statistics,Texas Tech University,,Fonseka_Dilini.jpg,Dynamics of stoichiometric plant-pollinator-herbivore model,Fonseka-Sep2019.txt
+month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file 
+9,3,3:30 PM,MATH 109,Dilini Fonseka,Department of Mathematics and Statistics,Texas Tech University,,Fonseka_Dilini.jpg,Dynamics of stoichiometric plant-pollinator-herbivore model,Fonseka-Sep2019.txt 
+9,17,3:30 PM,MATH 109,Video Talk,MBI Online Colloquium,,,DoubleT.jpg,Machine Learning Dynamical Economic and Stochastic Perspectives by Michael I. Jordan,MichaelJordan.txt
+9,24,3:30 PM,MATH 109,Josh Padgett,Department of Mathematics and Statistics,Texas Tech University,,Padgett_Josh.jpg,Title TBD,Padgett-Sep2019.txt
+10,1,3:30 PM,MATH 109,Video Talk,Plenary Lecture,2018 International Congress of Mathematicians,,DoubleT.jpg,Dynamical systems evolving by Lai-Sang Young,LaiSangYoung.txt
+10,8,3:30 PM,MATH 109,Ian Jordan,Depar,University,,DoubleT.jpg,Machine Learning techniques applied to Computational Neuroscience,Jordan-Oct2019.txt
+10,15,3:30 PM,MATH 109,Lale Aski,Department of Mathematics and Statistics,Texas Tech University,,Lale_Asik.jpg,The Effects of Excess Food Nutrient Content on aTri-trophic Food Chain Model in the AquaticEcosystem,Asik-Oct2019.txt
+10,29,3:30 PM,MATH 109,Rafiul Islam,Department of Mathematics and Statistics,Texas Tech University,,Islam_Rafiul.jpg,Title TBD,Abstract TBD

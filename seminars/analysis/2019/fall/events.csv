@@ -1,1 +1,3 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
+9,9,4 PM,MATH 109,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Brief organizational meeting,empty.txt
+9,16,4 PM,MATH 109,Alexander Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin,solynin.jpg,A note on mappings preserving harmonic measure,solynin.txt

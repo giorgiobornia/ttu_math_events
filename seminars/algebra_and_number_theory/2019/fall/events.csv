@@ -1,12 +1,12 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 8,28,3:00 PM,Math 015,,,,,DoubleT.jpg,No Seminar,
 9,4,3:00 PM,Math 015,,,,,DoubleT.jpg,No Seminar,
-9,11,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
-9,18,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
-9,25,3:00 PM,Math 015,Madeline Locus Dawsey,Dept. of Mathematics,UT Tyler,https://madelinelocusdawsey.com/,MLD.jpg,TBA,
+9,11,3:00 PM,Math 015,,,,,DoubleT.jpg,No Seminar,
+9,18,3:00 PM,Math 015,,,,,DoubleT.jpg,No Seminar,
+9,25,3:00 PM,Math 015,Madeline Locus Dawsey,Dept. of Mathematics,UT Tyler,https://madelinelocusdawsey.com/,MLD.jpg,A new formula for Chebotarev densities,"Densities of subsets of prime numbers have been studied for hundreds of years, one famous example being Dirichlet's theorem on the distribution of primes in arithmetic progressions.  We give a new formulation of Dirichlet's Theorem, and more generally the Chebotarev Density Theorem, which describes the distribution of primes with fixed Frobenius elements in Galois groups. This formula is given as a convergent infinite sum of terms of the form $\mu(n)/n$, where $\mu(n)$ is the classical Mobius function, and the sum includes only those integers $n\geq2$ whose smallest prime factors have fixed Artin symbol.  This theorem generalizes work of Alladi from the 1970s in the case of cyclotomic fields."
 10,2,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
-10,9,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
-10,16,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
+10,9,3:00 PM,Math 015,Lily Young,Dept. of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,A Gentle Introduction to Category Theory I,
+10,16,3:00 PM,Math 015,Lily Young,Dept. of Mathematics & Statistics,Texas Tech University,,DoubleT.jpg,A Gentle Introduction to Category Theory II,
 10,23,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
 10,30,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
 11,6,3:00 PM,Math 015,,,,,DoubleT.jpg,Open,
