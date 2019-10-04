@@ -1,0 +1,8 @@
+Premature delivery or Preterm birth is a major concern across the developing and developed world. 
+It remains as the leading cause of perinatal mortality with a significant strain on healthcare costs. 
+Risk factors and biomarkers used so far have been ineffective in identifying the majority of preterm deliveries. 
+This study focuses on developing and validating a mass spectrometry based protein biomarker test to predict spontaneous preterm delivery in asymptomatic pregnant women. 
+Maternal serum was processed by a proteomic workflow, and proteins were quantified by multiple reaction monitoring mass spectrometry. 
+We evaluated a predictor composed of insulin-like growth factor binding protein 4 (IBP4) and sex hormone binding globulin (SHBG) in a clinical validation study to classify 
+spontaneous preterm delivery cases (<370/7 weeks gestational age). The predictor had an area under the receiver operating characteristic curve value of 0.75. 
+This early detection would guide enhanced levels of care and accelerate development of clinical strategies to prevent preterm delivery.

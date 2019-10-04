@@ -1,3 +1,9 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-9,9,4 PM,MATH 109,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Brief organizational meeting,empty.txt
-9,16,4 PM,MATH 109,Alexander Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin,solynin.jpg,A note on mappings preserving harmonic measure,solynin.txt
+9,9,4 PM,MATH 109,Short organizational meeting,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Brief organizational meeting,empty.txt
+9,16,4 PM,MATH 109,Alexander Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin,solynin.jpg,On mappings preserving harmonic measure,solynin.txt
+9,23,4 PM,MATH 109,Iason Efraimidis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/iasonefraimidis/,Efraimidis_Iason.jpg,On Bombieri's conjecture for univalent functions,iason.txt
+9,30,4 PM,MATH 109,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~lhoang/,Hoang_Luan.jpg,Slightly Compressible Forchheimer Flows in Rotating Porous Media. Part I.,luan.txt
+10,7,4 PM,MATH 109,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~lhoang/,Hoang_Luan.jpg,Slightly Compressible Forchheimer Flows in Rotating Porous Media. Part II.,luan.txt
+10,28,4 PM,MATH 109,Phuong Nguyen,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~ngu82448/,phuong.jpg,TBA,phuong.txt
+11,18,4 PM,MATH 109,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~kyamazak/,Yamazaki_Kazuo.jpg,Well-posedness of Hall-magnetohydrodynamics system forced by Levy noise,kazuo.txt
+11,25,4 PM,MATH 109,Hung Tran,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/tra97432/,hung.jpg,TBA,hung.txt

@@ -1,9 +1,9 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,4,4:00 PM,MATH 015,Akif Ibraguimov,Department of Mathematics and Statistics,Texas Tech University,,ibraguimov.jpg,Einstein method in derivation of parabolic equation for flows of compressible fluids in porous media,akif.txt
 9,11,4:00 PM,MATH 015,Wei Guo,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,A sparse grid discontinuous Galerkin method for the high-dimensional Helmholtz equation with variable coefficients,wei.txt
-9,18,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,Yamazaki_Kazuo.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part I,Kazuo.txt
-9,25,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,Yamazaki_Kazuo.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part II,Kazuo1.txt
-10,2,4:00 PM,MATH 015,Tao Lu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Mixed models for HIV studies,tao.txt
+9,18,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part I,Kazuo.txt
+9,25,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part II,Kazuo1.txt
+10,2,4:00 PM,MATH 015,Tao Lu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,,
 10,10,3:30PM,ELECE 101,Lili Ju,Department of Mathematics,University of South Carolina,,DoubleT.jpg,Localized Exponential Time Differencing Methods: Algorithms and Analysis,Ju.txt
 10,15,3:30PM,ELECE 101,Mathias Heinkenschloss,Computational and Applied Mathematics,Rice University,,DoubleT.jpg,TBA,
 10,30,4:00 PM,MATH 015,Alexander Idesman,Department of Mechanical Engineering,Texas Tech University,,DoubleT.jpg,"A New Numerical Approach to the Solution of Partial Differential Equations with Optimal Accuracy on Irregular Domains and Cartesian Meshes. Application to the wave, heat, Helmholtz and Poisson  equations.",alex.txt
@@ -11,4 +11,4 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 11,13,4:00 PM,MATH 015,Yanxiang Zhao,Department of Mathematics,George Washington University,,DoubleT.jpg,TBA,
 11,20,4:00 PM,MATH 015,David Huckleberry Gutman,"Department of Industrial, Manufacturing & Systems Engineering",Texas Tech University,,DoubleT.jpg,TBA,
 11,27,4:00 PM,MATH 015,,,,,DoubleT.jpg,No Seminar! Happy Thanksgiving!,
-12,4,4:00 PM,MATH 015,Phuong Nguyen,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,TBA,
+12,4,4:00 PM,MATH 015,Phuong Nguyen,"Department of Industrial, Manufacturing & Systems Engineering",Texas Tech University,,DoubleT.jpg,TBA,

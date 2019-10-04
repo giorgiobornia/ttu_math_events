@@ -1,5 +1,7 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,3,2:00 PM,MATH 238B,Wayne Lewis,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,P-Like Continua,empty.txt
 9,10,2:00 PM,MATH 238B,Wayne Lewis,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,P-Like Continua,empty.txt
-9,17,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,D maximal sets and Q_1-reducibility-I,empty.txt
-9,24,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,D maximal sets and Q_1-reducibility-II,empty.txt
+9,17,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,McLaughlin_Thomas.jpg,D maximal sets and Q_1-reducibility-I,empty.txt
+9,24,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,McLaughlin_Thomas.jpg,D maximal sets and Q_1-reducibility-II,empty.txt
+10,1,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,McLaughlin_Thomas.jpg,D maximal sets and Q_1-reducibility-III,empty.txt
+10,8,2:00 PM,MATH 238B, no meeting,,,,DoubleT.jpg,,empty.txt

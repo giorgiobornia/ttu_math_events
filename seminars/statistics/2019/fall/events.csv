@@ -1,4 +1,9 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-9,4,3:00 PM,MATH 115,Leif Ellingson,,,,DoubleT.jpg,Organizational Meeting,
+9,4,3:00 PM,MATH 115,Leif Ellingson,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Organizational Meeting,
 9,11,3:00 PM,MATH 115,Mai Dao,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Mixtures of g-Priors for Variable Selection in Bayesian Quantile Regression,
 9,18,3:00 PM,MATH 115,Recorded Speech from JSM 2017 by Jo Craven McGinty,,The Wall Street Journal,,DoubleT.jpg,JSM 2017 ASA President's Invited Address: It's Not What You Said. It's What They Heard,
+9,25,3:00 PM,MATH 115,Fang Chen,Department of Mathematics and Statistics,Texas Tech University,,Chen_Fang.jpg,The Bayesian hypothesis testing for equality of means in high dimensions using cluster subspaces,fang.txt
+10,4,2:00 PM,MATH 110,Masoud Norouzi Darabad,Department of Mathematics and Statistics and Department of Chemical Engineering,Texas Tech University,,DoubleT.jpg,Application of Kalman Filter to Droplet Tracking in Microfluid Networks,
+10,7,4:00 PM,MATH 115,Recorded Webinar for the ASA Community of Applied Statisticians by Barry Nussbaum,,Previous President of the ASA,https://community.amstat.org/cas/new-item/new-item9,DoubleT.jpg,It's Not What We Said- It's Not What They Heard- It's What They Say They Heard,
+
+

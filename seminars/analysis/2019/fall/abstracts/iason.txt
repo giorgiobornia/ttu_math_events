@@ -1,0 +1,7 @@
+In 1967 Bombieri conjectured in very precise terms the behavior of the coefficients of normalized univalent functions close to the Koebe function $K(z)=\frac{z}{(1-z)^2}$. Namely, he proposed that the two real numbers 
+$$
+\sigma_{mn}:=\liminf_{f\to K} \frac{n-{\rm Re\,}a_n}{m-{\rm Re\,}a_m} \qquad \text{and} \qquad B_{mn} := \min_{t\in\mathbb{R}} \, \frac{n\sin t -\sin(nt)}{m\sin t -\sin(mt)}
+$$
+should be equal for all $m,n\geq2$. Although it is known that $0\leq \sigma_{mn} \leq B_{mn}$ and that $\sigma_{mn} = B_{mn}$ when $K$ is approached only by functions with real coefficients, the Bombieri conjecture has been disproved by Greiner and Roth (2001) in the case $(m,n) = (3,2)$, while disproofs for the points $(2,4), (3,4)$ and $(4,2)$ were then furnished by Prokhorov and Vasil'ev (2005).  
+
+Recently, Leung used a second variation formula for the Koebe function to prove that the conjecture is false at the points $(m,2)$ for every $m\geq3$, and, also, at $(m,3)$ for every odd $m\geq5$. Complementing his work we prove that the conjecture is false in many more points $(m,n)$ that lie in some sectors.

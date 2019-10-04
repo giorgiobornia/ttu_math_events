@@ -2,4 +2,3 @@ dscl . -read /Groups/appliedmath
 sudo dscl . create /Groups/servsupport
 sudo dseditgroup -o edit -a $username_to_add -t user admin
 
-gbornia chunmwan guo01688
