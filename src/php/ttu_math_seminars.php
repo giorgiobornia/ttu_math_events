@@ -19,6 +19,19 @@
  public static  $math_server_url_base = 'http://www.math.ttu.edu/colloquia_and_seminars/';
  public static  $are_input_files_local = true;
 
+ //stuff at level 1: I can dynamically add it by putting one more line here
+ public static $colloquium_container = '';
+
+ public static $colloquium_array = array(
+  'colloquia'                 => 'Colloquia',
+  'meetings_and_conferences'  => 'Meetings and Conferences'
+ );
+ 
+
+ //stuff at level 2: to do things dynamically, I should do a double level of associative array
+ 
+ public static $seminar_container = 'seminars';
+
  public static $discipline_array = array(
  'algebra_and_number_theory' => 'Algebra and Number Theory', 
  'analysis'                  => 'Analysis', 
@@ -34,20 +47,61 @@
  'statistics'                => 'Statistics'
 );
  
-  public static $colloquium_array = array(
-  'colloquia'                 => 'Colloquia',
-  'meetings_and_conferences'  => 'Meetings and Conferences'
+ 
+//each scheme is an associative array with 1 outer pair only
+// Here each scheme can have an arbitrary depth.
+// The only constraint is that all branches of a given scheme must have the same depth
+
+ public static $one_scheme = array(
+  'colloquia'                 => /*array(*/'Colloquia'/*)*/
+ );
+
+ 
+ public static $two_scheme = array(
+  'seminars' =>  array(  'Seminars',   array( 'algebra_and_number_theory' => 'Algebra and Number Theory', 
+                                              'analysis'                  => 'Analysis', 
+                                              'applied_math'              => 'Applied Mathematics',
+                                              'biomath'                   => 'Biomathematics',
+                                              'geometry'                  => 'Topology and Geometry',
+                                              'logic_topology'            => 'Logic-Topology',
+                                              'math_club'                 => 'Math Club',
+                                              'math_ed'                   => 'Mathematics Education',
+                                              //  'prep_for_profession'       => 'Preparation for the Profession', ///@todo not active for Fall 2019, see how I can handle this
+                                              'quantum_homotopy'          => 'Quantum Homotopy',
+                                              'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
+                                              'statistics'                => 'Statistics'
+                                           )
+   )
+
  );
  
  
- public static $seminar_container = 'seminars';
- public static $colloquium_container = '';
+ public static $three_scheme = array(
+  'meetings_and_conferences'  => /*array(*/'Meetings and Conferences'/*)*/
+);
+
+ public static $four_scheme = array(
+  'stud_orgs'  => array('Student Organizations',  array( 'undergrad' => array('Undergraduate', array('siam' => 'SIAM')),
+                                                         'graduate' => array('Graduate',       array('maa' => 'MAA'))
+                                                       )
+                  )
+           );
 
  
+  
+     public static function push_all_schemes(& $all_schemes) {
+     
+  array_push($all_schemes, ttu_math_seminars::$one_scheme);
+  array_push($all_schemes, ttu_math_seminars::$four_scheme);
+  array_push($all_schemes, ttu_math_seminars::$two_scheme);
+  array_push($all_schemes, ttu_math_seminars::$three_scheme);
+  
+     }
+     
+
   public static  $current_year = 2019;
   public static  $current_semester = 'fall';
-  
-  
+
   
   //====================================
   
@@ -56,8 +110,13 @@
    
 //    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
 
+  $all_schemes = array();
+  
+  ttu_math_seminars::push_all_schemes($all_schemes);
+  
 
-
+   
+  
    $array = Seminars::get_discipline_year_semester($filename);
  
     
@@ -84,7 +143,8 @@
                                                         ttu_math_seminars::$colloquium_array,
                                                         ttu_math_seminars::$seminar_container,
                                                         ttu_math_seminars::$colloquium_container,
-                                                        $is_seminar_colloquium
+                                                        $is_seminar_colloquium,
+                                                        $all_schemes
                                                         ); 
   
   }
