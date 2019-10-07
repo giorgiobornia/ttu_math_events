@@ -15,11 +15,21 @@
  
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 
-
+ public static  $base_folder = 'colloquia_and_seminars';
+ 
  public static  $math_server_url_base = 'http://www.math.ttu.edu/colloquia_and_seminars/';
  public static  $are_input_files_local = true;
 
- //stuff at level 1: I can dynamically add it by putting one more line here
+
+  public static  $current_year = 2019;
+  public static  $current_semester = 'fall';
+
+
+  
+
+// ---- OLD SCHEMES - deprecated ----------------------------------------- 
+  
+  //stuff at level 1: I can dynamically add it by putting one more line here
  public static $colloquium_container = '';
 
  public static $colloquium_array = array(
@@ -47,17 +57,26 @@
  'statistics'                => 'Statistics'
 );
  
+// ---- OLD SCHEMES - deprecated END ----------------------------------------- 
  
+
+ 
+ 
+// --------------------------------------------- 
+// ------ List all schemes here ---------------- 
+// --------------------------------------------- 
+//these schemes are 1-to-1 with the DIRECTORY structure
+
 //each scheme is an associative array with 1 outer pair only
 // Here each scheme can have an arbitrary depth.
 // The only constraint is that all branches of a given scheme must have the same depth
 
- public static $one_scheme = array(
+ public static $colloquia_scheme = array(
   'colloquia'                 => /*array(*/'Colloquia'/*)*/
  );
 
  
- public static $two_scheme = array(
+ public static $seminars_scheme = array(
   'seminars' =>  array(  'Seminars',   array( 'algebra_and_number_theory' => 'Algebra and Number Theory', 
                                               'analysis'                  => 'Analysis', 
                                               'applied_math'              => 'Applied Mathematics',
@@ -76,32 +95,38 @@
  );
  
  
- public static $three_scheme = array(
+ public static $meetings_scheme = array(
   'meetings_and_conferences'  => /*array(*/'Meetings and Conferences'/*)*/
 );
 
- public static $four_scheme = array(
-  'stud_orgs'  => array('Student Organizations',  array( 'undergrad' => array('Undergraduate', array('siam' => 'SIAM')),
-                                                         'graduate' => array('Graduate',       array('maa' => 'MAA'))
+ public static $stud_orgs_scheme = array(
+  'stud_orgs'  => array('Student Organizations',  array( 'undergrad' => array('Undergraduate', array('siam' => 'SIAM') ),
+                                                         'graduate'  => array('Graduate',      array('maa' => 'MAA') )
                                                        )
                   )
            );
+// --------------------------------------------- 
+// ------ List all schemes here - END ---------------- 
+// --------------------------------------------- 
+
 
  
   
+// --------------------------------------------- 
+// ------ Make an array of all schemes --------- 
+// --------------------------------------------- 
      public static function push_all_schemes(& $all_schemes) {
      
-  array_push($all_schemes, ttu_math_seminars::$one_scheme);
-  array_push($all_schemes, ttu_math_seminars::$four_scheme);
-  array_push($all_schemes, ttu_math_seminars::$two_scheme);
-  array_push($all_schemes, ttu_math_seminars::$three_scheme);
+  array_push($all_schemes, ttu_math_seminars::$colloquia_scheme);
+  array_push($all_schemes, ttu_math_seminars::$stud_orgs_scheme);
+  array_push($all_schemes, ttu_math_seminars::$meetings_scheme);
+  array_push($all_schemes, ttu_math_seminars::$seminars_scheme);
   
      }
+// --------------------------------------------- 
+// ------ Make an array of all schemes - END --------- 
+// --------------------------------------------- 
      
-
-  public static  $current_year = 2019;
-  public static  $current_semester = 'fall';
-
   
   //====================================
   
@@ -117,11 +142,24 @@
 
    
   
-   $array = Seminars::get_discipline_year_semester($filename);
+  $topic_year_semester = Seminars::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
  
+ //we can figure out the depth by seeing how long it takes to get back to the root
+ //we need to pass *all* schemes for the navigation bar, but also the *current scheme* at least for the History of the current seminar
+
+ 
+ $father_scheme_string = Seminars::get_father_scheme($filename, ttu_math_seminars::$base_folder);
+ 
+
+ $father_scheme_idx = Seminars::get_father_scheme_index($father_scheme_string, $all_schemes);
+
     
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
-  
+ 
+ $depth = 0;
+ $depth = Seminars::recursive_depth($all_schemes[1],  $depth);
+
+ echo $depth;
 
  
  $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base; //no final slash here!!!
@@ -137,14 +175,15 @@
                                                         
                                                         ttu_math_seminars::$institution,
                                                         ttu_math_seminars::$department,
-                                                        $array,
+                                                        $topic_year_semester,
                                                         $icon_in_toolbar,
                                                         ttu_math_seminars::$discipline_array,
                                                         ttu_math_seminars::$colloquium_array,
                                                         ttu_math_seminars::$seminar_container,
                                                         ttu_math_seminars::$colloquium_container,
                                                         $is_seminar_colloquium,
-                                                        $all_schemes
+                                                        $all_schemes,
+                                                        $father_scheme_idx
                                                         ); 
   
   }
@@ -153,6 +192,5 @@
  }
  
  
- ///@todo write a function that checks that the directories of the inputs are there
 
  ?>
