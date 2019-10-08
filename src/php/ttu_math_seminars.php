@@ -135,22 +135,16 @@
    
 //    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
 
-  $all_schemes = array();
-  
-  ttu_math_seminars::push_all_schemes($all_schemes);
-  
-
    
   
   $topic_year_semester = Seminars::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
  
- //we can figure out the depth by seeing how long it takes to get back to the root
- //we need to pass *all* schemes for the navigation bar, but also the *current scheme* at least for the History of the current seminar
 
+  $all_schemes = array();
+  ttu_math_seminars::push_all_schemes($all_schemes);
  
  $father_scheme_string = Seminars::get_father_scheme($filename, ttu_math_seminars::$base_folder);
  
-
  $father_scheme_idx = Seminars::get_father_scheme_index($father_scheme_string, $all_schemes);
 
     
@@ -163,6 +157,7 @@
  $event_container_local_path_prefix = $relative_path_to_app; //no final slash here!!!
 
  
+ //we need to pass *all* schemes for the navigation bar, but also the *current scheme* at least for the History of the current seminar
  Seminars::generate_seminar_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
  
                                                         $event_container_remote_path_prefix,
