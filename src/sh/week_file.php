@@ -17,9 +17,7 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
   
   $all_schemes = array();
   ttu_math_seminars::push_all_schemes($all_schemes);
-  $father_scheme_string = Seminars::get_father_scheme($filename, ttu_math_seminars::$base_folder);
-  $father_scheme_idx = Seminars::get_father_scheme_index($father_scheme_string, $all_schemes);
-  
+
   
   Seminars::generate_page_with_all_seminars_by_time_range_wrapper($filename,
                                                                   $relative_path_to_library,
@@ -33,8 +31,7 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
                                                                   ttu_math_seminars::$colloquium_array,
                                                                   ttu_math_seminars::$seminar_container,
                                                                   ttu_math_seminars::$colloquium_container,
-                                                          $all_schemes,
-                                                          $father_scheme_idx
+                                                                  $all_schemes
                                                                   );
 
  ?>
