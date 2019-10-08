@@ -6,7 +6,9 @@
 
   $relative_path_to_apps = '../../'; 
   
-
+  $all_schemes = array();
+  ttu_math_seminars::push_all_schemes($all_schemes);
+ 
 
 $month_begin = 10;
 $day_begin = 7;
@@ -22,7 +24,7 @@ Seminars::generate_pdf_slides_by_time_range(ttu_math_seminars::$math_server_url_
                                             ttu_math_seminars::$discipline_array,
                                             ttu_math_seminars::$colloquium_array,
                                             ttu_math_seminars::$seminar_container,
-                                            ttu_math_seminars::$colloquium_container);
+                                            ttu_math_seminars::$colloquium_container, $all_schemes);
   
   
   ?>
