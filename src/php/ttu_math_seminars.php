@@ -119,8 +119,8 @@
      
   array_push($all_schemes, ttu_math_seminars::$colloquia_scheme);
   array_push($all_schemes, ttu_math_seminars::$stud_orgs_scheme);
-  array_push($all_schemes, ttu_math_seminars::$meetings_scheme);
   array_push($all_schemes, ttu_math_seminars::$seminars_scheme);
+  array_push($all_schemes, ttu_math_seminars::$meetings_scheme);
   
      }
 // --------------------------------------------- 
