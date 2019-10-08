@@ -156,10 +156,6 @@
     
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
  
- $depth = 0;
- $depth = Seminars::get_depth_recursively($all_schemes[1],  $depth);
-
-//  echo $depth;
 
  
  $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base; //no final slash here!!!
