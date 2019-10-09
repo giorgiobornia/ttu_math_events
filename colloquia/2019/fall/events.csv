@@ -2,7 +2,7 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 9,5,3:30 PM,ELEC 101,Dimitri Volchenkov,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~dvolchen/,DoubleT.jpg,Half-Life: Modeling Across Scales,volchenkov.txt
 9,12,3:30 PM,ELEC 101,Victoria Howle,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~vhowle/,DoubleT.jpg,Block Preconditioning for Implicit Runge-Kutta Methods for Time-Dependent PDE Problems,howle.txt
 10,1,3:30 PM,ESB 120, Alex Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin/,Solynin_Alexander.jpg,Mathematics in Costa Rica,empty.txt
-10,15,3:30 PM,ESB 120,Mathias Heinkenschloss,Computational and Applied Mathematics,Rice University,https://www.caam.rice.edu/~heinken/,heinkenschloss.jpg,SIAM Colloquium talk,empty.txt
+10,15,3:30 PM,ESB 120,Mathias Heinkenschloss,Computational and Applied Mathematics,Rice University,https://www.caam.rice.edu/~heinken/,heinkenschloss.jpg,SIAM Colloquium talk,heinkenschloss.txt
 10,10,3:30 PM,ELEC 101,Lili Ju,Department of Mathematics,University of South Carolina,http://people.math.sc.edu/ju/,ju.jpg,Localized Exponential Time Differencing Methods: Algorithms and Analysis,ju.txt
 10,22,3:30 PM,ESB 120,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,SIAM Graduate Student Research Day,empty.txt
 10,24,3:30 PM,ELEC 101,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,SIAM Graduate Student Research Day,empty.txt

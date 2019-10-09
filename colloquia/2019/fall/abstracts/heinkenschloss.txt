@@ -1,0 +1,11 @@
+Matthias Heinkenschloss</br>
+Department of Computational and Applied Mathematics</br>
+Rice University</br>
+heinken@rice.edu<br>
+</br>
+“Risk-averse PDE-constrained optimization"</br>
+<br>
+Optimal control and optimal design problems governed by partial differential equations (PDEs) arise in many engineering and science applications. In these applications one wants to maximize the performance of the system subject to constraints. When problem data, such as material parameters, are not known exactly but are modeled as random fields, the system performance is a random variable. So-called risk measures are applied to this random variable to obtain the objective function for PDE constrained optimization under uncertainty. Instead of only maximizing expected performance, risk-averse optimization also considers the deviation of actual performance below expected performance. The resulting optimization problems are difficult to solve because a single objective function evaluation requires sampling of the governing PDE at many parameters, risk-averse optimization requires sampling in the tail of the distribution, and many risk measures introduce non-smoothness into the optimization.<br>
+<br>
+This talk demonstrates the impact of risk-averse optimization formulations on the solution and illustrates the difficulties that arise in solving risk-averse optimization problems. New sampling schemes are introduced that exploit the structure of risk measures and use reduced order models to identify the small regions in parameter space which are important for the optimization. Modifications of Newton's method are introduced to 
+address difficulties arising from the non-smoothness.  It is shown that these improvements substantially reduce the cost of solving risk-averse optimization problems. 

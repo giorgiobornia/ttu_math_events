@@ -72,7 +72,7 @@
 // The only constraint is that all branches of a given scheme must have the same depth
 
  public static $colloquia_scheme = array(
-  'colloquia'                 => /*array(*/'Colloquia'/*)*/
+  'colloquia'                 => /*array(*/'Colloquia'/*)*/  ///@todo the leaves must be without "array()"
  );
 
  
@@ -118,9 +118,9 @@
      public static function push_all_schemes(& $all_schemes) {
      
   array_push($all_schemes, ttu_math_seminars::$colloquia_scheme);
-  array_push($all_schemes, ttu_math_seminars::$stud_orgs_scheme);
   array_push($all_schemes, ttu_math_seminars::$seminars_scheme);
   array_push($all_schemes, ttu_math_seminars::$meetings_scheme);
+//   array_push($all_schemes, ttu_math_seminars::$stud_orgs_scheme);
   
      }
 // --------------------------------------------- 
@@ -143,7 +143,7 @@
   $all_schemes = array();
   ttu_math_seminars::push_all_schemes($all_schemes);
  
- $father_scheme_string = Seminars::get_father_scheme($filename, ttu_math_seminars::$base_folder);
+ $father_scheme_string = Seminars::get_father_scheme_from_filename($filename, ttu_math_seminars::$base_folder);
  
  $father_scheme_idx = Seminars::get_father_scheme_index($father_scheme_string, $all_schemes);
 
