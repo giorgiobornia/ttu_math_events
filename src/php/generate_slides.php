@@ -22,9 +22,7 @@ Seminars::generate_pdf_slides_by_time_range(ttu_math_seminars::$math_server_url_
                                             ttu_math_seminars::$department,
                                             ttu_math_seminars::$current_year, ttu_math_seminars::$current_semester, $month_begin, $day_begin, $month_end, $day_end, 
                                             ttu_math_seminars::$discipline_array,
-                                            ttu_math_seminars::$colloquium_array,
-                                            ttu_math_seminars::$seminar_container,
-                                            ttu_math_seminars::$colloquium_container, $all_schemes);
+                                            $all_schemes);
   
   
   ?>

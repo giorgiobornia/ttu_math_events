@@ -145,7 +145,7 @@
  
  $father_scheme_string = Seminars::get_father_scheme_from_filename($filename, ttu_math_seminars::$base_folder);
  
- $father_scheme_idx = Seminars::get_father_scheme_index($father_scheme_string, $all_schemes);
+ $father_scheme_idx = Seminars::get_father_scheme_index_from_string($father_scheme_string, $all_schemes);
 
     
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
