@@ -4,7 +4,7 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 9,18,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,Yamazaki_Kazuo.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part I,Kazuo.txt
 9,25,4:00 PM,MATH 015,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,Yamazaki_Kazuo.jpg,Singular PDEs (stochastic PDEs with space-time white noise) Part II,Kazuo1.txt
 10,2,4:00 PM,MATH 015,Tao Lu,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Mixed models for HIV studies,tao.txt
-10,10,3:30PM,ELECE 101,Lili Ju,Department of Mathematics,University of South Carolina,,DoubleT.jpg,Localized Exponential Time Differencing Methods: Algorithms and Analysis,Ju.txt
+10,10,3:30PM,ELECE 101,Lili Ju,Department of Mathematics,University of South Carolina,,ju.jpg,Localized Exponential Time Differencing Methods: Algorithms and Analysis,Ju.txt
 10,15,3:30PM,ESB 120,Mathias Heinkenschloss,Computational and Applied Mathematics,Rice University,,heinkenschloss.jpg,"see Colloquium",
 10,30,4:00 PM,MATH 015,Alexander Idesman,Department of Mechanical Engineering,Texas Tech University,,DoubleT.jpg,"A New Numerical Approach to the Solution of Partial Differential Equations with Optimal Accuracy on Irregular Domains and Cartesian Meshes. Application to the wave, heat, Helmholtz and Poisson  equations.",alex.txt
 11,6,4:00 PM,MATH 015,Haizhao Yang,Department of Mathematics,Purdue University,,DoubleT.jpg,TBA,
