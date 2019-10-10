@@ -130,7 +130,7 @@
   
   //====================================
   
-   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium, $seminar_container, $colloquium_container) {
+   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium, $seminar_container, $colloquium_container) { ///@todo remove args here
    
    
 //    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
@@ -168,10 +168,6 @@
                                                         ttu_math_seminars::$department,
                                                         $topic_year_semester,
                                                         $icon_in_toolbar,
-                                                        ttu_math_seminars::$discipline_array,
-                                                        ttu_math_seminars::$colloquium_array,
-                                                        ttu_math_seminars::$seminar_container,
-                                                        ttu_math_seminars::$colloquium_container,
                                                         $is_seminar_colloquium,
                                                         $all_schemes,
                                                         $father_scheme_idx
