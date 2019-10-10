@@ -9,7 +9,7 @@
   $all_schemes = array();
   ttu_math_seminars::push_all_schemes($all_schemes);
  
-
+///@todo do a function to obtain the current week automatically
 $month_begin = 10;
 $day_begin = 7;
 $month_end = 10;

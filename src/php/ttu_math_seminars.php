@@ -25,43 +25,6 @@
   public static  $current_semester = 'fall';
 
 
-  
-
-// ---- OLD SCHEMES - deprecated ----------------------------------------- 
-  
-  //stuff at level 1: I can dynamically add it by putting one more line here
- public static $colloquium_container = '';
-
- public static $colloquium_array = array(
-  'colloquia'                 => 'Colloquia',
-  'meetings_and_conferences'  => 'Meetings and Conferences'
- );
- 
-
- //stuff at level 2: to do things dynamically, I should do a double level of associative array
- 
- public static $seminar_container = 'seminars';
-
- public static $discipline_array = array(
- 'algebra_and_number_theory' => 'Algebra and Number Theory', 
- 'analysis'                  => 'Analysis', 
- 'applied_math'              => 'Applied Mathematics',
- 'biomath'                   => 'Biomathematics',
- 'geometry'                  => 'Topology and Geometry',
- 'logic_topology'            => 'Logic-Topology',
- 'math_club'                 => 'Math Club',
- 'math_ed'                   => 'Mathematics Education',
-//  'prep_for_profession'       => 'Preparation for the Profession', ///@todo not active for Fall 2019, see how I can handle this
- 'quantum_homotopy'          => 'Quantum Homotopy',
- 'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
- 'statistics'                => 'Statistics'
-);
- 
-// ---- OLD SCHEMES - deprecated END ----------------------------------------- 
- 
-
- 
- 
 // --------------------------------------------- 
 // ------ List all schemes here ---------------- 
 // --------------------------------------------- 
@@ -69,14 +32,14 @@
 
 //each scheme is an associative array with 1 outer pair only
 // Here each scheme can have an arbitrary depth.
-// The only constraint is that all branches of a given scheme must have the same depth
+// The constraint is that all branches of a given scheme must have the same depth
 
- public static $colloquia_scheme = array(
+ public static $colloquia_tree = array(
   'colloquia'                 => /*array(*/'Colloquia'/*)*/  ///@todo the leaves must be without "array()"
  );
 
  
- public static $seminars_scheme = array(
+ public static $seminars_tree = array(
   'seminars' =>  array(  'Seminars',   array( 'algebra_and_number_theory' => 'Algebra and Number Theory', 
                                               'analysis'                  => 'Analysis', 
                                               'applied_math'              => 'Applied Mathematics',
@@ -95,11 +58,11 @@
  );
  
  
- public static $meetings_scheme = array(
+ public static $meetings_tree = array(
   'meetings_and_conferences'  => /*array(*/'Meetings and Conferences'/*)*/
 );
 
- public static $stud_orgs_scheme = array(
+ public static $stud_orgs_tree = array(
   'stud_orgs'  => array('Student Organizations',  array( 'undergrad' => array('Undergraduate', array('maa' => 'MAA') ),
                                                          'graduate'  => array('Graduate',      array('siam' => 'SIAM') )
                                                        )
@@ -113,14 +76,14 @@
  
   
 // --------------------------------------------- 
-// ------ Make an array of all schemes --------- 
+// ------ Make an array of all trees --------- 
 // --------------------------------------------- 
      public static function push_all_schemes(& $all_schemes) {
      
-  array_push($all_schemes, ttu_math_seminars::$colloquia_scheme);
-  array_push($all_schemes, ttu_math_seminars::$seminars_scheme);
-  array_push($all_schemes, ttu_math_seminars::$meetings_scheme);
-//   array_push($all_schemes, ttu_math_seminars::$stud_orgs_scheme);
+  array_push($all_schemes, ttu_math_seminars::$colloquia_tree);
+  array_push($all_schemes, ttu_math_seminars::$seminars_tree);
+  array_push($all_schemes, ttu_math_seminars::$meetings_tree);
+//   array_push($all_schemes, ttu_math_seminars::$stud_orgs_tree);
   
      }
 // --------------------------------------------- 
@@ -130,7 +93,7 @@
   
   //====================================
   
-   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium, $seminar_container, $colloquium_container) { ///@todo remove args here
+   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium) { ///@todo remove args here
    
    
 //    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
