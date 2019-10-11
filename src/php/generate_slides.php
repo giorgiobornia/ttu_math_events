@@ -11,9 +11,9 @@
  
 ///@todo do a function to obtain the current week automatically
 $month_begin = 10;
-$day_begin = 7;
+$day_begin = 14;
 $month_end = 10;
-$day_end = 14;
+$day_end = 21;
 
 Seminars::generate_pdf_slides_by_time_range(ttu_math_seminars::$math_server_url_base,
                                             $relative_path_to_apps,

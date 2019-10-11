@@ -96,10 +96,6 @@
    public static function topic_webpage($filename, $relative_path_to_app, $relative_path_to_library) {
    
    
-//    $is_all_or_single:  2 all, otherwise single
-
- $is_all_or_single = 0;
-   
   
   $topic_year_semester = Seminars::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
  
@@ -122,7 +118,7 @@
 
  
  //we need to pass *all* schemes for the navigation bar, but also the *current scheme* at least for the History of the current seminar
- Seminars::generate_seminar_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
+ Seminars::generate_topic_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
  
                                                         $event_container_remote_path_prefix,
                                                         $event_container_local_path_prefix,
@@ -132,7 +128,6 @@
                                                         ttu_math_seminars::$department,
                                                         $topic_year_semester,  ///@todo the Topic is taken from the filename
                                                         $icon_in_toolbar,
-                                                        $is_all_or_single,
                                                         $all_schemes,
                                                         $father_scheme_idx  ///@todo the father of the current Topic is taken from here
                                                         ); 
