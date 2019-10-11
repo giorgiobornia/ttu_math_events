@@ -12,11 +12,8 @@
  
  $filename = __FILE__;
  
- $is_seminar_colloquium_all = 1;
- 
- ttu_math_seminars::seminar_webpage($filename, 
-                                    $relative_path_to_app, $relative_path_to_lib, 
-                                    $is_seminar_colloquium_all);
+ ttu_math_seminars::topic_webpage($filename, 
+                                  $relative_path_to_app, $relative_path_to_lib);
  
  
  ?>

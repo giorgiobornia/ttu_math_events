@@ -26,7 +26,7 @@
 
 
 // --------------------------------------------- 
-// ------ List all schemes here ---------------- 
+// ------ List all trees here ---------------- 
 // --------------------------------------------- 
 //these schemes are 1-to-1 with the DIRECTORY structure
 
@@ -69,7 +69,7 @@
                   )
            );
 // --------------------------------------------- 
-// ------ List all schemes here - END ---------------- 
+// ------ List all trees here - END ---------------- 
 // --------------------------------------------- 
 
 
@@ -87,17 +87,18 @@
   
      }
 // --------------------------------------------- 
-// ------ Make an array of all schemes - END --------- 
+// ------ Make an array of all trees - END --------- 
 // --------------------------------------------- 
      
   
   //====================================
   
-   public static function seminar_webpage($filename, $relative_path_to_app, $relative_path_to_library, $is_seminar_colloquium) { ///@todo remove args here
+   public static function topic_webpage($filename, $relative_path_to_app, $relative_path_to_library) {
    
    
-//    $is_seminar_colloquium: 0 seminar, 1 colloquium, 2 all
+//    $is_all_or_single:  2 all, otherwise single
 
+ $is_all_or_single = 0;
    
   
   $topic_year_semester = Seminars::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
@@ -129,11 +130,11 @@
                                                         
                                                         ttu_math_seminars::$institution,
                                                         ttu_math_seminars::$department,
-                                                        $topic_year_semester,
+                                                        $topic_year_semester,  ///@todo the Topic is taken from the filename
                                                         $icon_in_toolbar,
-                                                        $is_seminar_colloquium,
+                                                        $is_all_or_single,
                                                         $all_schemes,
-                                                        $father_scheme_idx
+                                                        $father_scheme_idx  ///@todo the father of the current Topic is taken from here
                                                         ); 
   
   }
