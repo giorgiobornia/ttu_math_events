@@ -17,7 +17,7 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
  $all_schemes = array();
  ttu_math_seminars::push_all_schemes($all_schemes);
   
- Seminars::generate_page_with_all_weeks_list_wrapper($filename,
+ Events::generate_page_with_all_weeks_list_wrapper($filename,
                                                      $relative_path_to_library,
                                                      $icon_in_toolbar,
                                                      ttu_math_seminars::$math_server_url_base, $relative_path_to_app, ttu_math_seminars::$are_input_files_local,

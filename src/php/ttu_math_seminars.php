@@ -97,15 +97,15 @@
    
    
   
-  $topic_year_semester = Seminars::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
+  $topic_year_semester = Events::get_discipline_year_semester($filename);  //this gets the last three levels of the directory tree; we also need to identify the current scheme
  
 
   $all_schemes = array();
   ttu_math_seminars::push_all_schemes($all_schemes);
  
- $father_scheme_string = Seminars::get_father_scheme_from_filename($filename, ttu_math_seminars::$base_folder);
+ $father_scheme_string = Events::get_father_scheme_from_filename($filename, ttu_math_seminars::$base_folder);
  
- $father_scheme_idx = Seminars::get_father_scheme_index_from_string($father_scheme_string, $all_schemes);
+ $father_scheme_idx = Events::get_father_scheme_index_from_string($father_scheme_string, $all_schemes);
 
     
  $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
@@ -118,7 +118,7 @@
 
  
  //we need to pass *all* schemes for the navigation bar, but also the *current scheme* at least for the History of the current seminar
- Seminars::generate_topic_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
+ Events::generate_topic_page_by_topic_year_semester($relative_path_to_library,  //to find src/ in the library
  
                                                         $event_container_remote_path_prefix,
                                                         $event_container_local_path_prefix,

@@ -15,7 +15,7 @@ $day_begin = 14;
 $month_end = 10;
 $day_end = 21;
 
-Seminars::generate_pdf_slides_by_time_range(ttu_math_seminars::$math_server_url_base,
+Events::generate_pdf_slides_by_time_range(ttu_math_seminars::$math_server_url_base,
                                             $relative_path_to_apps,
                                             ttu_math_seminars::$are_input_files_local,
                                             ttu_math_seminars::$institution,

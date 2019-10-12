@@ -17,7 +17,7 @@ $relative_path_to_app = '../../../';
  
   
   
- $array_coords = Seminars::get_discipline_year_semester(__FILE__);
+ $array_coords = Events::get_discipline_year_semester(__FILE__);
     
  $semester = $array_coords[0];
  $year = $array_coords[1];
@@ -26,18 +26,18 @@ $relative_path_to_app = '../../../';
  
  $is_seminar_colloquium_all = 2;
   
-  Seminars::set_html_head($relative_path_to_library, $title, $icon_in_toolbar);
+  Events::set_html_head($relative_path_to_library, $title, $icon_in_toolbar);
 
   echo '<body>';
   
-  Seminars::navigation_bar(ttu_math_seminars::$math_server_url_base,
+  Events::navigation_bar(ttu_math_seminars::$math_server_url_base,
                            $relative_path_to_app,
                            ttu_math_seminars::$are_input_files_local, 
                            $discipline, 
                            $is_seminar_colloquium_all, 
                            ttu_math_seminars::$department);
 
-  Seminars::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
+  Events::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
   
   
 
