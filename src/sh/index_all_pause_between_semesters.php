@@ -9,9 +9,9 @@ $relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
 //application
 $relative_path_to_app = '../../../';
 
- include($relative_path_to_app . './src/php/ttu_math_seminars.php');
+ include($relative_path_to_app . './src/php/ttu_math_events.php');
  
- $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
+ $icon_in_toolbar = $relative_path_to_app . ttu_math_events::$icon_in_toolbar;
  
  $title = 'Events';
  
@@ -30,14 +30,14 @@ $relative_path_to_app = '../../../';
 
   echo '<body>';
   
-  Events::navigation_bar(ttu_math_seminars::$math_server_url_base,
+  Events::navigation_bar(ttu_math_events::$math_server_url_base,
                            $relative_path_to_app,
-                           ttu_math_seminars::$are_input_files_local, 
+                           ttu_math_events::$are_input_files_local, 
                            $discipline, 
                            $is_seminar_colloquium_all, 
-                           ttu_math_seminars::$department);
+                           ttu_math_events::$department);
 
-  Events::main_banner($title, ttu_math_seminars::$department, ttu_math_seminars::$institution);  
+  Events::main_banner($title, ttu_math_events::$department, ttu_math_events::$institution);  
   
   
 

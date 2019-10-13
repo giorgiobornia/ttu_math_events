@@ -7,7 +7,7 @@
  
 
     
-  class ttu_math_seminars {
+  class ttu_math_events {
  
  public static  $institution = 'Texas Tech University';
  
@@ -80,10 +80,10 @@
 // --------------------------------------------- 
      public static function push_all_schemes(& $all_schemes) {
      
-  array_push($all_schemes, ttu_math_seminars::$colloquia_tree);
-  array_push($all_schemes, ttu_math_seminars::$seminars_tree);
-  array_push($all_schemes, ttu_math_seminars::$meetings_tree);
-//   array_push($all_schemes, ttu_math_seminars::$stud_orgs_tree);
+  array_push($all_schemes, ttu_math_events::$colloquia_tree);
+  array_push($all_schemes, ttu_math_events::$seminars_tree);
+  array_push($all_schemes, ttu_math_events::$meetings_tree);
+//   array_push($all_schemes, ttu_math_events::$stud_orgs_tree);
   
      }
 // --------------------------------------------- 
@@ -101,18 +101,18 @@
  
 
   $all_schemes = array();
-  ttu_math_seminars::push_all_schemes($all_schemes);
+  ttu_math_events::push_all_schemes($all_schemes);
  
- $father_scheme_string = Events::get_father_scheme_from_filename($filename, ttu_math_seminars::$base_folder);
+ $father_scheme_string = Events::get_father_scheme_from_filename($filename, ttu_math_events::$base_folder);
  
  $father_scheme_idx = Events::get_father_scheme_index_from_string($father_scheme_string, $all_schemes);
 
     
- $icon_in_toolbar = $relative_path_to_app . ttu_math_seminars::$icon_in_toolbar;
+ $icon_in_toolbar = $relative_path_to_app . ttu_math_events::$icon_in_toolbar;
  
 
  
- $event_container_remote_path_prefix = ttu_math_seminars::$math_server_url_base; //no final slash here!!!
+ $event_container_remote_path_prefix = ttu_math_events::$math_server_url_base; //no final slash here!!!
  
  $event_container_local_path_prefix = $relative_path_to_app; //no final slash here!!!
 
@@ -122,10 +122,10 @@
  
                                                         $event_container_remote_path_prefix,
                                                         $event_container_local_path_prefix,
-                                                        ttu_math_seminars::$are_input_files_local,
+                                                        ttu_math_events::$are_input_files_local,
                                                         
-                                                        ttu_math_seminars::$institution,
-                                                        ttu_math_seminars::$department,
+                                                        ttu_math_events::$institution,
+                                                        ttu_math_events::$department,
                                                         $topic_year_semester,  ///@todo the Topic is taken from the filename
                                                         $icon_in_toolbar,
                                                         $all_schemes,

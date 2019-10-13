@@ -1,4 +1,4 @@
-# ttu_math_seminars
+# ttu_math_events
 Web pages of all events at the Department of Mathematics and Statistics, Texas Tech University
 
 

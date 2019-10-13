@@ -8,11 +8,11 @@
  //application-specific
  $relative_path_to_app = '../../../';
 
- include_once($relative_path_to_app . './src/php/ttu_math_seminars.php');
+ include_once($relative_path_to_app . './src/php/ttu_math_events.php');
  
  $filename = __FILE__;
  
- ttu_math_seminars::topic_webpage($filename, 
+ ttu_math_events::topic_webpage($filename, 
                                   $relative_path_to_app, $relative_path_to_lib);
  
  
