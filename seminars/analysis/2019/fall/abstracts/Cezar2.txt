@@ -1,1 +1,12 @@
-TBA
+In this second talk, we explain in more details the techniques that appear in Zagier's famous paper
+(https://annals.math.princeton.edu/
+
+wp-content/uploads/annals-v175-n2-p11-p.pdf) 
+on the evaluation of the multiple zeta values
+$$H(r, s)=\zeta(\underbrace{2, 2, \ldots, 2}_{r}, 3, \underbrace{2, 2, \ldots, 2}_{s} )$$
+as a $\mathbb{Q}$-linear combination of $\pi^{2m}\zeta(2n+1)$ with $m+n=r+s+1$.
+The formula is derived indirectly by considering two generating functions which at first, can be expressed in two completely different quantities, but in the
+end, it turns out that they are equal!
+Zagier's proof  uses a combination of techniques involving
+${}_{3}F_{2} $-hypergeometric function as well as products of sine and digamma
+functions. Moreover, we also give an account into a direct proof using rational zeta series involving the coefficient $\zeta(2n)$.

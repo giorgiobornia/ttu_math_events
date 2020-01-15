@@ -12,8 +12,8 @@
 //  Events::redirect_page(ttu_math_events::$current_year, ttu_math_events::$current_semester);
 
 $folder='all';
-$year = '2019';
-$semester = 'fall';
+$year = '2020';
+$semester = 'spring';
 
      echo '<!DOCTYPE html>';
 

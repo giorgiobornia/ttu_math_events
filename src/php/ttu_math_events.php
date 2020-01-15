@@ -21,8 +21,8 @@
  public static  $are_input_files_local = true;
 
 
-  public static  $current_year = 2019;
-  public static  $current_semester = 'fall';
+  public static  $current_year = 2020;
+  public static  $current_semester = 'spring';
 
 
 // --------------------------------------------- 

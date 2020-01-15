@@ -4,4 +4,7 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 9,18,3:00 PM,MATH 115,Recorded Speech from JSM 2017 by Jo Craven McGinty,,The Wall Street Journal,,DoubleT.jpg,JSM 2017 ASA President's Invited Address: It's Not What You Said. It's What They Heard,
 9,25,3:00 PM,MATH 115,Fang Chen,Department of Mathematics and Statistics,Texas Tech University,,Chen_Fang.jpg,The Bayesian hypothesis testing for equality of means in high dimensions using cluster subspaces,fang.txt
 10,4,2:00 PM,MATH 110,Masoud Norouzi Darabad,Department of Mathematics and Statistics and Department of Chemical Engineering,Texas Tech University,,DoubleT.jpg,Application of Kalman Filter to Droplet Tracking in Microfluid Networks,
-10,7,4:00 PM,MATH 115,Recorded Webinar for the ASA Community of Applied Statisticians by Barry Nussbaum,,Previous President of the ASA,https://community.amstat.org/cas/new-item/new-item9,DoubleT.jpg,It's Not What We Said- It's Not What They Heard- It's What They Say They Heard,
+10,23,3:00 PM,MATH 115,Dong Xu,Department of Mathematics and Statistics,Texas Tech University,,Xu_Dong.jpg,A Goodness of Fit Test for Object Data Using Nearest Neighbors,
+10,30,3:00 PM,MATH 115,Barry Nussbaum - Previous President of the ASA,ASA Community of Applied Statisticians,,,asa.jpg,Recorded Webinar - It's Not What We Said- It's Not What They Heard- It's What They Say They Heard,https://community.amstat.org/cas/new-item/new-item9
+
+

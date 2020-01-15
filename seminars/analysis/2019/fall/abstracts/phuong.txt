@@ -1,1 +1,1 @@
-TBA
+We establish the existence of global pathwise solutions for the stochastic non-Newtonian incompressible fluid equations in two space dimensions. Moreover, we show that said solutions converge in probability to solutions of the stochastic Navier-Stokes equations in the appropriate limit.

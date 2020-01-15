@@ -1,8 +1,9 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file 
 9,3,3:30 PM,MATH 109,Dilini Fonseka,Department of Mathematics and Statistics,Texas Tech University,,Fonseka_Dilini.jpg,Dynamics of stoichiometric plant-pollinator-herbivore model,Fonseka-Sep2019.txt 
-9,17,3:30 PM,MATH 109,Video Talk,MBI Online Colloquium,,,DoubleT.jpg,Machine Learning Dynamical Economic and Stochastic Perspectives by Michael I. Jordan,MichaelJordan.txt
-9,24,3:30 PM,MATH 109,Josh Padgett,Department of Mathematics and Statistics,Texas Tech University,,Padgett_Josh.jpg,A nonlinear splitting algorithm for approximating population models with self- and cross-diffusion,Padgett-Sep2019.txt
-10,3,3:30 PM,MATH 016,Ashoka D. Polpitiya,Sera Prognostics Inc, Salt Lake City - Utah,,DoubleT.jpg,Biomarker discovery in diagnostics: A case study on Preterm births,ashoka.txt
-10,8,3:30 PM,MATH 109,Ian Jordan,Department of Applied Mathematics and Statistics,State University of New York at Stonybrook,,DoubleT.jpg,Recurrent neural networks through the lens of continuous-time dynamical systems,Jordan-Oct2019.txt
-10,15,3:30 PM,MATH 109,Lale Asik,Department of Mathematics and Statistics,Texas Tech University,,Lale_Asik.jpg,The Effects of Excess Food Nutrient Content on a Tri-trophic Food Chain Model in the Aquatic Ecosystem,Asik-Oct2019.txt
-10,29,3:30 PM,MATH 109,Rafiul Islam,Department of Mathematics and Statistics,Texas Tech University,,Islam_Rafiul.jpg,Title TBD,Abstract TBD
+9,17,3:30 PM,MATH 109,Video Talk,MBI Online Colloquium,,,DoubleT.jpg,Machine Learning Dynamical Economic and Stochastic Perspectives by Michael I. Jordan,MichaelJordan.txt 
+9,24,3:30 PM,MATH 109,Josh Padgett,Department of Mathematics and Statistics,Texas Tech University,,Padgett_Josh.jpg,A nonlinear splitting algorithm for approximating population models with self- and cross-diffusion,Padgett-Sep2019.txt 
+10,3,3:30 PM,MATH 016,Ashoka D. Polpitiya,Sera Prognostics Inc, Salt Lake City - Utah,,DoubleT.jpg,Biomarker discovery in diagnostics: A case study on Preterm births,ashoka.txt 
+10,8,3:30 PM,MATH 109,Ian Jordan,Department of Applied Mathematics and Statistics,State University of New York at Stonybrook,,DoubleT.jpg,Recurrent neural networks through the lens of continuous-time dynamical systems,Jordan-Oct2019.txt 
+11,5,3:30 PM,MATH 109,Erdi Kara,Department of Mathematics and Statistics,Texas Tech University,,erdi.jpg,Tumor ablation due to inhomogeneous – anisotropicdiffusion in generic 3 dimensional topologies,ErdiKara-Nov19.txt
+11,13,3:00 PM,MATH 016,Xueying Wang,Department of Mathematics and Statistics,Washington State University,,XueyingWang.jpg,Clustering in inhibitory neural networks,XueyingWang.txt
+

@@ -19,7 +19,7 @@ $relative_path_to_library = "../../../../../colloquia_and_seminars_lib/";
   ttu_math_events::push_all_schemes($all_schemes);
 
   
-  Events::generate_page_with_all_seminars_by_time_range_wrapper($filename,
+  Events::generate_page_with_all_events_by_time_range_wrapper($filename,
                                                                   $relative_path_to_library,
                                                                   ttu_math_events::$math_server_url_base,
                                                                   $relative_path_to_apps,
