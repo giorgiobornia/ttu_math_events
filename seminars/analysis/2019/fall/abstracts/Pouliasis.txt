@@ -1,0 +1,7 @@
+First we shall present some basic facts about condenser capacity,
+analytic capacity and holomorphic motions.
+Then we will discuss superharmonicity properties of those
+capacities under holomorphic motions and, given a condenser, we will
+describe the holomorphic motions for which harmonicity occurs. Finally, we will examine a
+special holomorphic motion and characterize the condensers for which
+harmonicity occurs.
