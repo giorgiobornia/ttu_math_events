@@ -1,7 +1,7 @@
  <?php
  
  //library
- $relative_path_to_lib = "../../../../colloquia_and_seminars_lib/";
+ $relative_path_to_lib = "../../../../events_lib/";
 
  include_once($relative_path_to_lib . "./src/php/functions.php");  //this is the include that works
 

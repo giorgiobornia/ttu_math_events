@@ -1,7 +1,7 @@
  <?php
  
  $relative_path_to_app = '../../';
- $library_path = "../../../colloquia_and_seminars_lib/";
+ $library_path = "../../../events_lib/";
 
  //library
  include($library_path . "./src/php/functions.php");

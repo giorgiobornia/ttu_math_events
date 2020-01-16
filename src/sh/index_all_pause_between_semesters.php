@@ -2,7 +2,7 @@
  
  //library
 
-$relative_path_to_library = "../../../../colloquia_and_seminars_lib/";
+$relative_path_to_library = "../../../../events_lib/";
 
  include($relative_path_to_library . "./src/php/functions.php");
 

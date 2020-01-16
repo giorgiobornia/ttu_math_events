@@ -1,7 +1,7 @@
  <?php
 
  
-  $relative_path_to_library_2 = '../../../colloquia_and_seminars_lib/';  //from where it is included!!!
+  $relative_path_to_library_2 = '../../../events_lib/';  //from where it is included!!!
  
  include_once($relative_path_to_library_2 . './src/php/functions.php');
  
@@ -15,9 +15,9 @@
  
  public static  $icon_in_toolbar = './src/img/favicon.ico';
 
- public static  $base_folder = 'colloquia_and_seminars';
+ public static  $base_folder = 'events';
  
- public static  $math_server_url_base = 'http://www.math.ttu.edu/colloquia_and_seminars/';
+ public static  $math_server_url_base = 'http://www.math.ttu.edu/events/';
  public static  $are_input_files_local = true;
 
 

@@ -1,7 +1,7 @@
  <?php
  
 //  //library
-//  $library_path = "../colloquia_and_seminars_lib/";
+//  $library_path = "../events_lib/";
 //  include($library_path . "./src/php/functions.php");
 //  
 //  //application

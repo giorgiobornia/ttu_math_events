@@ -1,6 +1,6 @@
  <?php
  
- $library_path = "../../../colloquia_and_seminars_lib/";
+ $library_path = "../../../events_lib/";
  $relative_path_to_app = '../../';
 
  //library
