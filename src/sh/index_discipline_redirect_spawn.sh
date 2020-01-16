@@ -10,13 +10,13 @@ fi
  cd $CONTAINER
 
 
- for file in   algebra_and_number_theory  analysis  applied_math  biomath  geometry  image_analysis  logic_topology  math_club  math_ed   prep_for_profession  real_algebraic_geometry   statistics; 
-#  for file in   colloquia; 
+ for file in   algebra_and_number_theory  analysis  applied_math  biomath  geometry  logic_topology  math_club  math_ed  prep_for_profession  quantum_homotopy  real_algebraic_geometry   statistics; 
+#  for file in   colloquia;                # you have to change the paths in the file for this
+#  for file in   meetings_and_conferences; # you have to change the paths in the file for this
  do
  cd $file; 
 #  touch about.txt; 
 #   pwd;
-    cp ../src/sh/index_discipline_redirect.php index.php
-#   ls -l ../src/sh/index_discipline.php
+    cp ../../src/sh/index_discipline_redirect.php index.php
  cd ../; 
  done
