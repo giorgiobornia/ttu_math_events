@@ -6,7 +6,9 @@ Before a semester starts:
 
  setup all folders of each tree (seminars, colloquia, meetings and conferences)
  
- prepare the general index page
+ Update all the active_editions files with the current semester
+ 
+ prepare the main index page
  
  prepare all week pages
  
