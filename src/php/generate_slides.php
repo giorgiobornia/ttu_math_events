@@ -1,6 +1,7 @@
   <?php
   
 //- run this script automatically every Friday afternoon
+// syntax: php generate_slides.php
 
   require './ttu_math_events.php'; 
 
@@ -10,6 +11,10 @@
   ttu_math_events::push_all_schemes($all_schemes);
  
 ///@todo do a function to obtain the current week automatically
+// $year = ttu_math_events::$current_year;
+// $semester = ttu_math_events::$current_semester;
+$year = 2019;
+$semester = 'fall';
 $month_begin = 10;
 $day_begin = 14;
 $month_end = 10;
@@ -20,7 +25,7 @@ Events::generate_pdf_slides_by_time_range(ttu_math_events::$math_server_url_base
                                             ttu_math_events::$are_input_files_local,
                                             ttu_math_events::$institution,
                                             ttu_math_events::$department,
-                                            ttu_math_events::$current_year, ttu_math_events::$current_semester, $month_begin, $day_begin, $month_end, $day_end, 
+                                            $year, $semester, $month_begin, $day_begin, $month_end, $day_end, 
                                             $all_schemes);
   
   
