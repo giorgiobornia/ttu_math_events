@@ -3,6 +3,7 @@
 //- run this script automatically every Friday afternoon
 // syntax: php generate_slides.php
 
+
   require './ttu_math_events.php'; 
 
   $relative_path_to_apps = '../../'; 
@@ -15,10 +16,10 @@
 // $semester = ttu_math_events::$current_semester;
 $year = 2019;
 $semester = 'fall';
-$month_begin = 10;
-$day_begin = 14;
-$month_end = 10;
-$day_end = 21;
+$month_begin = 12;
+$day_begin = 2;
+$month_end = 12;
+$day_end = 8;
 
 Events::generate_pdf_slides_by_time_range(ttu_math_events::$math_server_url_base,
                                             $relative_path_to_apps,

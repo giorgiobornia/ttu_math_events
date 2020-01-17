@@ -11,6 +11,6 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 10,30,4:00 PM,MATH 015,Alexander Idesman,Department of Mechanical Engineering,Texas Tech University,,aidesman.jpg,"A New Numerical Approach to the Solution of Partial Differential Equations with Optimal Accuracy on Irregular Domains and Cartesian Meshes. Application to the wave, heat, Helmholtz and Poisson  equations.",alex.txt
 11,6,4:00 PM,MATH 015,Haizhao Yang,Department of Mathematics,Purdue University,,Haizhao.jpg,Deep Network Approximation,yang.txt
 11,13,4:00 PM,MATH 015,Yanxiang Zhao,Department of Mathematics,George Washington University,,DoubleT.jpg,Energy stable semi-implicit schemes for Allen-Cahn-Ohta- Kawasaki Model in Binary/Ternary System,zhao.txt
-11,20,4:00 PM,MATH 015,David Huckleberry Gutman,"Department of Industrial, Manufacturing & Systems Engineering",Texas Tech University,,huck.jpg,A Unified Framework for Bregman Proximal Methods,gutman.txt
+11,20,4:00 PM,MATH 015,David Huckleberry Gutman,"Department of Industrial, Manufacturing and Systems Engineering",Texas Tech University,,huck.jpg,A Unified Framework for Bregman Proximal Methods,gutman.txt
 11,27,4:00 PM,MATH 015,,,,,DoubleT.jpg,No Seminar! Happy Thanksgiving!,
 12,4,4:00 PM,MATH 015,Chunmei Wang,Department of Mathematics and Statistics,Texas Tech University,,Wang_Chunmei.jpg,Primal-Dual Weak Galerkin Finite Element Methods for First-Order Transport Problems,wang.txt
