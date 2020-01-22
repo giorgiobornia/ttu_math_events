@@ -2,7 +2,7 @@
   
 //- run this script automatically every Friday afternoon
 // syntax: php generate_slides.php
-
+// The way it is right now, it cannot be launched from another position than this current position
 
   require './ttu_math_events.php'; 
 
