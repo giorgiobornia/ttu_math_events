@@ -1,0 +1,12 @@
+In this talk, we discuss  the steady-state distribution of heat on
+long pipes in $\mathbb{R}^3$ heated along some regions of their
+surfaces. In particular, we prove
+that, if the pipe $P=\{(x,y,z):x^2+y^2<1\}$  is heated along its
+surface belt
+$$B(a)=\{(x,y,z):\,x^2+y^2=1,z\in(-a,a)\}, \qquad a>0,$$
+then
+the temperature in its  cross-sections $D_c=\{(x,y,z)\in P:\,
+z=c\}$ is increasing in the radial direction for all $c$ in the
+interval $[-a, a]$.
+This is a joint work with Prof. Dimitrios Betsakos
+from the Aristotle University of Thessaloniki, Greece.
