@@ -1,2 +1,10 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 1,28,3:30 PM,MATH 111,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,,Yamazaki_Kazuo.jpg,PDE Models of Infectious Diseases,kyamazak.txt
+2,11,3:30 PM,MATH 111,Lale Asik,Department of Mathematics and Statistics,Texas Tech University,,Lale_Asik.jpg,The Effects of Excess Food Nutrient Content on a Tri-trophic Food Chain Model in the Aquatic Ecosystem,Asik-Oct2019.txt
+3,3,3:30 PM,MATH 111,Katharine Long,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,title,abs.txt
+3,10,3:30 PM,MATH 111,Li Zu,College of Mathematics and Statistics,Hainan Normal University,,DoubleT.jpg,title,abs.txt
+3,23,3:30 PM,MATH 111,Frank Hilker,School of Mathematics/Computer Science,Osnabrück University,,frank_hilker.jpg,Title,abstract.txt
+3,24,3:30 PM,MATH 111,Frederic Hamelin,Ecology Department,Universite de Rennes,,Hamelin-Frederic.png,Coinfections by noninteracting pathogens are not independent and require new tests of interaction,Frederic.txt
+4,7,3:30 PM,MATH 111,Toufik Khyat,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,title,abs.txt
+4,14,3:30 PM,MATH 111,Christopher Kribs,Department of Mathematics,University of Texas at Arlington,,christopher-kribs.jpg,Title,abstract.txt
+4,21,3:30 PM,MATH 111,Toufik Khyat,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,title,abs.txt

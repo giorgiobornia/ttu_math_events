@@ -1,8 +1,8 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 1,22,3:00 PM,MATH 112,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,,Ledet_Arne.jpg,Hopf Algebras,
 1,29,3:00 PM,MATH 112,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,,Ledet_Arne.jpg,Hopf Algebras II,
-2,5,3:00 PM,MATH 112,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,,Ledet_Arne.jpg,Hopf Algebras III,
-2,12,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
+2,5,3:00 PM,MATH 112,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,,Ledet_Arne.jpg,Hopf Algebras III (Postponed until next week),
+2,12,3:00 PM,MATH 112,Arne Ledet,Department of Mathematics and Statistics,Texas Tech University,,Ledet_Arne.jpg,Hopf Algebras III,
 2,19,3:00 PM,MATH 112,John Miller,,Baylor University,,DoubleT.jpg,,
 2,26,3:00 PM,MATH 112,Dylan Rudy,Department of Mathematics and Statistics,Texas Tech University,,Rudy_Dylan.jpg,Remarks on a Tropical Key Exchange,
 3,4,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
@@ -11,6 +11,6 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 3,25,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
 4,1,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
 4,8,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
-4,15,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
+4,15,3:00 PM,MATH 112,Lily Young,Department of Mathematics and Statistics,Texas Tech University,,young_lily.jpg,,
 4,22,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
 4,29,3:00 PM,MATH 112,Open,,,,DoubleT.jpg,,
