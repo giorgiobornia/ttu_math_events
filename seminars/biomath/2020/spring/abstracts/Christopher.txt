@@ -1,0 +1,10 @@
+Ungulates like zebras suffer from outbreaks of anthrax, a fatal infestation
+which thus causes short-term and potentially long-term disruptions to the
+food supply of scavengers like jackals.  Jackals, meanwhile, can carry
+rabies, but their intraspecific contact rate depends on zebra carcass
+density in a complex way, as they spread rabies only when feeding.  Recent
+work by Borchering et al. developed a mathematical model for this contact
+rate using data from Etosha National Park in Namibia.  A dynamical systems
+model for the transmission dynamics of both diseases uses reproduction
+numbers to show how each disease affects the other, as well as the two host
+species.

@@ -1,0 +1,19 @@
+By the Pieri rule, the tensor product of an exterior power and a finite-dimensional irreducible 
+representation of a general linear group has a multiplicity-free decomposition. 
+The embeddings of the constituents are called Pieri inclusions and were first studied by 
+Weyman in his thesis and described explicitly by Olver. More recently, these maps have appeared in 
+the work of Eisenbud, Fl{\o}stad, and Weyman and of Sam and Weyman to compute pure free resolutions 
+for classical groups. In this talk we give a new closed form, non-recursive description of Pieri inclusions. For partitions with a bounded number of distinct parts, the resulting algorithm has polynomial time 
+complexity whereas the previously known algorithm has exponential time complexity. 
+
+We will use Pieri inclusions to compute syzygies for modules of covariants.
+The fundamental problem of classical invariant theory is to find generators
+and relations (syzygies) for rings of invariants and, more generally, for modules of covariants.
+For the general linear group, this problem is partially answered by Weyl’s first and
+second fundamental theorems for the rings of invariants of several vectors and covectors.
+The higher syzygies of these rings of invariants are given by Lascoux’s resolution of determinantal
+ideals. We extend the results of Lascoux to give minimal 
+free resolutions of modules of covariants in characteristic zero. These resolutions are
+obtained from Bernstein–Gelfand–Gelfand resolutions of unitary highest weight modules
+and the differentials are explicitly described in terms of Pieri inclusions.
+
