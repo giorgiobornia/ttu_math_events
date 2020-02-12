@@ -1,0 +1,4 @@
+While old infectious diseases reappear periodically despite much humanitarian efforts to prevent its reemergence, they can also suddenly appear in new locations, e.g., 
+cholera in Haiti where this disease was absent for centuries. On the other hand, new types of infectious diseases (e.g., coronavirus as we speak) give public major concerns. 
+In mathematical biology, researchers can model the spread of such infectious diseases, analyze rigorously to justify its derivation and apply it to the real world to predict 
+the severity of an outbreak. This talk will be intended to be accessible to any undergraduate students with a basic background in calculus (preferably differential equations).

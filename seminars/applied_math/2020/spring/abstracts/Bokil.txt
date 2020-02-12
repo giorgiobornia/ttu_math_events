@@ -1,0 +1,8 @@
+We consider a variety of different constitutive models for 
+modeling the Kerr effect in nonlinear optics. These include the 
+instantaneous cubic Kerr model and the cubic dispersive Duffing model for 
+the time evolution of the electric polarization. Appending these 
+constitutive laws to Maxwell's equations we construct fully discrete 
+energy stable finite difference discretizations of the resulting nonlinear 
+Maxwell models. Numerical simulations illustrate discrete energy stability 
+and provide a comparison between the performance of the different models.

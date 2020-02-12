@@ -1,0 +1,9 @@
+How much does it cost...to knot a closed simple curve ? To cover the sphere twice ? to realize such or such  homotopy class ? ...etc.<br><br>
+
+All these questions consisting of assigning a "canonical" number and possibly an optimal "shape" to a given topological operation are known to be mathematically very rich and to bring together notions and techniques from topology, geometry and analysis.<br><br>
+
+In this talk we will concentrate on the operation consisting of turning inside out the 2 sphere in the 3 dimensional space.  Since Smale's proof in 1959 of the existence of such an operation the search for effective realizations of such eversions has triggered a lot of fascination and works in the math community.  The absence in nature of matter that can interpenetrate and the quasi impossibility, up to the advent of virtual imaging, to experience this deformation is maybe the reason for the difficulty to develop an intuitive approach on the problem.<br><br>
+
+We will present the optimization of Sophie Germain conformally invariant elastic energy for the eversion.<br><br>
+
+Our efforts will finally bring us to consider more closely an integer number together with a mysterious minimal surface.
