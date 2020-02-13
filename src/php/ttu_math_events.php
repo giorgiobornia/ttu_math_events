@@ -59,7 +59,7 @@
  
  
  public static $meetings_tree = array(
-  'meetings_and_conferences'  => /*array(*/'Meetings and Conferences'/*)*/
+  'meetings_and_conferences'  => /*array(*/'Conferences and Meetings'/*)*/
 );
 
  public static $stud_orgs_tree = array(
