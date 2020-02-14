@@ -1,10 +1,12 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-2,12,5:00 PM,Math 238,Free pizza and cookies,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Math Club,
+2,12,5:00 PM,Math 238,Free pizza and cookies,Department of Mathematics and Statistics,Texas Tech University,,mathlogo.jpg,Math Club,
+3,4,5:00 PM,Math 238,Free pizza!,Department of Mathematics and Statistics,Texas Tech University,,mathlogo.jpg,Math Club,
 4,3,8:00 AM,, Modeling in a Heterogeneous World,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/rr2020/,DoubleT.jpg,XVIII Red Raider Minisymposium,RR.txt
 4,4,8:00 AM,, Modeling in a Heterogeneous World,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/rr2020/,DoubleT.jpg,XVIII Red Raider Minisymposium,RR.txt
 4,6,8:00 AM,,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Fifth Dayawansa Memorial Lecture Series,
 4,7,8:00 AM,,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Fifth Dayawansa Memorial Lecture Series,
 4,8,8:00 AM,,,Department of Mathematics and Statistics,Texas Tech University,,DoubleT.jpg,Fifth Dayawansa Memorial Lecture Series,
+4,8,5:00 PM,Math 238,Free pizza!,Department of Mathematics and Statistics,Texas Tech University,,mathlogo.jpg,Math Club,
 4,18,8:00 AM,, SIAM Minisymposium 2020,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/conferences/siamms/2020/,DoubleT.jpg,3rd West Texas Applied Math Graduate MiniSymposium,empty.txt
 4,24,8:00 AM,,63rd Meeting,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/conferences/tgtc/2020/,DoubleT.jpg,Texas Geometry and Topology Conference,TGTC.txt
 4,25,8:00 AM,,63rd Meeting,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/conferences/tgtc/2020/,DoubleT.jpg,Texas Geometry and Topology Conference,TGTC.txt
