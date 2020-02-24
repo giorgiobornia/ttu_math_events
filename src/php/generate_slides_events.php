@@ -15,9 +15,9 @@
 $year        = ttu_math_events::$current_year;
 $semester    = ttu_math_events::$current_semester;
 $month_begin = 2;
-$day_begin   = 17;
+$day_begin   = 24;
 $month_end   = 2;
-$day_end     = 21;
+$day_end     = 28;
 
 // $year = 2019;
 // $semester = 'spring';
