@@ -1,0 +1,2 @@
+We study the long time behavior of the solutions of the Navier-Stokes-Boussinesq equations in geophysical fluid dynamics. We obtain the asymptotic expansions of Foias-Saut type, as time tends to infinity, for both of the velocity and temperature. We show that these expansions can be easily determined thanks to the ``asymptotic decoupling" property of the system. 
+This is a joint work with Animikh Biswas (University of Maryland Baltimore County).
