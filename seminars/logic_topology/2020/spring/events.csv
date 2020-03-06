@@ -4,4 +4,5 @@ month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,s
 2,11,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,McLaughlin_Thomas.jpg,A Detailed Proof of Shavrukov's "Fact 18" - Part I,empty.txt
 2,18,2:00 PM,MATH 238B,Tom McLaughlin,Department of Mathematics and Statistics,Texas Tech University,,McLaughlin_Thomas.jpg,A Detailed Proof of Shavrukov's "Fact 18" - Part II,empty.txt
 2,25,2:00 PM,MATH 238B,Robert Byerly,Department of Mathematics and Statistics,Texas Tech University,,Byerly_Robert.jpg,O=RE in extensions of the real field,empty.txt
-3,3,2:00 PM,MATH 238B,Robert Byerly,Department of Mathematics and Statistics,Texas Tech University,,Byerly_Robert.jpg,TBA,empty.txt
+3,3,2:00 PM,MATH 238B,Robert Byerly,Department of Mathematics and Statistics,Texas Tech University,,Byerly_Robert.jpg,,empty.txt
+3,24,2:00 PM,MATH 238B,Robert Byerly,Department of Mathematics and Statistics,Texas Tech University,,Byerly_Robert.jpg,,empty.txt
