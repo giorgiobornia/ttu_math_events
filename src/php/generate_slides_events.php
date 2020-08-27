@@ -14,10 +14,10 @@
 ///@todo do a function to obtain the current week automatically
 $year        = ttu_math_events::$current_year;
 $semester    = ttu_math_events::$current_semester;
-$month_begin = 1;
-$day_begin   = 20;
-$month_end   = 1;
-$day_end     = 26;
+$month_begin = 2;
+$day_begin   = 24;
+$month_end   = 2;
+$day_end     = 28;
 
 // $year = 2019;
 // $semester = 'spring';
