@@ -1,8 +1,3 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 2,18,3:30 PM,CHEM 113,Magda Toda,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~mtoda/,Toda.jpg,Faculty Grants,empty.txt
 3,5,3:30 PM,CHEM 113,Leo G. Rebholz,Mathematical and Statistical Sciences,Clemson University,http://www.math.clemson.edu/~rebholz/,Rebholz.jpg,Anderson acceleration to improve nonlinear system solving,rebholz.txt
-3,12,3:30 PM,CHEM 113,Magda Toda,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~mtoda/,Toda.jpg,Department Faculty and Staff Meeting,empty.txt
-3,24,3:30 PM,CHEM 113,Tristan Rivi&egrave;re,Department of Mathematics,ETH Z&uuml;rich,https://math.ethz.ch/research/geometric-analysis-pde/tristan-riviere.html,Riviere.jpg,The Cost of the Sphere Eversion and the 16&Pi; Conjecture,riviere.txt
-4,21,3:30 PM,CHEM 113,Rafael L&oacute;pez,Departamento de Geometr&iacute;a y Topolog&iacute;a,Universidad de Granada,https://www.ugr.es/~rcamino/,RLopez.jpg,Soap Films and Soap Bubbles - From Experiments to Theorems I,rlopez.txt
-4,22,3:30 PM,MATH 010,Rafael L&oacute;pez,Departamento de Geometr&iacute;a y Topolog&iacute;a,Universidad de Granada,https://www.ugr.es/~rcamino/,RLopez.jpg,Soap Films and Soap Bubbles - From Experiments to Theorems II,rlopez.txt
-4,23,3:30 PM,CHEM 113,Anthony Gruber,Department of Mathematics and Statistics,Texas Tech University,https://www.myweb.ttu.edu/agruber/,Gruber.jpg,Stationary surfaces for curvature functionals,gruber.txt

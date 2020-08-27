@@ -1,0 +1,13 @@
+The management of ecosystems often requires population harvesting.
+Examples include fisheries, but also the control of invasive species,
+removal of weeds, roguing of infected plants, and regulation of pests
+such as forest defoliating insects. Harvesting becomes an intricate
+issue when the population is unstable: the joint interplay of population
+oscillations, removal, and uncertainty can both augment and diminish
+variability in population levels and harvesting efforts. In this talk, I
+will use generic mathematical models of single-species population
+dynamics in discrete time to study how selected harvesting strategies
+(fixed escapement, proportional harvesting, constant catch) and harvest
+timing affect population stability and resilience. 
+
+This is joint work with Eduardo Liz, Juan Segura, and Daniel Franco.

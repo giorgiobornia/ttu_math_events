@@ -1,0 +1,15 @@
+We study the long-time asymptotics of prototypical non-linear diffusion equations. Specifically, we consider the case of a non-degenerate diffusivity
+function that is a (non-negative) polynomial of the dependent variable of the
+problem. We motivate these types of equations using Einstein’s random walk
+paradigm, leading to a partial differential equation in non-divergence form. On
+the other hand, using conservation principles leads to a partial differential equation in divergence form. A transformation is derived to handle both cases. Then,
+a maximum principle (on both an unbounded and a bounded domain) is proved,
+in order to obtain bounds above and below for the time-evolution of the solution to the non-linear diffusion problem. Specifically, these bounds are based on
+the fundamental solution of the linear problem (the so-called Aranson’s Green
+function). Having thus sandwiched the long-time asymptotics of solutions to
+the non-linear problems between two fundamental solutions of the linear problem, we prove that, unlike the case of degenerate diffusion, a non-degenerate
+diffusion equation’s solution converges onto the linear diffusion solution at long
+times. Select numerical examples support the mathematical theorems and illustrate the convergence process. Our results have implications on how to interpret
+asymptotic scalings of potentially anomalous diffusion processes (such as in the
+flow of particulate materials) that have been discussed in the applied physics
+literature.

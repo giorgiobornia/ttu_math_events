@@ -25,10 +25,16 @@ fi
 #    days=(26 2 9 16 23 30   7 14 21 28    4 11 18 25    2);
 
 # 2020, Spring 
+# year=2020
+# semester=spring
+# months=( 1 1 1     2 2 2 2      3 3 3 3 3     4 4 4 4     5  );
+#   days=(13 20 27 3 10 17 24   2 9 16 23 30  6 13 20 27  4 );
+
+# 2020, Fall 
  year=2020
- semester=spring
- months=( 1 1 1     2 2 2 2      3 3 3 3 3     4 4 4 4     5  );
-   days=(13 20 27 3 10 17 24   2 9 16 23 30  6 13 20 27  4 );
+ semester=fall
+ months=( 9 9 9 9     10 10 10 10     11 11 11 11 11 11);
+   days=(7 14 21 28  5 12 19 26   2 9 16 23 30);
    
  week_container='week';
 
