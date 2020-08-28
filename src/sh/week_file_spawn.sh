@@ -33,12 +33,21 @@ fi
 # 2020, Fall 
  year=2020
  semester=fall
- months=( 9 9 9 9     10 10 10 10     11 11 11 11 11 11);
-   days=(7 14 21 28  5 12 19 26   2 9 16 23 30);
+ months=(8   9 9 9 9     10 10 10 10  11 11 11 11 11);
+   days=(31  7 14 21 28    5 12 19 26   2 9 16 23 30);
    
  week_container='week';
+ 
+ mkdir -p  $week_container
 
-     cd $container/$year/$semester/$week_container;
+ 
+  cd $container/$year/$semester/
+  
+  
+  mkdir -p  $week_container
+ 
+    
+  cd $week_container
 
 
 
@@ -56,4 +65,4 @@ fi
       cp ../../../../src/sh/week_file.php ${months[$month_day_begin]}_${days[$month_day_begin]}.php
   done
 
-  cd ../../../; 
+#   cd ../../../; 

@@ -22,7 +22,7 @@
 
 
  public static  $current_year = 2020;
- public static  $current_semester = 'spring';
+ public static  $current_semester = 'fall';
 
 
 // --------------------------------------------- 
