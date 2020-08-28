@@ -44,11 +44,13 @@
                                               'analysis'                  => 'Analysis', 
                                               'applied_math'              => 'Applied Mathematics',
                                               'biomath'                   => 'Biomathematics',
+                                              'elasticity'                => 'Elasticity',
                                               'geometry'                  => 'Topology and Geometry',
                                               'logic_topology'            => 'Logic-Topology',
                                               'math_club'                 => 'Math Club',
                                               'math_ed'                   => 'Mathematics Education',
                                               'prep_for_profession'       => 'Preparation for the Profession', ///@todo not active for Fall 2019, see how I can handle this
+                                              'prob_diff_geom_phys'       => 'Probability, Differential Geometry and Physics',
                                               'quantum_homotopy'          => 'Quantum Homotopy',
                                               'real_algebraic_geometry'   => 'Real-Algebraic Geometry', 
                                               'statistics'                => 'Statistics'

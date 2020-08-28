@@ -15,10 +15,16 @@ Before a semester starts:
       For "colloquia" and "meetings_and_conferences", 
       copy from the corresponding previous semester and empty the old data (because there is a slight difference in some paths)
  
- 01b) Add new seminars appropriately
-        Not only do you have to add the folder and files of that seminar,
-        but also you have to add it in the array in the file 
-             src/php/ttu_math_events.php
+ 01b) Add new seminars if needed
+          Basically, just look at existing seminars and mimick their file structure
+        - First you add the folder under seminars/ (no whitespaces in the folder name, use underscores please) 
+        - Inside the new seminar folder, put the active_editions.csv file with the current year/semester
+        - Inside the new seminar folder, you may put the about.txt file for info about the seminar
+        - Inside the new seminar folder, put the index.php file that automatically redirects to the current year/semester 
+        - Then you add  the year/semester subfolder structure, and in there you put the usual template files
+        - Then you add it in the array (please, respect alphabetical order) in the file 
+                     src/php/ttu_math_events.php
+ 
  
  02) Update all the "active_editions" files with the current semester
        Just add the corresponding semester, if that seminar is being run in that semester. 

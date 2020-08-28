@@ -1,0 +1,14 @@
+algebra_and_number_theory
+analysis
+applied_math
+biomath
+elasticity
+geometry
+logic_topology
+math_club
+math_ed
+prep_for_profession
+prob_diff_geom_phys
+quantum_homotopy
+real_algebraic_geometry
+statistics
