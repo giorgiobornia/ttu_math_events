@@ -45,6 +45,7 @@
                                               'applied_math'              => 'Applied Mathematics',
                                               'biomath'                   => 'Biomathematics',
                                               'elasticity'                => 'Elasticity',
+                                              'financial_math'            => 'Financial Mathematics',
                                               'geometry'                  => 'Topology and Geometry',
                                               'logic_topology'            => 'Logic-Topology',
                                               'math_club'                 => 'Math Club',
