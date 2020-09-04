@@ -1,0 +1,11 @@
+This semester, the Financial Math seminar series is concentrating on alternative financial indices. &nbsp;The first seminar will consist of an overview from various members of this working group.  &nbsp;The agenda for the first seminar is<br>
+<br>
+1.	Davide Lauria: &nbsp;index on financial returns from U.S. movies<br>
+2.	Brent Lindquist:  &nbsp;real estate analytics indices<br>
+3.	Thilini Mahanama: &nbsp;index on financial assets due to natural disasters; introduction of new index on crime<br>
+4.	Abootaleb Shirvani: &nbsp;U.S. citizenry “well-being” index<br>
+5.	Zari Rachev: &nbsp;Vol-of-vol indices<br>
+6.	Dimitri Volchenkov:  &nbsp;political risk index<br>
+7.	Jiho Park and/or Yuan Hu:  &nbsp;near riskless rate portfolios<br>
+<br>
+All presentations in the first seminar will be kept to 10 minutes maximum. &nbsp;Watch online at 2 PM this Friday the 4th via <a href="https://texastech.zoom.us/j/4509482067">this Zoom link</a>.<br>

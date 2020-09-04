@@ -44,6 +44,7 @@
                                               'analysis'                  => 'Analysis', 
                                               'applied_math'              => 'Applied Mathematics',
                                               'biomath'                   => 'Biomathematics',
+											  'current_adv_math'		  => 'Current Advances in Mathematics',
                                               'elasticity'                => 'Elasticity',
                                               'financial_math'            => 'Financial Mathematics',
                                               'geometry'                  => 'Topology and Geometry',
