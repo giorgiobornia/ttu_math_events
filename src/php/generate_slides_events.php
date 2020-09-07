@@ -11,20 +11,19 @@
   $all_schemes = array();
   ttu_math_events::push_all_schemes($all_schemes);
  
-///@todo do a function to obtain the current week automatically
 $year        = ttu_math_events::$current_year;
 $semester    = ttu_math_events::$current_semester;
-$month_begin = 2;
-$day_begin   = 24;
-$month_end   = 2;
-$day_end     = 28;
 
-// $year = 2019;
-// $semester = 'spring';
-// $month_begin = 4;
-// $day_begin   = 29;
-// $month_end   = 5;
-// $day_end     = 5;
+
+$month_and_day_begin_end = Events::compute_containing_week_from_monday_to_sunday_starting_from_current_day("following");
+
+
+$month_begin = $month_and_day_begin_end[0][0];
+$day_begin   = $month_and_day_begin_end[0][1];
+$month_end   = $month_and_day_begin_end[1][0];
+$day_end     = $month_and_day_begin_end[1][1];
+
+
 
 Events::generate_pdf_slides_by_time_range(ttu_math_events::$math_server_url_base,
                                             $relative_path_to_apps,
