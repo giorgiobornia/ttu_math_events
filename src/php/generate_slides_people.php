@@ -24,7 +24,7 @@ $password = "byrt82fw";
    $name_last  = "Bornia";
   
 //   $sql = "SELECT * FROM roster WHERE Last_Name='" . $name_last . "' AND First_Name='" . $name_first . "'";
-   $sql = "SELECT * FROM roster WHERE Employed='T' AND Rank<'4' ORDER BY LAST_NAME, FIRST_NAME";  ///@todo see how to randomize over all faculty //see how to avoid Latex compile errors for & and so on
+   $sql = "SELECT * FROM roster WHERE Employed='T' AND Rank<'4' ORDER BY LAST_NAME, FIRST_NAME";  ///@todo see how to avoid Latex compile errors for & and so on
 
    $rows = $conn->query( $sql );
    
