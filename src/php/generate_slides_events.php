@@ -1,7 +1,10 @@
   <?php
   
 //- run this script automatically every Friday afternoon
-// syntax: php generate_slides.php
+  // syntax: 
+  //         php generate_slides.php  current 
+  //  or
+  //         php generate_slides.php  following
 // The way it is right now, it cannot be launched from another position than this current position
 
   require './ttu_math_events.php'; 
@@ -14,8 +17,13 @@
 $year        = ttu_math_events::$current_year;
 $semester    = ttu_math_events::$current_semester;
 
+$current_or_following = $argv[1]; //command line argument
 
-$month_and_day_begin_end = Events::compute_containing_week_from_monday_to_sunday_starting_from_current_day("following");
+  echo "We are generating the " . $current_or_following .  " week\n";
+
+if ( strcmp($current_or_following, "current") != 0 && strcmp($current_or_following,"following") != 0 ) { echo "Wrong week\n"; exit(); }
+
+$month_and_day_begin_end = Events::compute_containing_week_from_monday_to_sunday_starting_from_current_day($current_or_following);
 
 
 $month_begin = $month_and_day_begin_end[0][0];
