@@ -1,0 +1,1 @@
+Consider any Leray-Hopf weak solution of the three-dimensional Navier-Stokes equations for incompressible, viscous fluid flows. We prove that any Lagrangian trajectory associated with such a velocity field has an asymptotic expansion, as time tends to infinity, which describes its long-time behavior very precisely.

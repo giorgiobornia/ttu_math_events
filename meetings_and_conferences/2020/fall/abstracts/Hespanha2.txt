@@ -1,0 +1,5 @@
+Low-cost, low-power embedded computation enables the use of online optimization to solve nonlinear control problems with hard state and input constraints, leading to the popularity of Model Predictive Control (MPC) in numerous industrial applications. More recently, online optimization also became popular to solve estimation problems that can take advantage of known constraints on the state, measurement noise, and disturbances. In particular, Moving Horizon Estimation (MHE) computes states estimates that are maximally compatible with measurements observed over a finite window of time.<br> 
+<br>
+In this talk, we discuss an optimization-based approach to solve output feedback control problems that combines state estimation and control into a single min-max optimization. We discuss the challenges involved in guaranteeing the convergence of the closed loop systems, as well as the computational techniques that are needed to solve the resulting optimizations in real-time control systems with sampling times on the order of just a few milliseconds.<br>
+<br>
+See <a href="/events/meetings_and_conferences/2020/fall/abstracts/Dayawansa2020-Hespanha.pdf">pdf</a>

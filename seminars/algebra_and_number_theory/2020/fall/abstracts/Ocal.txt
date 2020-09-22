@@ -1,0 +1,10 @@
+The Hochschild cohomology is a tool for studying associative algebras that has a lot of structure: it is a Gerstenhaber algebra. This structure is useful because of its applications in deformation and representation theory, and recently in quantum symmetries. Unfortunately, computing it remains a notoriously difficult task. In this talk we will present techniques that give explicit formulas of the Gerstenhaber algebra structure for general twisted tensor product algebras. This will include an unpretentious introduction to this cohomology and to our objects of interest, as well as the unexpected generality of the techniques. This is joint work with Tekin Karadag, Dustin McPhate, Tolulope Oke, and Sarah Witherspoon. <br>
+<br>
+Join Zoom Meeting
+<a href="https://zoom.us/j/94469231643?pwd=MXpuTjluSGhUcFdLWWF2YkRhb2tGUT09" target="_blank">https://zoom.us/j/94469231643?pwd=MXpuTjluSGhUcFdLWWF2YkRhb2tGUT09</a><br>
+<br>
+Meeting ID: 944 6923 1643
+<br>
+Passcode: 068070
+<br>
+

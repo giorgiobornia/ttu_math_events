@@ -1,3 +1,6 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,2,4 PM,online,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~kyamazak/,Yamazaki.jpg,On the stochastic Lagrangian formulations of PDEs in fluid mechanics,0902.txt
 9,9,4 PM,online,Masud Rana,Department of Mathematics and Statistics,Texas Tech University,https://www.researchgate.net/profile/Md_Masud_Rana13,Rana.jpg,A New Block Preconditioner for Implicit Runge-Kutta Methods for Parabolic PDE,0909.txt
+9,16,4 PM,online,Yang Yang,Mathematical Sciences,Michigan Tech University,https://www.mtu.edu/math/department/faculty-staff/faculty/yang/,YangYang-MTU.jpg,The hybrid dimensional representation of permeability tensor:&nbsp; A reinterpretation of the discrete fracture model and its extension on nonconforming meshes,0916.txt
+9,23,3 PM,online,Applied Math encourages the virtual attendance of conference speaker João Hespanha's talk Wednesday afternoon,,,http://www.math.ttu.edu/events/meetings_and_conferences/2020/fall/,Hespanha.jpg,,
+9,30,4 PM,online,Rahnuma Islam,Department of Mathematics and Statistics,Texas Tech University,,Islam_Rahnuma.jpg,Random Walk of Brownian Motion and Its Long Time Behavior,0930.txt

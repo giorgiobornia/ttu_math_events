@@ -1,3 +1,4 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-9,17,3:30 PM,online,Angela Peace,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~anpeace/,Peace.jpg,TBA,
-9,24,3:30 PM,online,Fangyuan Zhang,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/fangzhan/,Fangyuan.jpg,TBA,
+9,17,3:00 PM,online,Angela Peace,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~anpeace/,Peace.jpg,Dynamical systems approaches to ecology and epidemiology,09-17.txt
+9,24,3:00 PM,online,Fangyuan Zhang,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/fangzhan/,Fangyuan.jpg,Statistical Methods for Detecting Confounding Epigenetic Effects,09-24.txt
+11,12,3:00 PM,online,Katharine Hayhoe,Department of Political Science,Texas Tech University,http://www.katharinehayhoe.com/wp2016/,Hayhoe_Katharine.jpg,Is the past a guide to the future?  Quantifying the validity of stationarity in empirical-statistical downscaling,11-12.txt

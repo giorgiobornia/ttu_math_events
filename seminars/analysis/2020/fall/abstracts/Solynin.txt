@@ -1,0 +1,7 @@
+We discuss several problems on the total loss of heat by $n$
+spherical particles in $\mathbf{R}^3$ as well as questions on the
+losses of heat by individual particles. Main question here is
+whether or not particles lose less heat if they move closer to
+each other in a certain sense. These questions were inspired by
+observations on the behavioral habits of sleeping armadillos and
+some other warm-blooded animals.

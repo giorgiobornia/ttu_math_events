@@ -1,0 +1,5 @@
+Computer-based sensors are heavily used in monitoring and controlling complex large-scale physical system, such as the power grid, transportation systems, chemical processes, and manufacturing plants. While these sensors can yield great benefits in terms of improved efficiency, lower costs, and increased safety, they are often prone to attacks and can introduce significant security risks.<br>
+<br>
+In this talk we explore how the formulation of classical estimation problems needs to be revisited to address scenarios where sensors are prone to attacks. By considering the joint design of estimators and attack policies, we obtain “resilient” estimators that use redundancy in an optimal fashion. While the design and construction of these optimal resilient estimators may be computationally expensive, we shall see that is often possible to find quasi-optimal solutions that are computationally attractive. For concreteness, we illustrate these ideas in a case study involving the estimation of power system oscillations using Phase Measurements Units.<br>
+<br>
+See <a href="/events/meetings_and_conferences/2020/fall/abstracts/Dayawansa2020-Hespanha.pdf">pdf</a>
