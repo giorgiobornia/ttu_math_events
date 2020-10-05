@@ -1,4 +1,7 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
 9,17,3:00 PM,online,Angela Peace,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~anpeace/,Peace.jpg,Dynamical systems approaches to ecology and epidemiology,09-17.txt
 9,24,3:00 PM,online,Fangyuan Zhang,Department of Mathematics and Statistics,Texas Tech University,http://www.myweb.ttu.edu/fangzhan/,Fangyuan.jpg,Statistical Methods for Detecting Confounding Epigenetic Effects,09-24.txt
+10,15,3:00 PM,online,Gennady Samorodnitsky,School of Operations Research and Information Engineering,Cornell University,https://people.orie.cornell.edu/gennady/,Samorodnitsky.jpg,Long range dependence in stochastic processes and phase transitions,10-15.txt
+10,16,noon,online,Marc Paolella,Department of Banking and Finance,University of Zurich,https://www.marc-paolella.com/,Paolella.jpg,An Overview and Tour of Extensions of a Paradigm for Large-Scale Modeling of Asset Returns and Portfolio Construction,10-16.txt
+11,11,3:00 PM,online,Bennett Palmer,Department of Mathematics and Statistics,Idaho State University,https://www.isu.edu/math/people/tenure/,Palmer.jpg,Anisotropic Bending Energy,11-11.txt
 11,12,3:00 PM,online,Katharine Hayhoe,Department of Political Science,Texas Tech University,http://www.katharinehayhoe.com/wp2016/,Hayhoe_Katharine.jpg,Is the past a guide to the future?  Quantifying the validity of stationarity in empirical-statistical downscaling,11-12.txt

@@ -1,6 +1,7 @@
 month,day,time,room,speaker,speaker_department,speaker_institution,speaker_url,speaker_image,title,abstract_file
-9,21,4pm,Online,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~lhoang/,Hoang,Asymptotic analysis of the Lagrangian trajectories from solutions of the Navier-Stokes equations,Hoang.txt
-10,5,4pm,Online,Iason Efraimidis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/iasonefraimidis/,Efraimidis,Criteria for univalence and quasiconformal extension for harmonic mappings on planar domains,Efraimidis.txt
-10,12,4pm,Online,Alexander Yu. Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin/,Solynin,A bundling problem: Herd instict versus individual feelings,Solynin.txt
-10,19,4pm,Online,Iason Efraimidis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/iasonefraimidis/,Efraimidis,Schwarzian derivatives for pluriharmonic mappings,Efraimidis2.txt
-11,16,4pm,Online,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~kyamazak/,Yamazaki,TBA,Yamazaki.txt
+9,21,4pm,Online,Luan Hoang,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~lhoang/,Hoang.png,Asymptotic analysis of the Lagrangian trajectories from solutions of the Navier-Stokes equations,Hoang.txt
+10,5,4pm,Online,Iason Efraimidis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/iasonefraimidis/,Efraimidis.jpg,Criteria for univalence and quasiconformal extension for harmonic mappings on planar domains,Efraimidis.txt
+10,12,4pm,Online,Alexander Yu. Solynin,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~asolynin/,Solynin.jpg,A bundling problem: Herd instict versus individual feelings,Solynin.txt
+10,19,4pm,Online,Iason Efraimidis,Department of Mathematics and Statistics,Texas Tech University,https://sites.google.com/site/iasonefraimidis/,Efraimidis.jpg,Schwarzian derivatives for pluriharmonic mappings,Efraimidis2.txt
+11,16,4pm,Online,Kazuo Yamazaki,Department of Mathematics and Statistics,Texas Tech University,http://www.math.ttu.edu/~kyamazak/,Yamazaki.jpg,TBA,Yamazaki.txt
+11,30,4pm,Online,Dimitrios Ntalampekos,Department of Mathematics,Stony Brook University,http://www.math.stonybrook.edu/~dimitriosnt/,Ntalampekos.jpg,TBA,Ntalampekos.txt

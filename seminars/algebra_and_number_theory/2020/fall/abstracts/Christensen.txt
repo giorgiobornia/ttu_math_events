@@ -1,0 +1,12 @@
+In local algebra, the quotient of the bounded derived category by the subcategory of perfect complexes is often referred to as the
+singularity category. The quotient is trivial for a regular ring, and for a Gorenstein ring it is triangulated equivalent the
+stable category of maximal Cohen--Macaulay modules or, from our point of view, to the homotopy category of totally acyclic complexes of
+finitely generated projective modules. I will give an overview of a few recent papers in which we use the flat--cotorsion theory to extend these ideas to schemes. <br>
+<br>
+Join Zoom Meeting
+<a href="https://zoom.us/j/98412176832?pwd=OG11aFZ5Z2o5QVdPL2tLVnd1cUZtUT09" target="_blank">https://zoom.us/j/98412176832?pwd=OG11aFZ5Z2o5QVdPL2tLVnd1cUZtUT09</a><br>
+<br>
+Meeting ID: 984 1217 6832
+<br>
+Passcode: 792855
+<br>

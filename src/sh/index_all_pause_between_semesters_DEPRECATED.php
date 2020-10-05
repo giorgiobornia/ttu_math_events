@@ -1,5 +1,9 @@
  <?php
  
+ 
+ ///@todo do all of this in a LIBRARY FUNCTIONNNNNNNNNNNNNNNNNNNNN
+ ///@todo make this a LIBRARY FUNCTION
+
  //library
 
 $relative_path_to_library = "../../../../events_lib/";
@@ -30,7 +34,8 @@ $relative_path_to_app = '../../../';
 
   echo '<body>';
   
-  Events::navigation_bar(ttu_math_events::$math_server_url_base,
+  Events::navigation_bar($relative_path_to_library,
+                           ttu_math_events::$math_server_url_base,
                            $relative_path_to_app,
                            ttu_math_events::$are_input_files_local, 
                            $discipline, 

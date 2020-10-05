@@ -1,1 +1,3 @@
-TBA
+According to the Ahlfors-Gehring theorem, a simply connected domain $\Omega$ in the extended complex plain is a quasidisk if and only if there exists a sufficient condition for the injectivity of a holomorphic function in $\Omega$ in relation to the growth of its Schwarzian derivative. We extend this theorem to harmonic mappings by proving a univalence criterion on quasidisks. We also give sufficient conditions for the existence of homeomorphic and quasiconformal extensions to $\overline{\mathbb{C}}$ for harmonic mappings defined on quasidisks. 
+
+<p>The Ahlfors-Gehring theorem has been extended to finitely connected domains $\Omega$ by Osgood, Beardon and Gehring, who showed that a Schwarzian criterion for univalence holds in $\Omega$ if and only if the components of $\partial\Omega$ are either points or quasicircles. We generalize this theorem to harmonic mappings. </p>

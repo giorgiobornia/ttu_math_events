@@ -1,0 +1,2 @@
+Anisotropic bending energy models a continuum (rod, fiber, cable, etc.) whose resistance to bending is directionally dependent. In this talk, we will discuss critical curves for this type of energy in both two and three dimensional space. In particular, we will discuss the construction and classification of examples in dimension two and the existence of examples in three dimensions.<br><br>
+The talk is based on joint work with Dr. Alvaro Pámpano. <!--  Watch online Wednesday the 30th at 3 PM via <a href="https://zoom.us/j/96831134516">this Zoom link</a>. -->
